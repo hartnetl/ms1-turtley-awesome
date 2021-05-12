@@ -22,6 +22,8 @@ h2,
 h3,
 h4 {
   color: rgb(39, 99, 34);
+  text-align: center;
+  margin-bottom: 1vh;
 }
 
 a {
@@ -174,28 +176,36 @@ footer {
 /* Events section */
 
 .events-container {
-    height: 30vw;
-    width: 90vw;
-    margin: 5vw;
-    background-color: greenyellow;
-  }
+  height: 30vw;
+  width: 90vw;
+  margin: 5vw;
+  background-color: greenyellow;
+}
+
+.event-card {
+  float: left;
+  width: 30%;
+  height: 35vh;
+  margin: 1vw;
+  text-align: center;
+}
 
 #webinar {
   background: url(../images/plastic.jpg) no-repeat center center;
   background-size: cover;
-  }
+  height: 100%;
+}
 
-  .event-card {
-    float: left;
-    width: 30%;
-    margin-left: 5vw;
-    height: 35vh;
-  }
-  
-  .event-card a {
-    text-align: center;
-  }
 
+#beach-clean {
+  background: url(../images/beach-clean.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#fundraiser {
+  background: url(../images/turtle-cake.png) no-repeat center center;
+  background-size: cover;
+}
 
 /* #############
        info.html
@@ -330,9 +340,9 @@ footer {
 
 /* donate section */
 #donate-container {
-    height: 30vw;
-    width: 90vw;
-    margin: 5vw;
-    background-color: seashell;
-    border-radius: 25px;
+  height: 30vw;
+  width: 90vw;
+  margin: 5vw;
+  background-color: seashell;
+  border-radius: 25px;
 }
