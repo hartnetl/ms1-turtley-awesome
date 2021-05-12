@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Original+Surfer&display=swap');
 
 * {
-  margin: 0;
-  padding: 0;
-  border: none;
-  outline:none;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
 }
 
 body {
@@ -13,12 +13,19 @@ body {
     color: rgb(20, 20, 56);
     height: auto;
     position: relative;
-  }
+}
 
-  h2, h3, h4 {
-    color:rgb(39, 99, 34);
-  }
-  
-  a {
+h2,
+h3,
+h4 {
+    color: rgb(39, 99, 34);
+}
+
+a {
     text-decoration: none;
-  }
+}
+
+/* #############
+      index.html
+     ############# */
+
