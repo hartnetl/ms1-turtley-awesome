@@ -26,8 +26,8 @@ a {
 }
 
 /* #############
-      index.html
-     ############# */
+      Header
+   ############# */
 
 .header-container {
     height: 20vh;
@@ -44,6 +44,7 @@ h1 {
     font-family: 'Original Surfer', cursive;
     font-weight: 400;
     color: rgb(245, 235, 220);
+    /* Text-shadow learned from https://stackoverflow.com/a/4919231  */
     text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
     text-transform: uppercase;
     letter-spacing: 6px;
@@ -65,3 +66,6 @@ h1 {
     padding-left: 5%;
     padding-bottom: 5%;
 }
+
+/* Nav Bar */
+
