@@ -120,6 +120,22 @@ footer {
     background: url(../images/sand-banner.jpg);
   }
 
+  
+.fturtle {
+    height: 80%;
+    padding: 0 3rem;
+  }
+  
+  .foot i {
+    font-size: 210%;
+    color: blanchedalmond;
+    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+  }
+  
+  #right {
+    transform: rotate(280deg);
+  }
+
 /* #############
        index.html
      ############# */
