@@ -162,7 +162,72 @@ footer {
 
 /* #############
        info.html
-     ############# */
+   ############# */
+
+#turtle-intro{
+  width: 70vw;
+  margin: 3vh 14vw;
+}
+
+/* Side navigation bar */
+.sidenav {
+  width: 10vw;
+  position: fixed;
+  z-index: 1;
+  bottom: 70px;
+  left: 10px;
+  background: rgba(241, 241, 236, 0.075);
+  color:rgb(65, 142, 243);
+  overflow-x: hidden;
+  padding: 8px 0;
+  border-radius: 25px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #035ca5;
+  display: block;
+}
+/* Side navigation bar */
+.sidenav {
+  width: 8vw;
+  position: fixed;
+  z-index: 1;
+  bottom: 70px;
+  left: 10px;
+  background: rgba(241, 241, 236, 0.123);
+  overflow-x: hidden;
+  padding: 8px 0;
+  border-radius: 25px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #035ca5;
+  display: block;
+}
+
+.sidenav:hover {
+  background-color: rgba(132, 250, 234, 0.8);
+}
+
+.sidenav a:hover {
+  color: #183e5e;
+  font-weight: 600;
+}
+
+/* turtle info sections */
+
+.turtle-container {
+  height: 30vw;
+  width: 90vw;
+  margin: 5vw 2vw 5vw 8vw;
+  background-color: seashell;
+}
 
 .img-box-left {
     height: auto;
