@@ -182,3 +182,22 @@ footer {
     padding-left: 10px;
     text-align: justify;
   }
+
+  .img-box-right {
+    height: auto;
+    width: 30%;
+    margin: 30px;
+    position: absolute;
+    right: 5vw;
+  }
+  
+  .text-box-left {
+    height: auto;
+    width: 50%;
+    background-color: rgba(204, 102, 153, .8);
+    margin: 10px;
+    padding-left: 10px;
+    position: absolute;
+    left: 5vw;
+    text-align: justify;
+  }
