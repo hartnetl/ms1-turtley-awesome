@@ -166,31 +166,12 @@ footer {
 
 #turtle-intro{
   width: 70vw;
+  height: auto;
   margin: 3vh 14vw;
 }
 
 /* Side navigation bar */
-.sidenav {
-  width: 10vw;
-  position: fixed;
-  z-index: 1;
-  bottom: 70px;
-  left: 10px;
-  background: rgba(241, 241, 236, 0.075);
-  color:rgb(65, 142, 243);
-  overflow-x: hidden;
-  padding: 8px 0;
-  border-radius: 25px;
-}
 
-.sidenav a {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 1rem;
-  color: #035ca5;
-  display: block;
-}
-/* Side navigation bar */
 .sidenav {
   width: 8vw;
   position: fixed;
