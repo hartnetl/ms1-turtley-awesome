@@ -73,25 +73,35 @@ h1 {
     height: 5vh;
     width: 100vw;
     background-color: rgb(65, 142, 243);
-  }
-  
-  #nav-bar {
+}
+
+#nav-bar {
     display: flex;
     justify-content: space-around;
     font-size: 120%;
     letter-spacing: 3px;
     list-style-type: none;
-  }
-  
-  #navbar li a {
-    color: blanchedalmond;
-  }
+}
 
-  #navbar li a:hover {
+#navbar li a {
+    color: blanchedalmond;
+}
+
+#navbar li a:hover {
     color: rgb(247, 238, 188);
     font-weight: 700;
-  }
+}
 
-  .active {
+.active {
     text-decoration: double underline;
-  }
+}
+
+/* #############
+       index.html
+     ############# */
+
+.intro-container {
+    height: 35vh;
+    width: 90vw;
+    margin: 5vw;
+}
