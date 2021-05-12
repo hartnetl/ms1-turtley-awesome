@@ -91,3 +91,7 @@ h1 {
     color: rgb(247, 238, 188);
     font-weight: 700;
   }
+
+  .active {
+    text-decoration: double underline;
+  }
