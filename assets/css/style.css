@@ -13,6 +13,9 @@ body {
     color: rgb(20, 20, 56);
     height: auto;
     position: relative;
+    background: url(../images/pexels-julie-aagaard-1426718.jpg) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 h2,
@@ -110,5 +113,4 @@ h1 {
     height: 40vh;
     width: 90vw;
     margin: 5vw;
-    }
-  
+}
