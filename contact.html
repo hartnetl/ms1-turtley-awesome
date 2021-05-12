@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Turtley Awesome is a site which aims to bring awareness to sea turtle 
+        conservation worldwide">
+    <meta name="keywords" content="sea turtle, conservation, donate, green, hawksbill, loggerhead, leatherback, olive, 
+        ridley, kemps, flatback,">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Turtley Awesome</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <img src="assets/images/hturtle.png" id="lturtle">
+            <img src="assets/images/hturtle.png" id="rturtle">
+            <a href="index.html">
+                <h1 id="title">Turtley<br>Awesome</h1>
+            </a>
+        </div>
+
+        <div id="nav-container">
+            <nav id="navbar">
+                <ul id="nav-bar">
+                    <li>
+                        <a href="index.html" class="active">Home</a>
+                    </li>
+                    <li>
+                        <a href="info.html">Information</a>
+                    </li>
+                    <li>
+                        <a href="help.html">How you can help</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact us</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="outer">
+            <div class="container">
+                <h2>We're here to help</h2>
+                <p>Have you got a burning question you just have to ask? <br>
+                    Some words of praise or lovingly phrased criticism for us? <br>
+                    Whatever you need we'll do our best to help. Just fill in the form below and we'll get back to you 
+                    as soon we can!
+                </p> 
+                <form method="POST" action="https://formdump.codeinstitute.net/" target="_blank">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="John Smith">
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="jsmith@email.com">
+                    <br>
+                    <label for="subject">Subject:</label>
+                    <select name="subject" id="subject"> 
+                        <option value="select-one">Please select an option</option>
+                        <option value="enquiry">General enquiry</option>
+                        <option value="technical error">Report error</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="other">Other</option>
+                    </select><br>
+                    <textarea id="contact-box" type="text" placeholder="Tell us what's on your mind..." name="contact-box"
+                    rows="15" cols="100"></textarea>
+                    <br>
+                    <input type="submit" value="Message Ahoy!">
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <ul class="foot">
+            <li>
+                <img src="assets/images/turtle.png" class="fturtle">
+            </li>
+            <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener" class="social-media"
+                    aria-label="Visit our Facebook page"><i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener" class="social-media"
+                    aria-label="Visit our instagram page"><i class="fab fa-instagram-square"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener" class="social-media"
+                    aria-label="Visit our twitter page"><i class="fab fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <img src="assets/images/turtle.png" class="fturtle">
+            </li>
+
+        </ul>
+
+    </footer>
+    <script src="https://kit.fontawesome.com/a7bc66b529.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
