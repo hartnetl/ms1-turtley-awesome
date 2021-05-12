@@ -277,3 +277,31 @@ footer {
   margin: 2vh 5vh;
   text-align: center;
 }
+
+/* Products section */
+
+/* #shop {
+  height: 60vh;
+} */
+  
+.products-container {
+  height: 60vw;
+  width: 90vw;
+  margin: 5vw;
+  background-color: seashell;
+  border-radius: 25px;
+}
+
+.card {
+  float: left;
+  width: 20%;
+  margin-left: 10%;
+}
+
+.card a {
+  text-align: center;
+}
+
+.card img {
+  height: 20vh;
+}
