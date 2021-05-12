@@ -1,31 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Original+Surfer&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
-    outline: none;
+  margin: 0;
+  padding: 0;
+  border: none;
+  outline: none;
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
-    font-weight: 300;
-    color: rgb(20, 20, 56);
-    height: auto;
-    position: relative;
-    background: url(../images/pexels-julie-aagaard-1426718.jpg) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 300;
+  color: rgb(20, 20, 56);
+  height: auto;
+  position: relative;
+  background: url(../images/pexels-julie-aagaard-1426718.jpg) no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 h2,
 h3,
 h4 {
-    color: rgb(39, 99, 34);
+  color: rgb(39, 99, 34);
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+#back-to-top {
+  text-align: center;
+}
+
+#back-to-top a {
+  color: rgb(7, 119, 31);
+  font-weight: bolder;
+  background-color: seashell;
+  margin: 0;
 }
 
 /* #############
@@ -33,70 +44,70 @@ a {
    ############# */
 
 .header-container {
-    height: 20vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 5%;
-    background: url(../images/sand-banner.jpg);
-    background-size: cover;
-    overflow: hidden;
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5%;
+  background: url(../images/sand-banner.jpg);
+  background-size: cover;
+  overflow: hidden;
 }
 
 h1 {
-    font-family: 'Original Surfer', cursive;
-    font-weight: 400;
-    color: rgb(245, 235, 220);
-    /* Text-shadow learned from https://stackoverflow.com/a/4919231  */
-    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    font-size: 4rem;
-    text-align: center;
+  font-family: 'Original Surfer', cursive;
+  font-weight: 400;
+  color: rgb(245, 235, 220);
+  /* Text-shadow learned from https://stackoverflow.com/a/4919231  */
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 4rem;
+  text-align: center;
 }
 
 #lturtle {
-    height: 100%;
-    transform: rotate(330deg);
-    padding-right: 5%;
-    padding-bottom: 5%;
+  height: 100%;
+  transform: rotate(330deg);
+  padding-right: 5%;
+  padding-bottom: 5%;
 }
 
 #rturtle {
-    height: 100%;
-    transform: rotate(30deg);
-    order: 1;
-    padding-left: 5%;
-    padding-bottom: 5%;
+  height: 100%;
+  transform: rotate(30deg);
+  order: 1;
+  padding-left: 5%;
+  padding-bottom: 5%;
 }
 
 /* Nav Bar */
 
 #nav-container {
-    height: 5vh;
-    width: 100vw;
-    background-color: rgb(65, 142, 243);
+  height: 5vh;
+  width: 100vw;
+  background-color: rgb(65, 142, 243);
 }
 
 #nav-bar {
-    display: flex;
-    justify-content: space-around;
-    font-size: 120%;
-    letter-spacing: 3px;
-    list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  font-size: 120%;
+  letter-spacing: 3px;
+  list-style-type: none;
 }
 
 #navbar li a {
-    color: blanchedalmond;
+  color: blanchedalmond;
 }
 
 #navbar li a:hover {
-    color: rgb(247, 238, 188);
-    font-weight: 700;
+  color: rgb(247, 238, 188);
+  font-weight: 700;
 }
 
 .active {
-    text-decoration: double underline;
+  text-decoration: double underline;
 }
 
 /* #############
@@ -104,52 +115,52 @@ h1 {
      ############# */
 
 footer {
-    height: 50px;
-  }
-  
-  .foot {
-    height: 3rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    list-style-type: none;
-    padding-top: 1%;
-    bottom: 0;
-    overflow: hidden;
-    margin-top: 5rem;
-    background: url(../images/sand-banner.jpg);
-  }
+  height: 50px;
+}
 
-  
+.foot {
+  height: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 1%;
+  bottom: 0;
+  overflow: hidden;
+  margin-top: 5rem;
+  background: url(../images/sand-banner.jpg);
+}
+
+
 .fturtle {
-    height: 80%;
-    padding: 0 3rem;
-  }
-  
-  .foot i {
-    font-size: 210%;
-    color: blanchedalmond;
-    text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
-  }
-  
-  #right {
-    transform: rotate(280deg);
-  }
+  height: 80%;
+  padding: 0 3rem;
+}
+
+.foot i {
+  font-size: 210%;
+  color: blanchedalmond;
+  text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+}
+
+#right {
+  transform: rotate(280deg);
+}
 
 /* #############
        index.html
      ############# */
 
 .intro-container {
-    height: 35vh;
-    width: 90vw;
-    margin: 5vw;
+  height: 35vh;
+  width: 90vw;
+  margin: 5vw;
 }
 
 .container {
-    height: 30vw;
-    width: 90vw;
-    margin: 5vw;
+  height: 30vw;
+  width: 90vw;
+  margin: 5vw;
 }
 
 .container,
@@ -164,7 +175,7 @@ footer {
        info.html
    ############# */
 
-#turtle-intro{
+#turtle-intro {
   width: 70vw;
   height: auto;
   margin: 3vh 14vw;
@@ -184,16 +195,16 @@ footer {
   border-radius: 25px;
 }
 
+.sidenav:hover {
+  background-color: rgba(132, 250, 234, 0.8);
+}
+
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 1rem;
   color: #035ca5;
   display: block;
-}
-
-.sidenav:hover {
-  background-color: rgba(132, 250, 234, 0.8);
 }
 
 .sidenav a:hover {
@@ -208,42 +219,48 @@ footer {
   width: 90vw;
   margin: 5vw 2vw 5vw 8vw;
   background-color: seashell;
+  position: relative;
 }
 
 .img-box-left {
-    height: auto;
-    width: 30%;
-    margin: 20px;
-    position: absolute;
-    left: 5vw;
-  }
-  
-  .text-box-right {
-    height: auto;
-    width: 50%;
-    margin: 10px;
-    background-color: rgba(204, 102, 153, .8);
-    position: absolute;
-    right: 5vw;
-    padding-left: 10px;
-    text-align: justify;
-  }
+  height: auto;
+  width: 30%;
+  margin: 20px;
+  position: absolute;
+  left: 5vw;
+}
 
-  .img-box-right {
-    height: auto;
-    width: 30%;
-    margin: 30px;
-    position: absolute;
-    right: 5vw;
-  }
-  
-  .text-box-left {
-    height: auto;
-    width: 50%;
-    background-color: rgba(204, 102, 153, .8);
-    margin: 10px;
-    padding-left: 10px;
-    position: absolute;
-    left: 5vw;
-    text-align: justify;
+.text-box-right {
+  height: auto;
+  width: 50%;
+  margin: 10px;
+  background-color: rgba(204, 102, 153, .8);
+  position: absolute;
+  right: 5vw;
+  padding-left: 10px;
+  text-align: justify;
+}
+
+.img-box-right {
+  height: auto;
+  width: 30%;
+  margin: 30px;
+  position: absolute;
+  right: 5vw;
+}
+
+.text-box-left {
+  height: auto;
+  width: 50%;
+  background-color: rgba(204, 102, 153, .8);
+  margin: 10px;
+  padding-left: 10px;
+  position: absolute;
+  left: 5vw;
+  text-align: justify;
+}
+
+.turtle-container img {
+  margin: 15% 5%;
+  width: 100%;
   }
