@@ -29,3 +29,12 @@ a {
       index.html
      ############# */
 
+h1 {
+    font-family: 'Original Surfer', cursive;
+    font-weight: 400;
+    color: rgb(245, 235, 220);
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    font-size: 4rem;
+}
