@@ -88,8 +88,23 @@
         <section>
             Information on upcoming events/webinars
         </section>
-        <section>
-            Newsletter sign up (form submission)
+        <section class="outer">
+            <div class="container">
+                <h2>Newsletter sign up</h2>
+                <p>
+                    If you'd like to learn more, receive helpful hints direct to your inbox or find out about
+                    events near you, sign up to our newsletter below.
+                </p>
+                <form method="POST" action="https://formdump.codeinstitute.net/">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required placeholder="John Smith">
+                    <br>
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required placeholder="jsmith@email.com">
+                    <br>
+                    <input type="submit" value="Sign Up" target="_blank">
+                </form>
+            </div>
         </section>
     </main>
     <footer>
