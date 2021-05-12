@@ -48,17 +48,18 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 4rem;
+    text-align: center;
 }
 
 #lturtle {
-    height: 70%;
+    height: 100%;
     transform: rotate(330deg);
     padding-right: 5%;
     padding-bottom: 5%;
 }
 
 #rturtle {
-    height: 70%;
+    height: 100%;
     transform: rotate(30deg);
     order: 1;
     padding-left: 5%;
