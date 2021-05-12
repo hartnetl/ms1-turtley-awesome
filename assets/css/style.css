@@ -280,10 +280,6 @@ footer {
 
 /* Products section */
 
-/* #shop {
-  height: 60vh;
-} */
-  
 .products-container {
   height: 60vw;
   width: 90vw;
@@ -305,3 +301,6 @@ footer {
 .card img {
   height: 20vh;
 }
+
+/* donate section */
+
