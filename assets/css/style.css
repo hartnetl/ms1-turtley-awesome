@@ -86,3 +86,8 @@ h1 {
   #navbar li a {
     color: blanchedalmond;
   }
+
+  #navbar li a:hover {
+    color: rgb(247, 238, 188);
+    font-weight: 700;
+  }
