@@ -105,3 +105,28 @@ h1 {
     width: 90vw;
     margin: 5vw;
 }
+
+<section class="outer">
+        <div class="container">
+            <h2>General conservation info</h2>
+            <p>
+                Sea turtles have been around for millions of years. 120 million to be (relatively) precise, which means
+                they were swimming around while dinosaurs roamed the earth. They haven't changed too much since then,
+                and even after surviving those millions of years, their populations have been deciemated in recent
+                times.
+                Even though hunting sea turtles is largely illegal now, huge fishing trawlers deplete the oceans of
+                turtles' prey, or accidentally catch the turtles themselves. A high percentage of those relaeased
+                still die.
+                As global temperatures rise, the balance of male to female sea turtles is shifting out of balance,
+                as sex is determined by nest temperatures. As coastal areas are developed, nesting beaches become
+                unsuitable for turtles to lay in, and even if they can, hatchlings which typically emerge at night
+                are easily disoriented by the bright lights, as they navigate by the moon.
+                But hope is not lost. By making a few small changes in our day to day lives, we can undo the
+                damage we have done to let these animals return to their previous abundance.
+                Turtle sex is determined by the temperature of the nest - cooler nests produce males, warmer females.
+                Plastic pollution is a leading cause of turtle death.
+                <a href="https://www.worldwildlife.org/stories/what-do-sea-turtles-eat-unfortunately-plastic-bags"
+                    target="_blank">Link for more information</a>.<br>
+            </p>
+        </div>
+    </section>
