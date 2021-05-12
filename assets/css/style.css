@@ -264,3 +264,13 @@ footer {
   margin: 15% 5%;
   width: 100%;
   }
+
+  /* #############
+      help.html
+   ############# */
+
+   .help img {
+     height: 10vh;
+     margin: 2vh 5vh;
+     text-align: center;
+   }
