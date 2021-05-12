@@ -100,6 +100,26 @@ h1 {
 }
 
 /* #############
+       footer
+     ############# */
+
+footer {
+    height: 50px;
+  }
+  
+  .foot {
+    height: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 1%;
+    bottom: 0;
+    overflow: hidden;
+    margin-top: 5rem;
+  }
+
+/* #############
        index.html
      ############# */
 
