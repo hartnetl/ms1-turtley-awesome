@@ -147,7 +147,7 @@ footer {
 }
 
 .container {
-    height: auto;
+    height: 30vw;
     width: 90vw;
     margin: 5vw;
 }
@@ -159,3 +159,26 @@ footer {
   padding: 1rem 0 0 1rem;
   font-size: 110%;
 }
+
+/* #############
+       info.html
+     ############# */
+
+.img-box-left {
+    height: auto;
+    width: 30%;
+    margin: 20px;
+    position: absolute;
+    left: 5vw;
+  }
+  
+  .text-box-right {
+    height: auto;
+    width: 50%;
+    margin: 10px;
+    background-color: rgba(204, 102, 153, .8);
+    position: absolute;
+    right: 5vw;
+    padding-left: 10px;
+    text-align: justify;
+  }
