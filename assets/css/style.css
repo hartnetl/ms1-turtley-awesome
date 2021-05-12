@@ -114,3 +114,11 @@ h1 {
     width: 90vw;
     margin: 5vw;
 }
+
+.container,
+.intro-container {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 25px;
+  padding: 1rem 0 0 1rem;
+  font-size: 110%;
+}
