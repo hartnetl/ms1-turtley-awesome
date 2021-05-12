@@ -29,6 +29,14 @@ a {
       index.html
      ############# */
 
+.header-container {
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
 h1 {
     font-family: 'Original Surfer', cursive;
     font-weight: 400;
@@ -37,4 +45,19 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 6px;
     font-size: 4rem;
+}
+
+#lturtle {
+    height: 70%;
+    transform: rotate(330deg);
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+#rturtle {
+    height: 70%;
+    transform: rotate(30deg);
+    order: 1;
+    padding-left: 5%;
+    padding-bottom: 5%;
 }
