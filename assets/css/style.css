@@ -171,6 +171,32 @@ footer {
   font-size: 110%;
 }
 
+/* Events section */
+
+.events-container {
+    height: 30vw;
+    width: 90vw;
+    margin: 5vw;
+    background-color: greenyellow;
+  }
+
+#webinar {
+  background: url(../images/plastic.jpg) no-repeat center center;
+  background-size: cover;
+  }
+
+  .event-card {
+    float: left;
+    width: 30%;
+    margin-left: 5vw;
+    height: 35vh;
+  }
+  
+  .event-card a {
+    text-align: center;
+  }
+
+
 /* #############
        info.html
    ############# */
@@ -290,7 +316,7 @@ footer {
 
 .card {
   float: left;
-  width: 20%;
+  width: 30%;
   margin-left: 10%;
 }
 
