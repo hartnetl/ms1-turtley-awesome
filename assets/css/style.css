@@ -303,4 +303,10 @@ footer {
 }
 
 /* donate section */
-
+#donate-container {
+    height: 30vw;
+    width: 90vw;
+    margin: 5vw;
+    background-color: seashell;
+    border-radius: 25px;
+}
