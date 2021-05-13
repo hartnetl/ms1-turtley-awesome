@@ -191,7 +191,9 @@ footer {
   height: 100%;
 }
 
-#webinar-text {
+
+#webinar-text,
+#beach-clean-text {
   background-color: rgba(0,0,0, 0.4);
   color: white;
   font-weight: bold;
@@ -207,15 +209,21 @@ footer {
 
   #webinar-text > h2,
   #webinar-text > h3,
-  #webinar-text > h4 {
+  #webinar-text > h4,
+  #beach-clean-text > h2,
+  #beach-clean-text > h3,
+  #beach-clean-text > h4
+  {
     color: honeydew;
   }
 
 
-
-#beach-clean {
+#beach-clean-img {
   background: url(../images/beach-clean.jpg) no-repeat center center;
   background-size: cover;
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
+  height: 100%;
 }
 
 #fundraiser {
