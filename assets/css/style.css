@@ -180,7 +180,6 @@ footer {
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
   padding: 1rem 0 0 1rem;
-  font-size: 110%;
 }
 
 /* Events section */
@@ -291,7 +290,7 @@ fieldset>legend{
    ############# */
 
 #turtle-intro {
-  width: 70vw;
+  width: 75vw;
   height: auto;
   margin: 3vh 14vw;
 }
@@ -330,10 +329,9 @@ fieldset>legend{
 /* turtle info sections */
 
 .turtle-container {
-  height: 30vw;
+  height: 90vh;
   width: 90vw;
   margin: 5vw 2vw 5vw 8vw;
-  background-color: seashell;
   position: relative;
 }
 
@@ -343,36 +341,41 @@ fieldset>legend{
   margin: 20px;
   position: absolute;
   left: 5vw;
+  top: 1vw;
+
+}
+
+.img-box-right {
+  height: auto;
+  width: 30%;
+  margin: 20px;
+  position: absolute;
+  right: 5vw;
+  top: 1vw;
 }
 
 .text-box-right {
   height: auto;
   width: 50%;
   margin: 10px;
-  background-color: rgba(204, 102, 153, .8);
   position: absolute;
   right: 5vw;
-  padding-left: 10px;
   text-align: justify;
-}
-
-.img-box-right {
-  height: auto;
-  width: 30%;
-  margin: 30px;
-  position: absolute;
-  right: 5vw;
+  background-color: rgba(255, 255, 255, 0.815);
+  border-radius: 25px;
+  padding: 1rem;
 }
 
 .text-box-left {
   height: auto;
   width: 50%;
-  background-color: rgba(204, 102, 153, .8);
   margin: 10px;
-  padding-left: 10px;
   position: absolute;
   left: 5vw;
   text-align: justify;
+  background-color: rgba(255, 255, 255, 0.815);
+  border-radius: 25px;
+  padding: 1rem;
 }
 
 .turtle-container img {
