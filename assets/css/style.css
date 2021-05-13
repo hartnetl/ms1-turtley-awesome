@@ -34,6 +34,7 @@ a {
 
 #back-to-top {
   text-align: center;
+  margin: 2vh 0;
 }
 
 #back-to-top a {
@@ -41,6 +42,11 @@ a {
   font-weight: bolder;
   background-color: seashell;
   margin: 0;
+}
+
+#back-to-top a:hover {
+  color: seashell;
+  background-color: rgb(7, 119, 31);
 }
 
 /* #############
@@ -248,6 +254,7 @@ footer {
   width: 70vw;
   margin: 0 15vw;
   font-size: 1.1rem;
+  text-align: center;
 }
 
 fieldset {
@@ -255,6 +262,25 @@ fieldset {
   width: 50vw;
   background-color: rgba(222, 184, 135, 0.699);
   margin: 0 10vw;
+  text-align: left;
+}
+
+fieldset>legend{
+  text-align: center;
+  font-weight: 600;
+}
+
+#submit {
+  text-align: center;
+  margin: 1% 0 2% 45%;
+  font-size: 1.2rem;
+  color: green;
+  background-color: aliceblue;
+}
+
+#submit:hover {
+  background-color: green;
+  color: aliceblue;
 }
 
 /* #############
