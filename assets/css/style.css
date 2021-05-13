@@ -25,6 +25,7 @@ h4 {
   color: rgb(39, 99, 34);
   text-align: center;
   margin: 1vh 0;
+  font-family: 'Original Surfer', cursive;
 }
 
 a {
@@ -195,7 +196,8 @@ footer {
 
 
 #webinar-text,
-#beach-clean-text {
+#beach-clean-text,
+#fundraiser-text {
   background-color: rgba(0, 0, 0, 0.4);
   color: white;
   font-weight: bold;
