@@ -169,7 +169,8 @@ footer {
 
 .container,
 .intro-container,
-.events-container {
+.events-container,
+.news-container {
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
   padding: 1rem 0 0 1rem;
@@ -242,10 +243,18 @@ footer {
   height: 100%;
 }
 
+.news-container {
+  height: 15vw;
+  width: 70vw;
+  margin: 0 15vw;
+  font-size: 1.1rem;
+}
+
 fieldset {
   border: solid 2px;
   width: 50vw;
   background-color: rgba(222, 184, 135, 0.699);
+  margin: 0 10vw;
 }
 
 /* #############
