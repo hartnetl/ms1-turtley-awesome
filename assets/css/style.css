@@ -447,3 +447,18 @@ fieldset>legend{
 .d-card img {
   height: 12vh;
 }
+
+@media screen and (max-width: 1200px) {
+  .container {
+      height: auto;
+      margin: 0 auto; }
+                         
+  .events-container {
+    height: 60vh;
+  }
+
+  .event-card{
+    font-size: 1em;
+  }
+  }
+
