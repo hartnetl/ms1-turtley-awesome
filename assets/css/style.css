@@ -199,7 +199,7 @@ footer {
 #beach-clean-text,
 #fundraiser-text {
   background-color: rgba(0, 0, 0, 0.4);
-  color: white;
+  color: rgb(47, 229, 241);
   font-weight: bold;
   position: relative;
   bottom: 52%;
@@ -208,7 +208,8 @@ footer {
   z-index: 2;
   width: 100%;
   height: 100%;
-  text-align: center
+  text-align: center;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 #webinar-text>h2,
@@ -216,8 +217,12 @@ footer {
 #webinar-text>h4,
 #beach-clean-text>h2,
 #beach-clean-text>h3,
-#beach-clean-text>h4 {
+#beach-clean-text>h4,
+#fundraiser-text>h2,
+#fundraiser-text>h3,
+#fundraiser-text>h4 {
   color: honeydew;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 
@@ -235,6 +240,12 @@ footer {
   filter: blur(1px);
   -webkit-filter: blur(1px);
   height: 100%;
+}
+
+fieldset {
+  border: solid 2px;
+  width: 50vw;
+  background-color: rgba(222, 184, 135, 0.699);
 }
 
 /* #############
