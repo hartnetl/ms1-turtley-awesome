@@ -34,7 +34,7 @@ a {
 
 #back-to-top {
   text-align: center;
-  margin: 2vh 0;
+  margin: 3vh 0;
 }
 
 #back-to-top a {
@@ -137,7 +137,7 @@ footer {
   padding-top: 1%;
   bottom: 0;
   overflow: hidden;
-  margin-top: 2rem;
+  margin-top: 1rem;
   background: url(../images/sand-banner.jpg);
 }
 
@@ -260,7 +260,7 @@ footer {
 fieldset {
   border: solid 2px;
   width: 50vw;
-  background-color: rgba(222, 184, 135, 0.699);
+  background: url(../images/sand-banner.jpg);
   margin: 0 10vw;
   text-align: left;
 }
@@ -272,10 +272,13 @@ fieldset>legend{
 
 #submit {
   text-align: center;
-  margin: 1% 0 2% 45%;
+  margin: 1% 0 2% 40%;
   font-size: 1.2rem;
   color: green;
   background-color: aliceblue;
+  border-radius: 10px;
+  height: 4vh;
+  padding: 2px;
 }
 
 #submit:hover {
