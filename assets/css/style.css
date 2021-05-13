@@ -405,14 +405,19 @@ fieldset>legend{
   height: 60vw;
   width: 90vw;
   margin: 5vw;
-  background-color: seashell;
+  background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
 }
+
+#items>p {
+  margin: 1vh 3vw;
+}
+
 
 .card {
   float: left;
   width: 30%;
-  margin-left: 10%;
+  margin-left: 2vw;
 }
 
 .card a {
@@ -421,6 +426,7 @@ fieldset>legend{
 
 .card img {
   height: 20vh;
+  margin: 5% 30%;
 }
 
 /* donate section */
