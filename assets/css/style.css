@@ -386,15 +386,18 @@ fieldset>legend{
 /* #############
       help.html
    ############# */
-#plastic {
-  height: 30vh;
+
+#tips ol {
+  margin: 0 2vw;
 }
 
 .help img {
-  height: 10vh;
+  height: 5vh;
   margin: 2vh 5vh;
   text-align: center;
 }
+
+
 
 /* Products section */
 
