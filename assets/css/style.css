@@ -397,27 +397,26 @@ fieldset>legend{
   text-align: center;
 }
 
-
-
 /* Products section */
 
 .products-container {
-  height: 60vw;
+  height: 90vh;
   width: 90vw;
   margin: 5vw;
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
+  padding: 5px;
 }
 
 #items>p {
   margin: 1vh 3vw;
 }
 
-
 .card {
   float: left;
   width: 30%;
   margin-left: 2vw;
+  font-size: 1rem;
 }
 
 .card a {
@@ -425,15 +424,16 @@ fieldset>legend{
 }
 
 .card img {
-  height: 20vh;
-  margin: 5% 30%;
+  height: 15vh;
+  margin: 5% 25% 0 25%;
 }
 
 /* donate section */
 #donate-container {
-  height: 30vw;
+  height: 45vh;
   width: 90vw;
   margin: 5vw;
-  background-color: seashell;
+  background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
+  padding: 5px;
 }
