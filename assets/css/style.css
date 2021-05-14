@@ -249,11 +249,13 @@ footer {
 }
 
 .news-container {
-  height: 15vw;
+  height: 30vh;
   width: 70vw;
   margin: 0 15vw;
   font-size: 1.1rem;
   text-align: center;
+  padding-bottom: 3vh;
+  ;
 }
 
 fieldset {
@@ -265,7 +267,7 @@ fieldset {
   padding: 0 1vw;
 }
 
-fieldset>legend{
+fieldset>legend {
   text-align: center;
   font-weight: 600;
 }
@@ -330,19 +332,19 @@ fieldset>legend{
 /* IUCN Red list */
 
 .iucn-container {
-height: 30vw;
-width: 80vw;
-margin: 2.5vw 0 2.5vw 12vw;
-background-color: rgba(255, 255, 255, 0.815);
-border-radius: 25px;
-padding: 1rem 0 0 1rem;
+  height: 30vw;
+  width: 80vw;
+  margin: 2.5vw 0 2.5vw 12vw;
+  background-color: rgba(255, 255, 255, 0.815);
+  border-radius: 25px;
+  padding: 1rem 0 0 1rem;
 }
 
 #redlist {
   padding-left: 8em;
 }
 
-#redlist > li {
+#redlist>li {
   width: 2em;
   height: 2em;
   line-height: 2em;
@@ -359,7 +361,7 @@ padding: 1rem 0 0 1rem;
   box-shadow: 0 0 3px 3px rgb(207, 205, 205);
 }
 
-#redlist > li::before {
+#redlist>li::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -370,16 +372,18 @@ padding: 1rem 0 0 1rem;
   z-index: -1;
 }
 
-#redlist > li:first-child::before {
+#redlist>li:first-child::before {
   display: none;
 }
 
-#redlist #ne, #redlist #dd {
+#redlist #ne,
+#redlist #dd {
   background-color: rgb(185, 184, 184);
   color: rgb(20, 20, 20);
 }
 
-#redlist #lc, #redlist #nt {
+#redlist #lc,
+#redlist #nt {
   background-color: rgb(12, 241, 62);
   color: rgb(226, 240, 227);
 }
@@ -399,7 +403,8 @@ padding: 1rem 0 0 1rem;
   color: rgb(216, 224, 195);
 }
 
-#redlist #ew, #redlist #ex {
+#redlist #ew,
+#redlist #ex {
   background-color: rgb(238, 14, 14);
   color: rgb(139, 134, 134);
 }
@@ -522,6 +527,7 @@ padding: 1rem 0 0 1rem;
   margin: 2vw;
   padding-left: 2vw;
 }
+
 .d-card img {
   height: 12vh;
 }
@@ -529,12 +535,12 @@ padding: 1rem 0 0 1rem;
 /* Contact.html */
 
 .contact-container {
-height: 90vh;
-width: 90vw;
-margin: 5vw;
-background-color: rgba(255, 255, 255, 0.815);
-border-radius: 25px;
-padding: 2vw;
+  height: 90vh;
+  width: 90vw;
+  margin: 5vw;
+  background-color: rgba(255, 255, 255, 0.815);
+  border-radius: 25px;
+  padding: 2vw;
 }
 
 #contact {
@@ -558,14 +564,14 @@ padding: 2vw;
 }
 
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 900px) {
 
   #lturtle {
     height: 70%;
     padding-right: 0;
   }
 
-  #rturtle{
+  #rturtle {
     height: 70%;
     padding-left: 0;
   }
@@ -577,21 +583,88 @@ padding: 2vw;
   .news-container {
     height: auto;
     padding-bottom: 2vh;
+    padding-top: 1vh;
   }
-  .container, .intro-container {
-      height: auto;
+
+  .container,
+  .intro-container {
+    height: auto;
     padding-bottom: 2vh;
-   }
-                         
+  }
+
   .events-container {
-    height: 60vh;
+    height: 100vh;
+    padding-bottom: 2vh;
   }
 
-  .event-card{
+  .event-card {
     font-size: 1em;
-  }
+    width: 95%;
+    height: 30vh;
   }
 
-@media screen and (max-width: 900px) {
+  #beach-clean-text>h2,
+  #webinar-text>h2,
+  #fundraiser-text>h2 {
+    padding-top: 10%;
+  }
+}
 
+@media screen and (max-width: 500px) {
+
+/*header*/
+
+  h1 {
+    font-size: 1.5em;
+    padding-top: 15%;
+  }
+
+  #lturtle, 
+  #rturtle {
+    padding-top: 5%;
+  }
+
+  #span-home,
+  #span-info,
+  #span-contact,
+  #span-help {
+    display: none;
+  }
+
+  /* #nav-container {
+    overflow: hidden;
+    height: 4vh;
+  } */
+
+/*index.html*/
+  .intro-container,
+  .container,
+  .events-container {
+    margin: 2vh auto;
+  }
+
+  .events-container {
+    height: 100vh;
+    margin-bottom: 5vh;
+    padding-bottom: 4vh;
+  }
+
+  .event-card {
+    width: 95%;
+    height: 30vh;
+    font-size: 70%;
+  }
+
+  #beach-clean-text>h2,
+  #webinar-text>h2,
+  #fundraiser-text>h2 {
+    padding-top: 10%;
+  }
+
+  .news-container {
+    padding-top: 5vh;
+    height: auto;
+    width: 90vw;
+    margin: 0 auto;
+  }
 }
