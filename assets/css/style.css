@@ -327,6 +327,74 @@ fieldset>legend{
   font-weight: 600;
 }
 
+/* IUCN Red list */
+
+#redlist {
+  padding-left: 8em;
+}
+
+#redlist > li {
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  font-size: 1.5em;
+  font-family: arial, calibri, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 50%;
+  background: dodgerblue;
+  display: inline-block;
+  color: white;
+  position: relative;
+  margin: 0px 10px;
+  box-shadow: 0 0 3px 3px rgb(207, 205, 205);
+}
+
+#redlist > li::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -100%;
+  width: 100%;
+  height: 1px;
+  background: dodgerblue;
+  z-index: -1;
+}
+
+#redlist > li:first-child::before {
+  display: none;
+}
+
+#redlist #ne, #redlist #dd {
+  background-color: rgb(185, 184, 184);
+  color: rgb(20, 20, 20);
+}
+
+#redlist #lc, #redlist #nt {
+  background-color: rgb(12, 241, 62);
+  color: rgb(226, 240, 227);
+}
+
+#redlist #vu {
+  background-color: rgb(167, 231, 18);
+  color: rgb(216, 224, 195);
+}
+
+#redlist #en {
+  background-color: rgb(231, 139, 18);
+  color: rgb(216, 224, 195);
+}
+
+#redlist #cr {
+  background-color: rgb(231, 18, 18);
+  color: rgb(216, 224, 195);
+}
+
+#redlist #ew, #redlist #ex {
+  background-color: rgb(238, 14, 14);
+  color: rgb(139, 134, 134);
+}
+
 /* turtle info sections */
 
 .turtle-container {
