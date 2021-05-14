@@ -559,9 +559,29 @@ padding: 2vw;
 
 
 @media screen and (max-width: 1200px) {
-  .container {
+
+  #lturtle {
+    height: 70%;
+    padding-right: 0;
+  }
+
+  #rturtle{
+    height: 70%;
+    padding-left: 0;
+  }
+
+  .header-container {
+    padding-bottom: 0;
+  }
+
+  .news-container {
+    height: auto;
+    padding-bottom: 2vh;
+  }
+  .container, .intro-container {
       height: auto;
-      margin: 0 auto; }
+    padding-bottom: 2vh;
+   }
                          
   .events-container {
     height: 60vh;
@@ -572,3 +592,6 @@ padding: 2vw;
   }
   }
 
+@media screen and (max-width: 900px) {
+
+}
