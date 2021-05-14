@@ -329,6 +329,15 @@ fieldset>legend{
 
 /* IUCN Red list */
 
+.iucn-container {
+height: 30vw;
+width: 80vw;
+margin: 2.5vw 0 2.5vw 12vw;
+background-color: rgba(255, 255, 255, 0.815);
+border-radius: 25px;
+padding: 1rem 0 0 1rem;
+}
+
 #redlist {
   padding-left: 8em;
 }
@@ -399,15 +408,15 @@ fieldset>legend{
 
 .turtle-container {
   height: 90vh;
-  width: 90vw;
-  margin: 5vw 2vw 5vw 8vw;
+  width: 95vw;
+  margin: 5vw 1vw;
   position: relative;
 }
 
 .img-box-left {
   height: auto;
   width: 30%;
-  margin: 20px;
+  margin: 3vw;
   position: absolute;
   left: 5vw;
   top: 1vw;
@@ -417,9 +426,9 @@ fieldset>legend{
 .img-box-right {
   height: auto;
   width: 30%;
-  margin: 20px;
+  margin: 3vw;
   position: absolute;
-  right: 5vw;
+  right: 1vw;
   top: 1vw;
 }
 
@@ -428,7 +437,7 @@ fieldset>legend{
   width: 50%;
   margin: 10px;
   position: absolute;
-  right: 5vw;
+  right: 1vw;
   text-align: justify;
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
@@ -440,7 +449,7 @@ fieldset>legend{
   width: 50%;
   margin: 10px;
   position: absolute;
-  left: 5vw;
+  left: 7vw;
   text-align: justify;
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
