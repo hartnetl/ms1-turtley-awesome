@@ -257,11 +257,12 @@ footer {
 }
 
 fieldset {
-  border: solid 2px;
+  border: solid 1px;
   width: 50vw;
   background: url(../images/sand-banner.jpg);
   margin: 0 10vw;
   text-align: left;
+  padding: 0 1vw;
 }
 
 fieldset>legend{
@@ -447,6 +448,38 @@ fieldset>legend{
 .d-card img {
   height: 12vh;
 }
+
+/* Contact.html */
+
+.contact-container {
+height: 90vh;
+width: 90vw;
+margin: 5vw;
+background-color: rgba(255, 255, 255, 0.815);
+border-radius: 25px;
+padding: 2vw;
+}
+
+#contact {
+  margin: 3vw;
+}
+
+#contact-button {
+  text-align: center;
+  margin: 1% 0 2% 40%;
+  font-size: 1.2rem;
+  color: green;
+  background-color: aliceblue;
+  border-radius: 10px;
+  height: 4vh;
+  padding: 2px;
+}
+
+#contact-button:hover {
+  background-color: green;
+  color: aliceblue;
+}
+
 
 @media screen and (max-width: 1200px) {
   .container {
