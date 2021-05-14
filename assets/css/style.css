@@ -168,7 +168,7 @@ footer {
 
 .container,
 .events-container {
-  height: 30vw;
+  height: 60vh;
   width: 90vw;
   margin: 5vw;
 }
@@ -332,7 +332,7 @@ fieldset>legend {
 /* IUCN Red list */
 
 .iucn-container {
-  height: 30vw;
+  height: 75vh;
   width: 80vw;
   margin: 2.5vw 0 2.5vw 12vw;
   background-color: rgba(255, 255, 255, 0.815);
@@ -563,8 +563,8 @@ fieldset>legend {
   color: aliceblue;
 }
 
-
-@media screen and (max-width: 900px) {
+/* Media queries for tablets + screens less than 1100px wide */
+@media screen and (max-width: 1100px) {
 
   #lturtle {
     height: 70%;
@@ -610,6 +610,7 @@ fieldset>legend {
   }
 }
 
+/* Media queries for phones + screens less than 500px wide */
 @media screen and (max-width: 500px) {
 
 /*header*/
@@ -631,10 +632,9 @@ fieldset>legend {
     display: none;
   }
 
-  /* #nav-container {
-    overflow: hidden;
+  #nav-container {
     height: 4vh;
-  } */
+  } 
 
 /*index.html*/
   .intro-container,
