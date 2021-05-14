@@ -466,6 +466,40 @@ fieldset>legend {
   width: 100%;
 }
 
+#g-turtle {
+  background: url(../images/green-swim.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#logger {
+  background: url(../images/loggerhead.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#leatherback {
+  background: url(../images/leatherback.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#hawk {
+  background: url(../images/hawksbill.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#olive {
+  background: url(../images/olive-ridley.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#kemp {
+  background: url(../images/kemps-ridley.jpg) no-repeat center center;
+  background-size: cover;
+}
+
+#flat {
+  background: url(../images/flatback.jpg) no-repeat center center;
+  background-size: cover;
+}
 /* #############
       help.html
    ############# */
