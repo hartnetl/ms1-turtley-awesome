@@ -46,9 +46,10 @@ a {
 
 #back-to-top a {
   color: rgb(7, 119, 31);
-  font-weight: bolder;
   background-color: seashell;
-  margin: 0;
+  margin: 0 auto;
+  border-radius: 8px;
+  padding: .5%;
 }
 
 #back-to-top a:hover {
@@ -134,31 +135,30 @@ h1 {
      ############# */
 
 footer {
-  height: 50px;
+  height: 7vh;
 }
 
 .foot {
-  height: 3rem;
+  height: 7vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
-  padding-top: 1%;
-  bottom: 0;
+  bottom: 5%;
   overflow: hidden;
-  margin-top: 1rem;
   background: url(../images/sand-banner.jpg);
 }
 
 .fturtle {
-  height: 80%;
-  padding: 0 3rem;
+  height: 6vh;
+  padding: 2% 3rem;
 }
 
 .foot i {
-  /* font-size: 210%; */
+  font-size: 1.5em;
   color: blanchedalmond;
   text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
+  padding: 25% 0;
 }
 
 #right {
@@ -266,9 +266,10 @@ footer {
 
 fieldset {
   border: solid 1px;
+  height: 30%;
   width: 50vw;
   background: url(../images/sand-banner.jpg);
-  margin: 0 10vw;
+  margin: 2vh auto;
   text-align: left;
   padding: 0 1vw;
 }
@@ -280,8 +281,7 @@ fieldset>legend {
 
 #submit {
   text-align: center;
-  margin: 1% 0 2% 40%;
-  /* font-size: 1.2rem; */
+  margin: 2% 40%;
   color: green;
   background-color: aliceblue;
   border-radius: 10px;
