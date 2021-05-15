@@ -832,3 +832,41 @@ fieldset>legend {
     display: none;
   }
 }
+
+/* Media queries for phones - portrait */
+
+@media screen and (max-width: 400px) {
+
+  #span-home,
+  #span-info,
+  #span-contact,
+  #span-help {
+    display: none;
+  }
+
+  h1 {
+    padding-top: 10%;
+    font-size: 2em;
+  }
+
+  #nav-container {
+    height: 4vh;
+  }
+
+  #nav-bar i {
+    font-size: 1.5em;
+    margin-top: .5vh;
+  }
+
+  .m-active {
+    color: green;
+  }
+
+  .events-container {
+    height: 90vh;
+  }
+
+  .event-card {
+    height: 25vh;
+  }
+}
