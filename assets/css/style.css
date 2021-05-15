@@ -737,7 +737,7 @@ fieldset>legend {
 
 /* Media query for phones - landscape */
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 500px) {
 
   h1 {
     font-size: 1.5em;
