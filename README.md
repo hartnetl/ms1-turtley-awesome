@@ -118,32 +118,51 @@ The deployed site: https://hartnetl.github.io/ms1-turtley-awesome/
 
 While a lot of the information displayed on the website I have gained over the years throughout university and volunteering in Cyprus, I used the following websites to fill in any gaps and verify things I didn't know. 
 
-https://oceana.org/marine-life/sea-turtles-reptiles/
-https://www.iucnredlist.org/search?query=sea%20turtle&searchType=species
-https://www.natgeokids.com/ie/discover/animals/sea-life/green-sea-turtle-facts/
-https://www.barrierreef.org/news/blog/10-fascinating-facts-about-sea-turtles
-https://www.ecowatch.com/9-super-cool-facts-about-sea-turtles-1891175453.html
-https://www.worldwildlife.org/species/
-https://www.fisheries.noaa.gov/species/
-https://oliveridleyproject.org/sea-turtles/sea-turtles-of-the-indian-ocean
-https://www.conserveturtles.org/information-about-sea-turtles-their-habitats-and-threats-to-their-survival/
+https://oceana.org/marine-life/sea-turtles-reptiles/  
+
+https://www.iucnredlist.org/search?query=sea%20turtle&searchType=species  
+
+https://www.natgeokids.com/ie/discover/animals/sea-life/green-sea-turtle-facts/  
+
+https://www.barrierreef.org/news/blog/10-fascinating-facts-about-sea-turtles  
+
+https://www.ecowatch.com/9-super-cool-facts-about-sea-turtles-1891175453.html  
+
+https://www.worldwildlife.org/species/  
+
+https://www.fisheries.noaa.gov/species/  
+
+https://oliveridleyproject.org/sea-turtles/sea-turtles-of-the-indian-ocean  
+
+https://www.conserveturtles.org/information-about-sea-turtles-their-habitats-and-threats-to-their-survival/  
+
 
 ### Images
 
 ### Code for things I didn't know how to do 
 
-Adding outline/shadow to text URL: 
-https://stackoverflow.com/a/4919231 
-text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+- Adding outline/shadow to text URL:  
 
-Side nav bar 
-https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
+https://stackoverflow.com/a/4919231  
 
-How to blur images
-https://www.w3schools.com/howto/howto_css_blurred_background.asp
+text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
 
-How to make IUCN redlist bar
-https://jsfiddle.net/Pugazh/uf3fk17g/
 
-How to make font-size more responsive 
+- Side nav bar  
+
+https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp  
+
+
+- How to blur images  
+
+https://www.w3schools.com/howto/howto_css_blurred_background.asp  
+
+
+- How to make IUCN redlist bar  
+
+https://jsfiddle.net/Pugazh/uf3fk17g/  
+
+
+- How to make font-size more responsive  
+
 https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units/
