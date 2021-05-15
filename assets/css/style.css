@@ -411,59 +411,18 @@ fieldset>legend {
 
 /* turtle info sections */
 
+.turtle-info {
+  height: 75vh;
+  width: 90vw;
+  margin: 0 auto;
+}
+
 .turtle-container {
-  height: 90vh;
-  width: 95vw;
-  margin: 5vw 1vw;
+  height: 75vh;
+  width: 80vw;
+  margin: 10vh auto;
   position: relative;
-}
-
-.img-box-left {
-  height: auto;
-  width: 30%;
-  margin: 3vw;
-  position: absolute;
-  left: 5vw;
-  top: 1vw;
-
-}
-
-.img-box-right {
-  height: auto;
-  width: 30%;
-  margin: 3vw;
-  position: absolute;
-  right: 1vw;
-  top: 1vw;
-}
-
-.text-box-right {
-  height: auto;
-  width: 50%;
-  margin: 10px;
-  position: absolute;
-  right: 1vw;
-  text-align: justify;
-  background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
-  padding: 1rem;
-}
-
-.text-box-left {
-  height: auto;
-  width: 50%;
-  margin: 10px;
-  position: absolute;
-  left: 7vw;
-  text-align: justify;
-  background-color: rgba(255, 255, 255, 0.815);
-  border-radius: 25px;
-  padding: 1rem;
-}
-
-.turtle-container img {
-  margin: 15% 5%;
-  width: 100%;
 }
 
 #g-turtle {
@@ -500,6 +459,42 @@ fieldset>legend {
   background: url(../images/flatback.jpg) no-repeat center center;
   background-size: cover;
 }
+
+#flat,
+#kemp,
+#olive,
+#leatherback,
+#hawk,
+#g-turtle,
+#logger {
+background-size: cover;
+filter: blur(1px);
+  -webkit-filter: blur(1.5px);
+  height: 100%;
+}
+
+
+#flat-text,
+#kemp-text,
+#olive-text,
+#leatherback-text,
+#hawk-text,
+#g-turtle-text,
+#logger-text {
+background-color: rgba(0, 0, 0, 0.4);
+color: rgb(47, 229, 241);
+font-weight: bold;
+position: relative;
+bottom: 52%;
+left: 50%;
+transform: translate(-50%, -50%);
+z-index: 2;
+width: 100%;
+height: 100%;
+text-align: center;
+}
+
+
 /* #############
       help.html
    ############# */
