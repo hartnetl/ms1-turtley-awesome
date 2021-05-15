@@ -36,7 +36,7 @@ p {
 p a {
   font-family: 'Original Surfer', cursive;
   font-style: italic;
-  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+  /* text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; */
 }
 
 a {
@@ -302,10 +302,12 @@ fieldset>legend {
    ############# */
 
 #turtle-intro {
-  width: 75vw;
+  width: 80vw;
   height: auto;
   margin: 3vh auto;
 }
+
+
 
 /* Side navigation bar */
 
@@ -342,7 +344,7 @@ fieldset>legend {
 
 .iucn-container {
   height: 75vh;
-  width: 80vw;
+  width: 82vw;
   margin: 5vh auto;
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
@@ -357,14 +359,10 @@ fieldset>legend {
   width: 2em;
   height: 2em;
   line-height: 2em;
-  /* font-size: 1.5em; */
-  font-family: arial, calibri, sans-serif;
   font-weight: bold;
   text-align: center;
   border-radius: 50%;
-  background: dodgerblue;
   display: inline-block;
-  color: white;
   position: relative;
   margin: 0px 10px;
   box-shadow: 0 0 3px 3px rgb(207, 205, 205);
@@ -377,7 +375,6 @@ fieldset>legend {
   left: -100%;
   width: 100%;
   height: 1px;
-  background: dodgerblue;
   z-index: -1;
 }
 
@@ -421,18 +418,22 @@ fieldset>legend {
 /* turtle info sections */
 
 .turtle-info {
-  height: 75vh;
+  height: 90vh;
   width: 85vw;
   margin: 0 auto;
   border-radius: 25px;
 }
 
 .turtle-container {
-  height: 75vh;
+  height: 90vh;
   width: 85vw;
   margin: 10vh auto;
   position: relative;
   border-radius: 25px;
+}
+
+.turtle-container a {
+  color: aqua;
 }
 
 #g-turtle {
@@ -479,7 +480,7 @@ fieldset>legend {
 #logger {
 background-size: cover;
 filter: blur(1px);
-  -webkit-filter: blur(1.5px);
+  -webkit-filter: blur(2px);
   height: 100%;
   border-radius: 25px;
 }
