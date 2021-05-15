@@ -737,7 +737,7 @@ fieldset>legend {
 
 /* Media query for phones - landscape */
 
-@media (min-width: 481px) and (max-width: 767px) {
+@media (min-width: 481px) and (max-width: 600px) {
 
   h1 {
     font-size: 1.5em;
@@ -822,7 +822,7 @@ fieldset>legend {
     text-align: center;
     margin: 3vh 0;
   }
-  
+
   #back-to-top-mobile a {
     color: rgb(7, 119, 31);
     background-color: seashell;
@@ -894,9 +894,9 @@ fieldset>legend {
     height: 60vh;
   }
 
-.help li{
-  margin: 0 2vw;
-}
+  .help li {
+    margin: 0 2vw;
+  }
 
   .products-container {
     height: 90vh;
@@ -909,7 +909,7 @@ fieldset>legend {
 
   .card img {
     margin: 5% 20%;
-}
+  }
 
   #donate-container {
     height: 15vh;
@@ -937,7 +937,7 @@ fieldset>legend {
   #mobile-contact-box {
     display: block;
     margin-top: 2vh;
-  }  
+  }
 
   #contact-button {
     margin: 2vh 30%;
