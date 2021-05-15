@@ -890,4 +890,29 @@ fieldset>legend {
     height: 60vh;
   }
 
+  .products-container {
+    height: 90vh;
+  }
+
+  .card {
+    width: 40%;
+    margin: 0 5%;
+  }
+
+  .card img {
+    margin: 5% 20%;
+}
+
+  #donate-container {
+    height: 50vh;
+  }
+
+  #donations ul {
+    flex-wrap: wrap;
+  }
+
+  #donations img {
+    width: 20vw;
+  }
+
 }
