@@ -806,5 +806,14 @@ fieldset>legend {
     border-radius: 8px;
     padding: .5%;
   }
+
+  .products-container {
+    height: 100vh;
+  }
+
+  #donate-container img {
+    height: 10vh
+  }
+
   
 }
