@@ -702,5 +702,18 @@ fieldset>legend {
   .turtle-info {
     height: 35vh;
   }
+
+  .products-container {
+    height: 50vh;
+  }
+
+  .card img {
+    height: 10vh;
+  }
+
+  #donations img {
+    width: 10vw;
+    height: 8vh;
+  }
   
 }
