@@ -890,6 +890,10 @@ fieldset>legend {
     height: 60vh;
   }
 
+.help li{
+  margin: 0 2vw;
+}
+
   .products-container {
     height: 90vh;
   }
@@ -904,15 +908,18 @@ fieldset>legend {
 }
 
   #donate-container {
-    height: 50vh;
+    height: 15vh;
   }
 
-  #donations ul {
-    flex-wrap: wrap;
+  #donations {
+    width: 85vw;
+    margin: 0 auto;
   }
 
   #donations img {
-    width: 20vw;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 75%;
   }
 
 }
