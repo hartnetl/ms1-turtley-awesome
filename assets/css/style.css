@@ -869,4 +869,25 @@ fieldset>legend {
   .event-card {
     height: 25vh;
   }
+
+  #mobile-nav {
+    height: 15vh;
+  }
+
+  #m-nav,
+  #m-nav ul {
+    height: 10vh;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  #m-nav ul>li {
+    margin: 0 2vw;
+  }
+
+  .turtle-container,
+  .turtle-info {
+    height: 60vh;
+  }
+
 }
