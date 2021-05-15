@@ -63,6 +63,10 @@ a {
   background-color: rgb(7, 119, 31);
 }
 
+#back-to-top-mobile {
+  display: none;
+}
+
 /* #############
       Header
    ############# */
@@ -309,6 +313,10 @@ fieldset>legend {
   width: 80vw;
   height: auto;
   margin: 3vh auto;
+}
+
+#mobile-nav {
+  display: none;
 }
 
 /* Side navigation bar */
@@ -633,7 +641,9 @@ fieldset>legend {
 /* Media queries for tablets in landscape mode/small laptops */
 
 @media screen and (max-width: 1400px) {
-  h1 {padding-top: 10%;}
+  h1 {
+    padding-top: 10%;
+  }
 
   .intro-container,
   .container,
@@ -686,7 +696,7 @@ fieldset>legend {
 
   .events-container {
     height: 70vh
-    }
+  }
 
   .event-card {
     width: 95%;
@@ -723,7 +733,7 @@ fieldset>legend {
 
   h1 {
     font-size: 1.5em;
-    padding-top: 0;  
+    padding-top: 0;
   }
 
   #nav-container {
@@ -744,4 +754,57 @@ fieldset>legend {
     padding: 1vw;
   }
 
+  .sidenav {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 15px;
+    height: 25vh;
+    width: 82vw;
+    margin: 5vh auto;
+  }
+
+  #m-nav>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 8px;
+    height: 12vh;
+    width: 80vw;
+    margin-left: 5%;
+  }
+
+  #m-nav>ul>li {
+    font-family: 'Original Surfer', cursive;
+  }
+
+  #redlist {
+    display: none;
+  }
+
+  .turtle-container,
+  .turtle-info {
+    height: 100vh;
+    width: 95vw;
+  }
+
+  #back-to-top-mobile {
+    display: block;
+    text-align: center;
+    margin: 3vh 0;
+  }
+  
+  #back-to-top-mobile a {
+    color: rgb(7, 119, 31);
+    background-color: seashell;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: .5%;
+  }
+  
 }
