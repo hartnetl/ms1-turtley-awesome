@@ -497,7 +497,26 @@ text-align: center;
 border-radius: 25px;
 }
 
+#flat-text>h2,
+#kemp-text>h2,
+#olive-text>h2,
+#leatherback-text>h2,
+#hawk-text>h2,
+#g-turtle-text>h2,
+#logger-text>h2 {
+  padding-top: 3%;
+  text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
 
+#flat-text>p,
+#kemp-text>p,
+#olive-text>p,
+#leatherback-text>p,
+#hawk-text>p,
+#g-turtle-text>p,
+#logger-text>p {
+  padding: 0 1% 0 1%;
+}
 /* #############
       help.html
    ############# */
