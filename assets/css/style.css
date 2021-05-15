@@ -693,6 +693,14 @@ fieldset>legend {
     height: 20vh;
   }
 
+  .sidenav {
+    background-color: rgba(241, 241, 236, 0.5);
+    margin-bottom: 4vh;
+  }
 
+  .turtle-container,
+  .turtle-info {
+    height: 35vh;
+  }
   
 }
