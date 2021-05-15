@@ -715,5 +715,33 @@ fieldset>legend {
     width: 10vw;
     height: 8vh;
   }
-  
+}
+
+/* Media query for phones - landscape */
+
+@media screen and (max-width: 700px) {
+
+  h1 {
+    font-size: 1.5em;
+    padding-top: 0;  
+  }
+
+  #nav-container {
+    height: 5vh;
+  }
+
+  .intro-container,
+  .container {
+    padding: 1vw;
+  }
+
+  .event-card {
+    height: 50vh;
+  }
+
+  .events-container {
+    height: 170vh;
+    padding: 1vw;
+  }
+
 }
