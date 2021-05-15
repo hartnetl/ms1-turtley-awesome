@@ -622,6 +622,10 @@ fieldset>legend {
   margin: 3vw;
 }
 
+#mobile-contact {
+  display: none;
+}
+
 #contact-button {
   text-align: center;
   margin: 1% 0 2% 40%;
@@ -815,5 +819,16 @@ fieldset>legend {
     height: 10vh
   }
 
-  
+  .contact-container {
+    height: 100vh;
+  }
+
+  #mobile-contact {
+    display: block;
+    overflow: scroll;
+  }
+
+  #contact-box {
+    display: none;
+  }
 }
