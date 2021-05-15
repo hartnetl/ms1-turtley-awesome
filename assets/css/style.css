@@ -7,10 +7,11 @@
   outline: none;
 }
 
+html { font-size: calc(.5em + 1vw) }
+
 body {
   font-family: 'Nunito', sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
   color: rgb(20, 20, 56);
   height: auto;
   position: relative;
@@ -64,7 +65,8 @@ a {
   width: 100vw;
   display: flex;
   justify-content: center;
-  padding-bottom: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
   background: url(../images/sand-banner.jpg);
   background-size: cover;
   overflow: hidden;
@@ -74,11 +76,13 @@ h1 {
   font-family: 'Original Surfer', cursive;
   font-weight: 400;
   color: rgb(245, 235, 220);
+
   /* Text-shadow learned from https://stackoverflow.com/a/4919231  */
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+
   text-transform: uppercase;
   letter-spacing: 6px;
-  font-size: 4rem;
+  font-size: 2.5em; 
   text-align: center;
 }
 
@@ -108,7 +112,6 @@ h1 {
 #nav-bar {
   display: flex;
   justify-content: space-around;
-  font-size: 1.2rem;
   letter-spacing: 3px;
   list-style-type: none;
 }
@@ -153,7 +156,7 @@ footer {
 }
 
 .foot i {
-  font-size: 210%;
+  /* font-size: 210%; */
   color: blanchedalmond;
   text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
 }
@@ -237,7 +240,6 @@ footer {
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
-
 #beach-clean-img {
   background: url(../images/beach-clean.jpg) no-repeat center center;
   background-size: cover;
@@ -255,13 +257,11 @@ footer {
 }
 
 .news-container {
-  height: 30vh;
+  height: 45vh;
   width: 70vw;
   margin: 0 15vw;
-  font-size: 1.1rem;
   text-align: center;
   padding-bottom: 3vh;
-  ;
 }
 
 fieldset {
@@ -281,7 +281,7 @@ fieldset>legend {
 #submit {
   text-align: center;
   margin: 1% 0 2% 40%;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   color: green;
   background-color: aliceblue;
   border-radius: 10px;
@@ -325,7 +325,7 @@ fieldset>legend {
 .sidenav a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 1rem;
+  /* font-size: 1rem; */
   color: #035ca5;
   display: block;
 }
@@ -354,7 +354,7 @@ fieldset>legend {
   width: 2em;
   height: 2em;
   line-height: 2em;
-  font-size: 1.5em;
+  /* font-size: 1.5em; */
   font-family: arial, calibri, sans-serif;
   font-weight: bold;
   text-align: center;
@@ -556,7 +556,7 @@ border-radius: 25px;
   float: left;
   width: 30%;
   margin-left: 2vw;
-  font-size: 1rem;
+  /* font-size: 1rem; */
 }
 
 .card a {
@@ -607,7 +607,7 @@ border-radius: 25px;
 #contact-button {
   text-align: center;
   margin: 1% 0 2% 40%;
-  font-size: 1.2rem;
+  /* font-size: 1.2rem; */
   color: green;
   background-color: aliceblue;
   border-radius: 10px;
@@ -655,7 +655,7 @@ border-radius: 25px;
   }
 
   .event-card {
-    font-size: 1em;
+    /* font-size: 1em; */
     width: 95%;
     height: 30vh;
   }
@@ -673,7 +673,7 @@ border-radius: 25px;
 /*header*/
 
   h1 {
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     padding-top: 15%;
   }
 
@@ -713,7 +713,7 @@ border-radius: 25px;
   .event-card {
     width: 95%;
     height: 30vh;
-    font-size: 70%;
+    /* font-size: 70%; */
   }
 
   #beach-clean-text>h2,
