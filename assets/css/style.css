@@ -781,7 +781,7 @@ fieldset input {
 
 }
 
-media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   h1 {
     padding-top: 10%;
   }
@@ -901,7 +901,7 @@ media screen and (max-width: 1024px) {
 /* media query for landscape */
 
 
-@media screen and (orientation:landscape) {
+@media screen and (max-width:900px) and (orientation:landscape) {
 
   .header-container {
     height: 15vh;
