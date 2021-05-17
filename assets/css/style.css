@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito&family=Original+Surfer&display=swap');
 
+/* Across pages */
+
 * {
   margin: 0;
   padding: 0;
@@ -45,6 +47,7 @@ a {
   text-decoration: none;
 }
 
+/* This is the link at the end of a page to return to top if present. */
 #back-to-top {
   text-align: center;
   margin: 3vh 0;
@@ -142,7 +145,7 @@ h1 {
 
 /* #############
        footer
-     ############# */
+   ############# */
 
 footer {
   height: 7vh;
@@ -177,9 +180,7 @@ footer {
   transform: rotate(280deg);
 }
 
-/* #############
-       index.html
-     ############# */
+/* index.html */
 
 .intro-container {
   height: 45vh;
@@ -203,7 +204,7 @@ footer {
   padding: 1rem;
 }
 
-/* Events section */
+/* Events section - index.html */
 
 .event-card {
   float: left;
@@ -216,7 +217,8 @@ footer {
 #webinar-img {
   background: url(../images/plastic.jpg) no-repeat center center;
   background-size: cover;
-  filter: blur(1px);
+  /* How to blur background image learned with https://www.w3schools.com/howto/howto_css_blurred_background.asp */
+  filter: blur(1px);                
   -webkit-filter: blur(1px);
   height: 100%;
 }
@@ -267,6 +269,8 @@ footer {
   text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
+/* Newsletter sign up - index.html */
+
 .news-container {
   height: 45vh;
   width: 70vw;
@@ -305,9 +309,7 @@ fieldset>legend {
   color: aliceblue;
 }
 
-/* #############
-       info.html
-   ############# */
+/* info.html */
 
 #turtle-intro {
   width: 80vw;
@@ -350,7 +352,7 @@ fieldset>legend {
   font-weight: 600;
 }
 
-/* IUCN Red list */
+/* IUCN Red list - info.html */
 
 .iucn-container {
   height: 75vh;
@@ -364,6 +366,8 @@ fieldset>legend {
 #redlist {
   padding-left: 8em;
 }
+
+/* How to build joined circles at https://jsfiddle.net/Pugazh/uf3fk17g/  */
 
 #redlist>li {
   width: 2em;
@@ -425,7 +429,7 @@ fieldset>legend {
   color: rgb(139, 134, 134);
 }
 
-/* turtle info sections */
+/* turtle info sections - info.html */
 
 .turtle-info {
   height: 90vh;
@@ -536,9 +540,7 @@ fieldset>legend {
   padding: 0 2.5% 0 2.5%;
 }
 
-/* #############
-      help.html
-   ############# */
+/* help.html */
 
 #tips ol {
   margin: 0 2vw;
@@ -549,13 +551,7 @@ fieldset>legend {
   font-style: italic;
 }
 
-.help img {
-  height: 5vh;
-  margin: 2vh 5vh;
-  text-align: center;
-}
-
-/* Products section */
+/* Products section - help.html */
 
 .products-container {
   height: 90vh;
@@ -586,7 +582,8 @@ fieldset>legend {
   margin: 0 35%;
 }
 
-/* donate section */
+/* donate section - help.html */
+
 #donate-container {
   height: 30vh;
   width: 90vw;
@@ -622,11 +619,11 @@ fieldset>legend {
   margin: 3vw;
 }
 
-#mobile-contact {
+#tablet-contact {
   display: none;
 }
 
-#mobile-contact-box {
+#mobile-contact {
   display: none;
 }
 
@@ -646,12 +643,22 @@ fieldset>legend {
   color: aliceblue;
 }
 
-/* Media queries for tablets in landscape mode/small laptops */
+/* Media queries for tablets */
 
-@media screen and (min-width:780px) and (max-width: 1024px) and (orientation: landscape) {
+@media screen and (max-width: 1024px) {
   h1 {
     padding-top: 10%;
   }
+
+  #navbar, #nav-container {
+    height: 3vh;
+  }
+
+  #navbar li {
+    margin-top: .5vh;
+  }
+
+  /* index.html */
 
   .intro-container,
   .container,
@@ -660,27 +667,113 @@ fieldset>legend {
     height: auto;
   }
 
-  .turtle-info,
-  .turtle-container {
-    height: 50vh;
+  .events-container {
+    height: 35vh;
   }
 
+  .event-card {
+    height: 25vh;
+  }
+
+  /* info.html */
+
+  .turtle-info,
+  .turtle-container {
+    height: 35vh;
+  }
+
+  .sidenav {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 15px;
+    height: 18vh;
+    width: 50vw;
+    margin: 5vh auto;
+  }
+
+  #m-nav>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 8px;
+    height: 12vh;
+    width: 80vw;
+    margin-left: 5%;
+  }
+
+  #m-nav>ul>li {
+    font-family: 'Original Surfer', cursive;
+    flex-wrap: wrap;
+  }
+
+  #redlist {
+    display: none;
+  }
+
+  #back-to-top-mobile {
+    display: block;
+    text-align: center;
+    margin: 3vh 0;
+  }
+
+  #back-to-top-mobile a {
+    color: rgb(7, 119, 31);
+    background-color: seashell;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: .5%;
+  }
+
+  /* help.html */
+
   .products-container {
-    height: 75vh;
+    height: 60vh;
+  }
+
+  .card img {
+    height: 10vh;
+    margin: 2vh 3vw 0 5vw;
   }
 
   #donate-container {
     height: auto;
   }
 
+  #donations img {
+    height: 5vh;
+  }
+
+  /* contact.html */
+
   .contact-container {
+    height: auto;
+    margin: 5vh auto;
+  }
+
+  #contact-box {
+    display: none;
+  }
+
+  #tablet-contact {
+    display: block;
+  }
+
+  #contact-outer {
     height: 60vh;
   }
+
 }
 
-/* Media queries for tablets in portrait view */
+/* Media queries for small tablets */
 
-@media screen and (min-width:780px) and (max-width: 1024px) {
+@media screen and (max-width: 800px) {
+
   .header-container {
     height: 15vh;
     padding-bottom: 0%;
@@ -700,8 +793,30 @@ fieldset>legend {
     height: 3vh;
   }
 
+  .intro-container,     
+  .container,
+  .events-container,
+  .news-container,
+  .iucn-container {
+    margin: 5vh auto;
+  }
+
   .events-container {
     height: 70vh
+  }
+
+  #back-to-top-mobile {
+    display: block;
+    text-align: center;
+    margin: 3vh 0;
+  }
+
+  #back-to-top-mobile a {
+    color: rgb(7, 119, 31);
+    background-color: seashell;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: .5%;
   }
 
   .event-card {
@@ -735,7 +850,7 @@ fieldset>legend {
 
 /* Media query for phones - landscape */
 
-@media screen and (max-width: 600px) and (orientation: landscape) {
+@media screen and (max-width: 650px) and (orientation: landscape) {
 
   h1 {
     font-size: 1.5em;
@@ -780,54 +895,14 @@ fieldset>legend {
     display: none;
   }
 
-  #mobile-nav {
-    display: block;
-    background-color: rgba(255, 255, 255, 0.815);
-    border-radius: 15px;
-    height: 25vh;
-    width: 82vw;
-    margin: 5vh auto;
-  }
-
-  #m-nav>ul {
-    display: flex;
-    justify-content: space-around;
-    list-style: none;
-    flex-wrap: wrap;
-    flex-direction: column;
-    border-radius: 8px;
-    height: 12vh;
-    width: 80vw;
-    margin-left: 5%;
-  }
-
-  #m-nav>ul>li {
-    font-family: 'Original Surfer', cursive;
-  }
-
-  #redlist {
-    display: none;
-  }
-
+ 
   .turtle-container,
   .turtle-info {
     height: 100vh;
     width: 95vw;
   }
 
-  #back-to-top-mobile {
-    display: block;
-    text-align: center;
-    margin: 3vh 0;
-  }
-
-  #back-to-top-mobile a {
-    color: rgb(7, 119, 31);
-    background-color: seashell;
-    margin: 0 auto;
-    border-radius: 8px;
-    padding: .5%;
-  }
+  
 
   .products-container {
     height: 100vh;
@@ -841,7 +916,7 @@ fieldset>legend {
     height: 100vh;
   }
 
-  #mobile-contact {
+  #tablet-contact {
     display: block;
     overflow: scroll;
   }
@@ -928,11 +1003,11 @@ fieldset>legend {
     height: 70vh;
   }
 
-  #mobile-contact {
+  #tablet-contact {
     display: none;
   }
 
-  #mobile-contact-box {
+  #mobile-contact {
     display: block;
     margin-top: 2vh;
   }
