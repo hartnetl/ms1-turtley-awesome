@@ -81,7 +81,7 @@ a {
   justify-content: center;
   padding-top: 2%;
   padding-bottom: 2%;
-  background: url(../images/pexels-aistė-sveikataitė-1535421.jpg) no-repeat;
+  background: url(../images/pexels-aistė-sveikataitė-2886574.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
@@ -161,7 +161,8 @@ footer {
   margin-top: 3vh;
   bottom: 5%;
   overflow: hidden;
-  background: url(../images/pexels-aistė-sveikataitė-1535421.jpg) no-repeat;
+  background: url(../images/pexels-aistė-sveikataitė-2886574.jpg) no-repeat;
+  background-size: cover;
 }
 
 .fturtle {
@@ -284,7 +285,7 @@ fieldset {
   border: solid 1px;
   height: 30%;
   width: 50vw;
-  background: url(../images/sand-banner.jpg);
+  background: url(../images/pexels-aistė-sveikataitė-2886574.jpg);
   margin: 2vh auto;
   text-align: left;
   padding: 0 1vw;
