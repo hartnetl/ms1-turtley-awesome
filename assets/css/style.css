@@ -901,21 +901,6 @@ fieldset input {
 
 @media screen and (max-width:900px) and (orientation:landscape) {
 
-  .header-container {
-    height: 15vh;
-    padding-bottom: 0%;
-  }
-
-  #lturtle {
-    height: 80%;
-    padding-right: 0;
-  }
-
-  #rturtle {
-    height: 90%;
-    padding-left: 0;
-  }
-
   #span-home,
   #span-info,
   #span-contact,
@@ -970,7 +955,7 @@ fieldset input {
 
   .turtle-container,
   .turtle-info {
-    height: 40vh;
+    height: 100vh;
   }
 
   /* help.html */
