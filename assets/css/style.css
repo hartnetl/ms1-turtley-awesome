@@ -735,7 +735,7 @@ fieldset>legend {
 
 /* Media query for phones - landscape */
 
-@media screen and (min-width: 481px) and (max-width: 600px) and (orientation: landscape) {
+@media screen and (max-width: 600px) and (orientation: landscape) {
 
   h1 {
     font-size: 1.5em;
@@ -853,7 +853,7 @@ fieldset>legend {
 
 /* Media queries for phones - portrait */
 
-@media screen and (min-width: 320px) and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 
   h1 {
     padding-top: 10%;
