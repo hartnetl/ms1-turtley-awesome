@@ -81,7 +81,7 @@ a {
   justify-content: center;
   padding-top: 2%;
   padding-bottom: 2%;
-  background: url(../images/sand-banner.jpg);
+  background: url(../images/pexels-aistė-sveikataitė-1535421.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
 }
@@ -161,7 +161,7 @@ footer {
   margin-top: 3vh;
   bottom: 5%;
   overflow: hidden;
-  background: url(../images/sand-banner.jpg);
+  background: url(../images/pexels-aistė-sveikataitė-1535421.jpg) no-repeat;
 }
 
 .fturtle {
@@ -202,6 +202,7 @@ footer {
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
   padding: 1rem;
+  margin: 5vh auto;
 }
 
 /* Events section - index.html */
@@ -274,7 +275,7 @@ footer {
 .news-container {
   height: 45vh;
   width: 70vw;
-  margin: 0 15vw;
+  margin: 0 auto;
   text-align: center;
   padding-bottom: 3vh;
 }
@@ -302,6 +303,9 @@ fieldset>legend {
   border-radius: 10px;
   height: 4vh;
   padding: 2px;
+  display: block;
+  margin: 0 auto;
+
 }
 
 #submit:hover {
