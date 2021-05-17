@@ -770,9 +770,9 @@ fieldset>legend {
 
 }
 
-/* Media queries for small tablets */
+/* Media queries for large phones*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
 
   .header-container {
     height: 15vh;
@@ -793,6 +793,21 @@ fieldset>legend {
     height: 3vh;
   }
 
+  #nav-container i {
+    font-size: 2em;
+  }
+
+  #span-home,
+  #span-info,
+  #span-contact,
+  #span-help {
+    display: none;
+  }
+
+  .m-active {
+    color: green;
+  }
+
   .intro-container,     
   .container,
   .events-container,
@@ -803,6 +818,11 @@ fieldset>legend {
 
   .events-container {
     height: 70vh
+  }
+  
+  .event-card {
+    width: 95%;
+    height: 20vh;
   }
 
   #back-to-top-mobile {
@@ -819,23 +839,25 @@ fieldset>legend {
     padding: .5%;
   }
 
-  .event-card {
-    width: 95%;
-    height: 20vh;
+  /* info.html */
+
+  #mobile-nav {
+    width: 80vw;
   }
 
-  .sidenav {
-    background-color: rgba(241, 241, 236, 0.5);
-    margin-bottom: 4vh;
+  #m-nav ul {
+    height: 50%;
   }
 
   .turtle-container,
   .turtle-info {
-    height: 35vh;
+    height: 40vh;
   }
 
+  /* help.html */
+
   .products-container {
-    height: 50vh;
+    height: 45vh;
   }
 
   .card img {
@@ -846,11 +868,17 @@ fieldset>legend {
     width: 10vw;
     height: 8vh;
   }
+
+  /* contact.html */
+
+  #contact-outer {
+    height: 65vh;
+  }
 }
 
-/* Media query for phones - landscape */
+/* Media query for medium phones */
 
-@media screen and (max-width: 650px) and (orientation: landscape) {
+@media screen and (max-width: 650px) {
 
   h1 {
     font-size: 1.5em;
@@ -861,25 +889,15 @@ fieldset>legend {
     height: 4vh;
   }
 
-  #span-home,
-  #span-info,
-  #span-contact,
-  #span-help {
-    display: none;
-  }
-
   #nav-bar i {
     font-size: 1.5em;
-    margin-top: .5vh;
-  }
-
-  .m-active {
-    color: green;
+    margin-top: .25vh;
+    margin-bottom: .25vh;
   }
 
   .intro-container,
   .container {
-    padding: 1vw;
+    padding: 1vh 1.5vw;
   }
 
   .event-card {
@@ -891,18 +909,21 @@ fieldset>legend {
     padding: 1vw;
   }
 
-  .sidenav {
-    display: none;
+  /* info.html */
+
+  .iucn-container, 
+  #turtle-intro {
+    width: 83vw;
+    padding: 2vh 2vw;
   }
 
- 
   .turtle-container,
   .turtle-info {
     height: 100vh;
-    width: 95vw;
+    width: 90vw;
   }
 
-  
+  /* help.html */
 
   .products-container {
     height: 100vh;
@@ -926,9 +947,9 @@ fieldset>legend {
   }
 }
 
-/* Media queries for phones - portrait */
+/* Media queries for smaller phones */
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 570px) {
 
   h1 {
     padding-top: 10%;
@@ -947,6 +968,8 @@ fieldset>legend {
     height: 25vh;
   }
 
+  /* info.html */
+
   #mobile-nav {
     height: 15vh;
   }
@@ -964,15 +987,17 @@ fieldset>legend {
 
   .turtle-container,
   .turtle-info {
-    height: 60vh;
+    height: 75vh;
   }
+
+  /* help.html */
 
   .help li {
     margin: 0 2vw;
   }
 
   .products-container {
-    height: 90vh;
+    height: 100vh;
   }
 
   .card {
@@ -980,7 +1005,8 @@ fieldset>legend {
     margin: 0 5%;
   }
 
-  .card img {
+  #items img {
+    height: 8vh;
     margin: 5% 20%;
   }
 
@@ -988,19 +1014,18 @@ fieldset>legend {
     height: 15vh;
   }
 
-  #donations {
-    width: 85vw;
-    margin: 0 auto;
+  #donations img {
+    height: 5vh;
   }
 
-  #donations img {
-    flex-flow: row wrap;
-    justify-content: space-between;
-    height: 75%;
+  /* contact.html */
+
+  #contact-outer {
+    height: 85vh;
   }
 
   .contact-container {
-    height: 70vh;
+    height: 75vh;
   }
 
   #tablet-contact {
@@ -1009,11 +1034,10 @@ fieldset>legend {
 
   #mobile-contact {
     display: block;
-    margin-top: 2vh;
+    margin: 2vh auto;
   }
 
   #contact-button {
     margin: 2vh 30%;
   }
-
 }
