@@ -31,6 +31,7 @@ h4 {
   text-align: center;
   margin: 1vh 0;
   font-family: 'Original Surfer', cursive;
+  text-transform: uppercase;
 }
 
 p {
@@ -74,10 +75,10 @@ a {
    ############# */
 
 .header-container {
-  height: 20vh;
+  height: 15vh;
   display: flex;
   justify-content: center;
-  padding-top: 2%;
+  padding-top: 5px;
   padding-bottom: 2%;
   background: url(../images/pexels-aistė-sveikataitė-2886574.jpg) no-repeat;
   background-size: cover;
@@ -94,7 +95,7 @@ h1 {
 
   text-transform: uppercase;
   letter-spacing: 6px;
-  font-size: 2.5em;
+  font-size: 2em;
   text-align: center;
 }
 
@@ -116,19 +117,21 @@ h1 {
 /* Nav Bar */
 
 #nav-container {
-  height: 5vh;
+  height: 10%;
   background-color: rgb(65, 142, 243);
 }
 
 #nav-bar {
   display: flex;
   justify-content: space-around;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   list-style-type: none;
 }
 
 #navbar li a {
   color: blanchedalmond;
+  height: 100%;
+  line-height: 10%;
 }
 
 #navbar li a:hover {
@@ -140,6 +143,7 @@ h1 {
   background-color: rgb(5, 84, 148);
   padding: 0 1vw;
   border-radius: 5px;
+  height: 100%;
 }
 
 /* #############
@@ -304,16 +308,18 @@ fieldset>legend {
   font-weight: 600;
 }
 
+fieldset input {
+  line-height: 4vh;
+}
+
 #submit {
   text-align: center;
-  margin: 2% 40%;
   color: green;
   background-color: aliceblue;
   border-radius: 10px;
-  height: 4vh;
-  padding: 2px;
+  padding: 1%;
   display: block;
-  margin: 0 auto;
+  margin: 2vh auto;
 
 }
 
@@ -663,13 +669,13 @@ fieldset>legend {
     padding-top: 10%;
   }
 
-  #navbar, #nav-container {
+  /* #navbar, #nav-container {
     height: 3vh;
-  }
+  } */
 
-  #navbar li {
+  /* #navbar li {
     margin-top: .5vh;
-  }
+  } */
 
   /* index.html */
 
@@ -802,13 +808,13 @@ fieldset>legend {
     padding-left: 0;
   }
 
-  #nav-container {
+  /* #nav-container {
     height: 3vh;
-  }
+  } */
 
-  #nav-container i {
+  /* #nav-container i {
     font-size: 2em;
-  }
+  } */
 
   #span-home,
   #span-info,
@@ -898,15 +904,15 @@ fieldset>legend {
     padding-top: 0;
   }
 
-  #nav-container {
+  /* #nav-container {
     height: 4vh;
-  }
+  } */
 
-  #nav-bar i {
+  /* #nav-bar i {
     font-size: 1.5em;
     margin-top: .25vh;
     margin-bottom: .25vh;
-  }
+  } */
 
   .intro-container,
   .container {
@@ -969,9 +975,9 @@ fieldset>legend {
     font-size: 2em;
   }
 
-  #nav-container {
+  /* #nav-container {
     height: 4vh;
-  }
+  } */
 
   .events-container {
     height: 90vh;
