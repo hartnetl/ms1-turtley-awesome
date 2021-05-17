@@ -137,13 +137,14 @@ h1 {
 }
 
 .active {
-  text-decoration: double underline;
+  background-color: rgb(5, 84, 148);
+  padding: 0 1vw;
+  border-radius: 5px;
 }
 
 /* #############
        footer
    ############# */
-
 
 .foot {
   height: 9vh;
