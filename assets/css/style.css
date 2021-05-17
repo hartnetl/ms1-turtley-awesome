@@ -669,13 +669,122 @@ fieldset input {
     padding-top: 10%;
   }
 
-  /* #navbar, #nav-container {
-    height: 3vh;
-  } */
+  /* index.html */
 
-  /* #navbar li {
-    margin-top: .5vh;
-  } */
+  .intro-container,
+  .container,
+  .news-container,
+  .iucn-container {
+    height: auto;
+  }
+
+  .events-container {
+    height: 35vh;
+  }
+
+  .event-card {
+    height: 25vh;
+  }
+
+  /* info.html */
+
+  .turtle-info,
+  .turtle-container {
+    height: 35vh;
+  }
+
+  .sidenav {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 15px;
+    height: 18vh;
+    width: 50vw;
+    margin: 5vh auto;
+  }
+
+  #m-nav>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 8px;
+    height: 12vh;
+    width: 80vw;
+    margin-left: 5%;
+  }
+
+  #m-nav>ul>li {
+    font-family: 'Original Surfer', cursive;
+    flex-wrap: wrap;
+  }
+
+  #redlist {
+    display: none;
+  }
+
+  #back-to-top-mobile {
+    display: block;
+    text-align: center;
+    margin: 3vh 0;
+  }
+
+  #back-to-top-mobile a {
+    color: rgb(7, 119, 31);
+    background-color: seashell;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: .5%;
+  }
+
+  /* help.html */
+
+  .products-container {
+    height: 60vh;
+  }
+
+  .card img {
+    height: 10vh;
+    margin: 2vh 3vw 0 5vw;
+  }
+
+  #donate-container {
+    height: auto;
+  }
+
+  #donations img {
+    height: 5vh;
+  }
+
+  /* contact.html */
+
+  .contact-container {
+    height: auto;
+    margin: 5vh auto;
+  }
+
+  #contact-box {
+    display: none;
+  }
+
+  #tablet-contact {
+    display: block;
+  }
+
+  #contact-outer {
+    height: 60vh;
+  }
+
+}
+
+media screen and (max-width: 1024px) {
+  h1 {
+    padding-top: 10%;
+  }
 
   /* index.html */
 
@@ -788,6 +897,107 @@ fieldset input {
   }
 
 }
+
+/* media query for landscape */
+
+
+@media screen and (orientation:landscape) {
+
+  .header-container {
+    height: 15vh;
+    padding-bottom: 0%;
+  }
+
+  #lturtle {
+    height: 80%;
+    padding-right: 0;
+  }
+
+  #rturtle {
+    height: 90%;
+    padding-left: 0;
+  }
+
+  #span-home,
+  #span-info,
+  #span-contact,
+  #span-help {
+    display: none;
+  }
+
+  .m-active {
+    color: green;
+  }
+
+  .intro-container,     
+  .container,
+  .events-container,
+  .news-container,
+  .iucn-container {
+    margin: 5vh auto;
+  }
+
+  .events-container {
+    height: 70vh
+  }
+  
+  .event-card {
+    width: 95%;
+    height: 20vh;
+  }
+
+  #back-to-top-mobile {
+    display: block;
+    text-align: center;
+    margin: 3vh 0;
+  }
+
+  #back-to-top-mobile a {
+    color: rgb(7, 119, 31);
+    background-color: seashell;
+    margin: 0 auto;
+    border-radius: 8px;
+    padding: .5%;
+  }
+
+  /* info.html */
+
+  #mobile-nav {
+    width: 80vw;
+  }
+
+  #m-nav ul {
+    height: 50%;
+  }
+
+  .turtle-container,
+  .turtle-info {
+    height: 40vh;
+  }
+
+  /* help.html */
+
+  .products-container {
+    height: 45vh;
+  }
+
+  .card img {
+    height: 10vh;
+  }
+
+  #donations img {
+    width: 10vw;
+    height: 8vh;
+  }
+
+  /* contact.html */
+
+  #contact-outer {
+    height: 65vh;
+  }
+}
+
+
 
 /* Media queries for large phones*/
 
