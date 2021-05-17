@@ -95,7 +95,7 @@ h1 {
 
   text-transform: uppercase;
   letter-spacing: 6px;
-  font-size: 2em;
+  font-size: 300%;
   text-align: center;
 }
 
@@ -665,9 +665,9 @@ fieldset input {
 /* Media queries for tablets */
 
 @media screen and (max-width: 1024px) {
-  h1 {
+  /* h1 {
     padding-top: 10%;
-  }
+  } */
 
   /* index.html */
 
@@ -782,9 +782,9 @@ fieldset input {
 }
 
 @media screen and (max-width: 1024px) {
-  h1 {
+  /* h1 {
     padding-top: 10%;
-  }
+  } */
 
   /* index.html */
 
@@ -895,11 +895,9 @@ fieldset input {
   #contact-outer {
     height: 60vh;
   }
-
 }
 
 /* media query for landscape */
-
 
 @media screen and (max-width:900px) and (orientation:landscape) {
 
@@ -1110,7 +1108,7 @@ fieldset input {
 @media screen and (max-width: 650px) {
 
   h1 {
-    font-size: 1.5em;
+    /* font-size: 1.5em; */
     padding-top: 0;
   }
 
@@ -1180,10 +1178,10 @@ fieldset input {
 
 @media screen and (max-width: 570px) {
 
-  h1 {
+  /* h1 {
     padding-top: 10%;
     font-size: 2em;
-  }
+  } */
 
   /* #nav-container {
     height: 4vh;
