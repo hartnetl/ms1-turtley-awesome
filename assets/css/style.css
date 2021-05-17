@@ -40,7 +40,6 @@ p {
 p a {
   font-family: 'Original Surfer', cursive;
   font-style: italic;
-  /* text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff; */
 }
 
 a {
@@ -76,7 +75,6 @@ a {
 
 .header-container {
   height: 20vh;
-  width: 100vw;
   display: flex;
   justify-content: center;
   padding-top: 2%;
@@ -119,7 +117,6 @@ h1 {
 
 #nav-container {
   height: 5vh;
-  width: 100vw;
   background-color: rgb(65, 142, 243);
 }
 
@@ -147,22 +144,20 @@ h1 {
        footer
    ############# */
 
-footer {
-  height: 7vh;
-  width: 100vw;
-}
 
 .foot {
-  height: 7vh;
+  height: 9vh;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   list-style-type: none;
   margin-top: 3vh;
-  bottom: 5%;
-  overflow: hidden;
   background: url(../images/pexels-aistė-sveikataitė-2886574.jpg) no-repeat;
   background-size: cover;
+}
+
+.foot li {
+  margin-top: 1vh;
 }
 
 .fturtle {
