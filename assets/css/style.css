@@ -638,6 +638,13 @@ fieldset input {
   color: aliceblue;
 }
 
+#hello img {
+  height: 50%;
+  width: 60%;
+  display: block;
+  margin: 1vh auto;
+}
+
 /* MEDIA QUERIES */
 
 /* Media queries for tablet - portrait */
