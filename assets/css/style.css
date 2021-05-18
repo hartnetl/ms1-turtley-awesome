@@ -855,6 +855,7 @@ fieldset input {
 
   h1 {
     font-size: 175%;
+    -webkit-text-stroke: 1px black;
   }
 
   #lturtle,
@@ -1068,6 +1069,7 @@ fieldset input {
 
   h1 {
     font-size: 120%;
+
   }
 
   /* info.html */
