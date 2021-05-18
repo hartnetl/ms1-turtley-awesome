@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <div class="header-container">
+        <div id="header-container">
             <img src="assets/images/hturtle.png" id="lturtle">
             <img src="assets/images/hturtle.png" id="rturtle">
             <a href="index.html">
@@ -48,8 +48,8 @@
     </header>
     <main>
 
-        <section class="intro-outer">
-            <div class="intro-container">
+        <section id="intro">
+            <div class="container">
                 <h2>Welcome</h2>
                 <p>
                     If you've made it this far, I'm assuming you know who we are and what we're about. But if not,
@@ -64,7 +64,7 @@
                 </p>
             </div>
         </section>
-        <section class="outer">
+        <section id="general-info">
             <div class="container">
                 <h2>General conservation information</h2>
                 <p>
@@ -88,8 +88,8 @@
             </div>
         </section>
 
-        <section class="events-container">
-            <div id="events">
+        <section id="events">
+            <div id="event-container">
                 <h2>Upcoming Events</h2>
                 <div class="event-card">
                     <div id="webinar-img"></div>
@@ -100,7 +100,6 @@
                         <p>A webinar covering the impacts of plastics and microplastics on the
                             ocean and its impact on turtle populations.
                         </p>
-
                     </div>
                 </div>
                 <div class="event-card">
@@ -126,8 +125,8 @@
         </section>
 
 
-        <section>
-            <div class="news-container">
+        <section id="newsletter">
+            <div class="container">
                 <h2>Newsletter sign up</h2>
                 <p>
                     If you'd like to receive helpful hints direct to your inbox or find out about
@@ -137,22 +136,22 @@
                     <fieldset>
                         <legend>Your Details:</legend>
                         <table>
-                        <tr>
-                        <td>
-                        <label for="fullname">Full Name:</label>
-                        </td>
-                        <td>
-                        <input type="text" id="fullname" name="fullname" required placeholder="John Smith">
-                        </td>
-                        </tr>
-                        <tr>
-                        <td>
-                        <label for="email">Email Address:</label>
-                        </td>
-                        <td>
-                        <input type="email" id="email" name="email" required placeholder="jsmith@email.com">
-                        </td>
-                        </tr>
+                            <tr>
+                                <td>
+                                    <label for="fullname">Full Name:</label>
+                                </td>
+                                <td>
+                                    <input type="text" id="fullname" name="fullname" required placeholder="John Smith">
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <label for="email">Email Address:</label>
+                                </td>
+                                <td>
+                                    <input type="email" id="email" name="email" required placeholder="jsmith@email.com">
+                                </td>
+                            </tr>
                         </table>
                         <input type="submit" value="Sign Up" target="_blank" id="submit">
                     </fieldset>
@@ -169,16 +168,16 @@
                     <img src="assets/images/turtle.png" class="fturtle"></a>
             </li>
             <li>
-                <a href="https://facebook.com" target="_blank" rel="noopener" 
-                    aria-label="Visit our Facebook page"><i class="fab fa-facebook-square"></i></a>
+                <a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page"><i
+                        class="fab fa-facebook-square"></i></a>
             </li>
             <li>
-                <a href="https://instagram.com" target="_blank" rel="noopener"
-                    aria-label="Visit our instagram page"><i class="fab fa-instagram-square"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Visit our instagram page"><i
+                        class="fab fa-instagram-square"></i></a>
             </li>
             <li>
-                <a href="https://twitter.com" target="_blank" rel="noopener"
-                    aria-label="Visit our twitter page"><i class="fab fa-twitter-square"></i></a>
+                <a href="https://twitter.com" target="_blank" rel="noopener" aria-label="Visit our twitter page"><i
+                        class="fab fa-twitter-square"></i></a>
             </li>
             <li>
                 <a href="https://hartnetl.github.io/game-page/" target="_blank" aria-label="Turtle icon which 
@@ -191,4 +190,5 @@
     </footer>
     <script src="https://kit.fontawesome.com/a7bc66b529.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

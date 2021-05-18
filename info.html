@@ -16,7 +16,7 @@
 
 <body>
     <header>
-        <div class="header-container">
+        <div id="header-container">
             <img src="assets/images/hturtle.png" id="lturtle">
             <img src="assets/images/hturtle.png" id="rturtle">
             <a href="index.html">
@@ -64,8 +64,8 @@
             </nav>
         </div>
 
-        <section>
-            <div class="container" id="turtle-intro">
+        <section id="turtle-intro">
+            <div class="container">
                 <h2>General Info</h2>
                 <p>
                     Sea turtles are a very important member of a complex <a
@@ -85,11 +85,12 @@
                     water
                     to build a nest 3-5 times per season.
                     These fascinating creatures are a joy to observe, and it is up to us to clean our oceans protect
-                    them.<br><br>
+                    them.
                 </p>
             </div>
         </section>
-        <section>
+
+        <section id="desktop-info-navigation">
             <div class="sidenav">
                 <a href="#lturtle">Top</a>
                 <a href="#g-turtle">Green</a>
@@ -102,7 +103,8 @@
             </div>
         </section>
 
-        <div id="iucnlist" class="iucn-container">
+        <section id="iucn-list">
+        <div class="container">
             <h2>IUCN redlist classifications</h2><br>
             <ul id="redlist">
                 <li id="ne">NE</li>
@@ -117,31 +119,32 @@
             </ul>
             <br>
             <p>
-                <strong><span style="color: rgb(134, 133, 133)">NE</span></strong> - Not Evaluated. No data to tell the
+                <strong><span class="grey">NE</span></strong> - Not Evaluated. No data to tell the
                 status of the species.<br>
-                <strong><span style="color: rgb(134, 133, 133)">DD</span></strong> - Data deficient. Data about
+                <strong><span class="grey">DD</span></strong> - Data deficient. Data about
                 abundance/distribution is insufficient to assign a.<br>
-                <strong><span style="color: rgb(7, 167, 47)">LC</span></strong> - Least concern. The populations are
+                <strong><span class="green">LC</span></strong> - Least concern. The populations are
                 healthy and thriving without intervention. <br>
-                <strong><span style="color: rgb(7, 167, 47)">NT</span></strong> - Not threatened. The species is doing
+                <strong><span class="green">NT</span></strong> - Not threatened. The species is doing
                 well enough, but nearing threshold of being at risk of
                 extinction.<br>
-                <strong><span style="color: rgb(219, 233, 20)">VU</span></strong> - vulnerable. The species is at risk
+                <strong><span id="yellow">VU</span></strong> - vulnerable. The species is at risk
                 of extinciton from the wild.<br>
-                <strong><span style="color: rgb(216, 103, 11)">EN</span></strong> - endangered. The species is facing a
+                <strong><span id="orange">EN</span></strong> - endangered. The species is facing a
                 very high risk of extinciton from the wild.<br>
-                <strong><span style="color: rgb(167, 7, 7)">CR</span></strong> - Critically endangered. The species is
+                <strong><span class="red">CR</span></strong> - Critically endangered. The species is
                 facing an extremely high risk of extinction from the wild.
                 <br>
-                <strong><span style="color: rgb(167, 7, 7)">EW</span></strong> - Extinct from the Wild. The species has
+                <strong><span class="red">EW</span></strong> - Extinct from the Wild. The species has
                 no indivduals surviving in the wild.<br>
-                <strong><span style="color: rgb(167, 7, 7)">EX</span></strong> - Extinct. There are no known individuals
+                <strong><span class="red">EX</span></strong> - Extinct. There are no known individuals
                 alive from this species.<br>
 
             </p>
         </div>
+        </section>
 
-        <section class="turtle-info">
+        <section id="turtle-information">
             <div class="turtle-container">
                 <div id="g-turtle"></div>
                 <div id="g-turtle-text">
@@ -171,9 +174,8 @@
                     </p>
                 </div>
             </div>
-        </section>
+      
 
-        <section class="turtle-info">
             <div class="turtle-container">
                 <div id="logger"></div>
                 <div id="logger-text">
@@ -199,9 +201,7 @@
                     </p>
                 </div>
             </div>
-        </section>
 
-        <section class="turtle-info">
             <div class="turtle-container">
                 <div id="leatherback"></div>
                 <div id="leatherback-text">
@@ -226,10 +226,7 @@
                     </p>
                 </div>
             </div>
-        </section>
-
-
-        <section class="turtle-info">
+      
             <div class="turtle-container">
                 <div id="hawk"></div>
                 <div id="hawk-text">
@@ -257,9 +254,7 @@
                     </p>
                 </div>
             </div>
-        </section>
 
-        <section class="turtle-info">
             <div class="turtle-container">
                 <div id="olive"></div>
                 <div id="olive-text">
@@ -286,9 +281,7 @@
                     </p>
                 </div>
             </div>
-        </section>
 
-        <section class="turtle-info">
             <div class="turtle-container">
                 <div id="kemp"></div>
                 <div id="kemp-text">
@@ -315,9 +308,7 @@
                     </p>
                 </div>
             </div>
-        </section>
-
-        <section class="turtle-info">
+            
             <div class="turtle-container">
                 <div id="flat"></div>
                 <div id="flat-text">

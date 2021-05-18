@@ -24,6 +24,14 @@ body {
   background-attachment: fixed;
 }
 
+.container {
+  width: 83vw;
+  margin: 10vh auto;
+  padding: 2%;
+  background-color: rgba(255, 255, 255, 0.815);
+  border-radius: 25px;
+}
+
 h2,
 h3,
 h4 {
@@ -50,7 +58,7 @@ a {
 /* This is the link at the end of a page to return to top if present. */
 #back-to-top {
   text-align: center;
-  margin: 3vh 0;
+  margin: 5vh 0;
 }
 
 #back-to-top a {
@@ -70,11 +78,9 @@ a {
   display: none;
 }
 
-/* #############
-      Header
-   ############# */
+/* Header */
 
-.header-container {
+#header-container {
   height: 15vh;
   display: flex;
   justify-content: center;
@@ -147,9 +153,7 @@ h1 {
   height: 100%;
 }
 
-/* #############
-       footer
-   ############# */
+/* footer */
 
 .foot {
   height: 9vh;
@@ -182,34 +186,17 @@ h1 {
   transform: rotate(280deg);
 }
 
+
 /* index.html */
 
-.intro-container {
-  height: 45vh;
-  width: 83vw;
-  margin: 5vh auto;
-}
-
-.container {
-  height: 60vh;
-}
-
-.events-container {
+#event-container {
   height: 75vh;
-}
-
-.container,
-.intro-container,
-.events-container,
-.news-container {
+  width: 83vw;
+  margin: 10vh auto;
+  padding: 2%;
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
-  padding: 1rem;
-  margin: 5vh auto;
-  width: 83vw;
 }
-
-/* Events section - index.html */
 
 .event-card {
   float: left;
@@ -283,16 +270,8 @@ h1 {
 
 /* Newsletter sign up - index.html */
 
-.news-container {
-  height: 45vh;
-  width: 83vw;
-  margin: 0 auto;
-  text-align: center;
-  padding-bottom: 3vh;
-}
-
 fieldset {
-  border: solid 1px;
+  border: groove 1px;
   height: 30%;
   width: 50vw;
   background: url(../images/pexels-aistė-sveikataitė-2886574.jpg);
@@ -327,12 +306,6 @@ fieldset input {
 }
 
 /* info.html */
-
-#turtle-intro {
-  width: 83vw;
-  height: auto;
-  margin: 3vh auto;
-}
 
 #mobile-nav {
   display: none;
@@ -371,14 +344,14 @@ fieldset input {
 
 /* IUCN Red list - info.html */
 
-.iucn-container {
+/* .iucn-container {
   height: 75vh;
   width: 83vw;
   margin: 5vh auto;
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
   padding: 1rem 0 0 1rem;
-}
+} */
 
 #redlist {
   padding-left: 8em;
@@ -446,21 +419,37 @@ fieldset input {
   color: rgb(139, 134, 134);
 }
 
-/* turtle info sections - info.html */
+/* colouring the text */
 
-.turtle-info {
-  height: 90vh;
-  width: 83vw;
-  margin: 0 auto;
-  border-radius: 25px;
+.grey {
+  color: rgb(134, 133, 133);
 }
+
+.green {
+  color: rgb(7, 167, 47);
+}
+
+#yellow {
+  color: rgb(219, 233, 20);
+}
+
+#orange {
+  color: rgb(216, 103, 11);
+}
+
+.red {
+  color: rgb(167, 7, 7);
+}
+
+/* turtle info sections - info.html */
 
 .turtle-container {
   height: 90vh;
-  width: 83vw;
-  margin: 10vh auto;
+  width: 87vw;
+  margin: 5vh auto;
   position: relative;
   border-radius: 25px;
+  padding: 2%;
 }
 
 .turtle-container a {
@@ -571,12 +560,12 @@ fieldset input {
 /* Products section - help.html */
 
 .products-container {
-  height: 90vh;
+  height: 110vh;
   width: 83vw;
-  margin: 5vw;
+  margin: 5vh auto;
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
-  padding: 5px;
+  padding-top: 2%;
 }
 
 #items>p {
@@ -585,9 +574,9 @@ fieldset input {
 
 .card {
   float: left;
-  width: 30%;
-  margin-left: 2vw;
+  width: 29%;
   font-size: 75%;
+  margin: 1% 2%;
 }
 
 .card a {
@@ -596,7 +585,7 @@ fieldset input {
 
 .card img {
   height: 15vh;
-  margin: 0 35%;
+  margin: 2vh 30%;
 }
 
 /* donate section - help.html */
@@ -604,7 +593,7 @@ fieldset input {
 #donate-container {
   height: 30vh;
   width: 83vw;
-  margin: 5vw;
+  margin: 5vh auto;
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
   padding: 5px;
@@ -615,6 +604,7 @@ fieldset input {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  margin-top: 2%;
 }
 
 #donations img {
@@ -626,7 +616,7 @@ fieldset input {
 .contact-container {
   height: 90vh;
   width: 83vw;
-  margin: 5vw;
+  margin: 5vh auto;
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
   padding: 2vw;
@@ -712,7 +702,7 @@ fieldset input {
     flex-direction: column;
     border-radius: 8px;
     height: 12vh;
-    width: 80vw;
+    width: 83vw;
     margin-left: 5%;
   }
 
@@ -734,7 +724,7 @@ fieldset input {
   #back-to-top-mobile a {
     color: rgb(7, 119, 31);
     background-color: seashell;
-    margin: 0 auto;
+    margin: 2vh auto;
     border-radius: 8px;
     padding: .5%;
   }
@@ -984,7 +974,7 @@ fieldset input {
 
 @media screen and (max-width: 900px) {
 
-  .header-container {
+  #header-container {
     height: 15vh;
     padding-bottom: 0%;
   }
