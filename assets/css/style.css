@@ -914,3 +914,60 @@ fieldset input {
   }
 
 }
+
+/* Media query for large phones - landscape */
+
+@media screen and (max-width: 850px) and (orientation: landscape) {
+
+  /* index.html */
+
+  #event {
+    height: 100vh;
+  }
+
+  .event-card {
+    height: 90vh;
+  }
+
+  /* info.html */
+
+  #mobile-nav {
+    height: 35vh;
+  }
+
+  #mobile-nav ul {
+    height: 28vh;
+  }
+
+  .turtle-container {
+    height: 110vh;
+  }
+
+  /* help.html */
+
+  #products {
+    height: 140vh;
+  }
+
+  #donate {
+    height: 25vh;
+  }
+
+  /* contact.html */
+
+  #contact-page {
+    height: 120vh;
+  }
+
+  #contact-us {
+    height: 105vh;
+  }
+
+  #contact-box {
+    display: none;
+  }
+
+  #tablet-contact {
+    display: block;
+  }
+}
