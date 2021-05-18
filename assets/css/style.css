@@ -739,5 +739,83 @@ fieldset input {
   #tablet-contact {
     display: block;
   }
+}
+
+/* Media query for tablet - landscape */
+
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+
+  #event{
+    height: 60vh;
+  }
+
+  .event-card {
+    height: 50vh;
+  }
+
+  #sidenav {
+    display: none;
+  }
+
+  #mobile-nav {
+    display: block;
+    background-color: rgba(255, 255, 255, 0.815);
+    border-radius: 15px;
+    height: 15vh;
+  }
+
+  #m-nav>ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border-radius: 8px;
+    height: 10vh;
+    line-height: 2em;
+  }
+
+  #m-nav>ul>li {
+    font-family: 'Original Surfer', cursive;
+    flex-wrap: wrap;
+  }
+
+  #redlist {
+    padding-left: 15%;
+  }
+
+  .turtle-container {
+    height: 60vh;
+  }
+
+  #back-to-top-mobile {
+    display: block;
+    text-align: center;
+    margin: 3vh 0;
+  }
+
+  #back-to-top-mobile a {
+    color: rgb(7, 119, 31);
+    background-color: seashell;
+    margin: 2vh auto;
+    border-radius: 8px;
+    padding: .5%;
+  }
+
+  /* help.html */
+
+  #products {
+    height: 90vh;
+  }
+
+  #donate {
+    height: 20vh;
+  }
+
+  /* contact.html */
+
+  #contact-us {
+    height: 75vh;
+  }
 
 }
