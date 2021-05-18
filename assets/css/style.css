@@ -971,3 +971,40 @@ fieldset input {
     display: block;
   }
 }
+
+/* Media query for smaller phones - portrait */
+
+@media screen and (max-width: 650px) and (orientation: portrait) {
+
+/* info.html */
+
+#mobile-nav,
+#m-nav {
+  height: 20vh;
+}
+
+#m-nav ul {
+  height: 15vh;
+}
+
+.turtle-container {
+  height: 65vh;
+}
+
+/* help.html */
+
+#products {
+  height: 110vh;
+}
+
+/* contact.html */
+
+#contact-page {
+  height: 75vh;
+}
+
+#contact-us {
+  height: 70vh;
+}
+
+}
