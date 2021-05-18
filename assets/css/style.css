@@ -26,7 +26,7 @@ body {
 
 .container {
   width: 83vw;
-  margin: 10vh auto;
+  margin: 7vh auto;
   padding: 2%;
   background-color: rgba(255, 255, 255, 0.815);
   border-radius: 25px;
@@ -603,17 +603,16 @@ fieldset input {
 
 /* Contact.html */
 
-.contact-container {
+#contact-page {
+  height: 100vh;
+}
+
+#contact-us {
   height: 90vh;
-  width: 83vw;
-  margin: 5vh auto;
-  background-color: rgba(255, 255, 255, 0.815);
-  border-radius: 25px;
-  padding: 2vw;
 }
 
 #contact {
-  margin: 3vw;
+  margin: 2vh auto;
 }
 
 #tablet-contact {
@@ -639,6 +638,8 @@ fieldset input {
   background-color: green;
   color: aliceblue;
 }
+
+/* MEDIA QUERIES */
 
 /* Media queries for tablets */
 
