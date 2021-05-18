@@ -1063,5 +1063,41 @@ fieldset input {
   #small-mobile-contact{
     display: block;
   }
+}
+
+/* media query for small phones - landscape */ 
+
+@media screen and (max-width: 570px) and (orientation: landscape) {
+
+  /* info.html */
+
+  #redlist {
+    padding-left: 2%;
+  }
+
+  .turtle-container {
+    height: 130vh;
+  }
+
+  /* help.html */
+
+  #products {
+    height: 180vh;
+  }
+
+  .card {
+    width: 40%;
+  }
+
+  /* contact.html */
+
+  #tablet-contact {
+    display: none;
+  }
+
+  #small-mobile-contact {
+    display: block;
+  }
+
 
 }
