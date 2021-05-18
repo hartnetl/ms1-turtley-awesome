@@ -559,13 +559,8 @@ fieldset input {
 
 /* Products section - help.html */
 
-.products-container {
+#products {
   height: 110vh;
-  width: 83vw;
-  margin: 5vh auto;
-  background-color: rgba(255, 255, 255, 0.815);
-  border-radius: 25px;
-  padding-top: 2%;
 }
 
 #items>p {
@@ -590,13 +585,8 @@ fieldset input {
 
 /* donate section - help.html */
 
-#donate-container {
+#donate {
   height: 30vh;
-  width: 83vw;
-  margin: 5vh auto;
-  background-color: rgba(255, 255, 255, 0.815);
-  border-radius: 25px;
-  padding: 5px;
 }
 
 #donations {
