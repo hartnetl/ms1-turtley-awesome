@@ -89,7 +89,7 @@ a {
   background: url(../images/pexels-aistė-sveikataitė-2886574.jpg) no-repeat;
   background-size: cover;
   overflow: hidden;
-  line-height: 15vh; 
+  line-height: 15vh;
 }
 
 
@@ -106,7 +106,7 @@ h1 {
   font-size: 200%;
   text-align: center;
   margin: 2% auto;
-  
+
 }
 
 #lturtle {
@@ -190,7 +190,7 @@ h1 {
 
 /* index.html */
 
-#event{
+#event {
   height: 75vh;
 }
 
@@ -206,7 +206,7 @@ h1 {
   background: url(../images/plastic.jpg) no-repeat center center;
   background-size: cover;
   /* How to blur background image learned with https://www.w3schools.com/howto/howto_css_blurred_background.asp */
-  filter: blur(1px);                
+  filter: blur(1px);
   -webkit-filter: blur(1px);
   height: 100%;
 }
@@ -613,6 +613,10 @@ fieldset input {
   display: none;
 }
 
+#small-mobile-contact {
+  display: none;
+}
+
 #contact-button {
   text-align: center;
   display: block;
@@ -634,7 +638,7 @@ fieldset input {
 /* Media queries for tablet - portrait */
 
 @media screen and (max-width: 1024px) and (orientation: portrait) {
- 
+
   /* index.html */
 
   #event {
@@ -714,7 +718,7 @@ fieldset input {
     margin: 2vh 10%;
   }
 
-  #donate{
+  #donate {
     height: 15vh;
   }
 
@@ -745,7 +749,7 @@ fieldset input {
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
 
-  #event{
+  #event {
     height: 60vh;
   }
 
@@ -823,10 +827,10 @@ fieldset input {
 
 @media screen and (max-width: 820px) and (orientation: portrait) {
 
-  #lturtle, 
+  #lturtle,
   #rturtle {
     height: 55%;
-    padding: 0; 
+    padding: 0;
     margin: 0;
   }
 
@@ -881,7 +885,7 @@ fieldset input {
   }
 
   /* help.html */
-  
+
   #products {
     height: 95vh;
   }
@@ -976,36 +980,36 @@ fieldset input {
 
 @media screen and (max-width: 650px) and (orientation: portrait) {
 
-/* info.html */
+  /* info.html */
 
-#mobile-nav,
-#m-nav {
-  height: 20vh;
-}
+  #mobile-nav,
+  #m-nav {
+    height: 20vh;
+  }
 
-#m-nav ul {
-  height: 15vh;
-}
+  #m-nav ul {
+    height: 15vh;
+  }
 
-.turtle-container {
-  height: 65vh;
-}
+  .turtle-container {
+    height: 65vh;
+  }
 
-/* help.html */
+  /* help.html */
 
-#products {
-  height: 110vh;
-}
+  #products {
+    height: 110vh;
+  }
 
-/* contact.html */
+  /* contact.html */
 
-#contact-page {
-  height: 75vh;
-}
+  #contact-page {
+    height: 75vh;
+  }
 
-#contact-us {
-  height: 70vh;
-}
+  #contact-us {
+    height: 70vh;
+  }
 
 }
 
@@ -1028,6 +1032,36 @@ fieldset input {
 
   #donate {
     height: 35vh;
+  }
+
 }
-  
+
+/* media query for small phone - portrait */
+
+@media screen and (max-width: 570px) and (orientation: portrait) {
+
+  /* info.html */
+
+  #mobile-nav {
+    height: 25vh;
+  }
+
+  #m-nav ul {
+    height: 18vh;
+  }
+
+  .turtle-container {
+    height: 70vh;
+  }
+
+  /* contact.html */
+
+  #mobile-contact {
+    display: none;
+  }
+
+  #small-mobile-contact{
+    display: block;
+  }
+
 }
