@@ -34,7 +34,8 @@ body {
 
 h2,
 h3,
-h4 {
+h4,
+h5 {
   color: rgb(39, 99, 34);
   text-align: center;
   margin: 1vh 0;
@@ -1039,6 +1040,10 @@ fieldset input {
 /* media query for small phone - portrait */
 
 @media screen and (max-width: 570px) and (orientation: portrait) {
+
+  h1 {
+    font-size: 100%;
+  }
 
   /* info.html */
 
