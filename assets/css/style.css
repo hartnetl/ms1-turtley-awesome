@@ -189,13 +189,8 @@ h1 {
 
 /* index.html */
 
-#event-container {
+#event{
   height: 75vh;
-  width: 83vw;
-  margin: 10vh auto;
-  padding: 2%;
-  background-color: rgba(255, 255, 255, 0.815);
-  border-radius: 25px;
 }
 
 .event-card {
@@ -313,8 +308,8 @@ fieldset input {
 
 /* Side navigation bar */
 
-.sidenav {
-  width: 5.5vw;
+#sidenav {
+  width: 5vw;
   position: fixed;
   z-index: 1;
   bottom: 30%;
@@ -323,22 +318,22 @@ fieldset input {
   overflow-x: hidden;
   padding: 3px 3px 3px 0;
   border-radius: 15px;
-  font-size: .55em;
+  font-size: .5em;
   color: rgb(20, 20, 56);
 }
 
-.sidenav:hover {
+#sidenav:hover {
   font-weight: bolder;
   color: rgb(20, 20, 20);
 }
 
-.sidenav a {
+#sidenav a {
   padding: 6px 8px 6px 8px;
   text-decoration: none;
   display: block;
 }
 
-.sidenav a:hover {
+#sidenav a:hover {
   font-weight: 600;
 }
 
@@ -650,8 +645,7 @@ fieldset input {
 
   /* index.html */
 
-  .intro-container,
-  .container,
+    .container,
   .news-container,
   .iucn-container {
     height: auto;
@@ -672,7 +666,7 @@ fieldset input {
     height: 35vh;
   }
 
-  .sidenav {
+  #sidenav {
     display: none;
   }
 
@@ -789,7 +783,7 @@ fieldset input {
     height: 35vh;
   }
 
-  .sidenav {
+  #sidenav {
     display: none;
   }
 
