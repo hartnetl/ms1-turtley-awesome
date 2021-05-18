@@ -98,10 +98,7 @@ h1 {
   font-family: 'Original Surfer', cursive;
   font-weight: 400;
   color: rgb(245, 235, 220);
-
-  /* Text-shadow learned from https://stackoverflow.com/a/4919231  */
-  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
-
+  -webkit-text-stroke: 1px black;
   text-transform: uppercase;
   letter-spacing: 6px;
   font-size: 200%;
@@ -180,6 +177,7 @@ h1 {
 .foot i {
   font-size: 4vh;
   color: blanchedalmond;
+   /* Text-shadow learned from https://stackoverflow.com/a/4919231  */
   text-shadow: -1.5px -1.5px 0 #000, 1.5px -1.5px 0 #000, -1.5px 1.5px 0 #000, 1.5px 1.5px 0 #000;
   padding: 25% 0;
 }
@@ -598,10 +596,6 @@ fieldset input {
 
 /* Contact.html */
 
-#contact-page {
-  height: 100vh;
-}
-
 #contact-us {
   height: 90vh;
 }
@@ -739,10 +733,6 @@ fieldset input {
   }
 
   /* contact.html */
-
-  #contact-page {
-    height: 65vh;
-  }
 
   #contact-us {
     height: 50vh;
@@ -921,10 +911,6 @@ fieldset input {
     display: block;
   }
 
-  #contact-page {
-    height: 70vh;
-  }
-
   #contact-us {
     height: 60vh;
   }
@@ -971,10 +957,6 @@ fieldset input {
 
   /* contact.html */
 
-  #contact-page {
-    height: 120vh;
-  }
-
   #contact-us {
     height: 105vh;
   }
@@ -1014,10 +996,6 @@ fieldset input {
   }
 
   /* contact.html */
-
-  #contact-page {
-    height: 75vh;
-  }
 
   #contact-us {
     height: 70vh;
