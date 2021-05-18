@@ -1008,3 +1008,26 @@ fieldset input {
 }
 
 }
+
+/* Media query for smaller phones - landscape */
+
+@media screen and (max-width: 650px) and (orientation: landscape) {
+
+  /* info.html */
+
+  #redlist {
+    padding-left: 5%;
+  }
+
+  /* help.html */
+
+  .card {
+    width: 25%;
+    margin-left: 5%;
+  }
+
+  #donate {
+    height: 35vh;
+}
+  
+}
