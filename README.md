@@ -8,8 +8,9 @@ Live site: [Turtley Awesome](https://hartnetl.github.io/ms1-turtley-awesome/)
 2. [UXD User Experience Design](##UXD-User-Experience-Design)
 3. [Features](##Features)
 4. [Technologies Used](##Technologies-and-Resources-Used)
-5. [Deployment](##Deployment)
-6. [Credits](##Credits)
+5. [Issues faced](##Issues-Faced)
+6. [Deployment](##Deployment)
+7. [Credits](##Credits)
 
 ## Introduction
 
@@ -31,10 +32,14 @@ This site is aimed at anyone looking to further their knowledge into sea turtle 
 #### User Goals
 
 Visitors to this site are looking to learn about sea turtle conservation and ways they can help. 
+This site will provide a place for people to come and learn about the types of sea turtles, have a place for turtle/eco-friendly events and share tips for living a more eco-friendly life. 
+ 
 
 #### Project goals
 
-This website wants to provide a way to deliver information about these sea turtles which need protecting, and convince people it doesn't take much on their part to help. It aims to do this in an easy to understand and aesthetically pleasing way. 
+I chose this project as it is imporant to me personally. Animal conservation is a subject I care deeply about and it's a cause I've always believed in. I've loved turtles since I was a kid and this never went away. In 2016 I went to Cyprus to volunteer with SPOT, a conservation programme for Green Sea Turtles and Loggerheads. I learned a lot during this time, and this site seemed like a good 
+opportunity to share this knowledge with people who might not know anything about turtles. I hope to provide some basic understanding of the severity of humanaty's impact on the planet, and by supplying ample links to more information, get people interested and involved.
+If even one person changes their behaviour I would call this website a success.
 
 #### User Stories
 
@@ -101,8 +106,14 @@ This website was first designed using pen and paper, and then created into compu
 
 The site was designed with what was supposed to be a very simple design so there were few changes between mobile and desktop versions. In reality this wasn't as simple as I had expected without the use of Bootstrap. However feedback from people who tested my site were overall happy with the design and responsiveness on mobile and desktop versions.
 
+1. Home page
+2. Sea turtle information page
+3. How you can help page
+4. Contact us page
+
 <details>
 <summary>Desktop wireframe pages</summary>
+
 Home Page <br>
 <img src="assets/readme-files/desktop-wireframe-home.jpg" width="500">
 
@@ -117,8 +128,10 @@ Contact Page <br>
 
 </details>
 
+
 <details>
 <summary>Mobile wireframe pages</summary>
+
 Home Page <br>
 <img src="assets/readme-files/mobile-wireframe-home.jpg" width="500">
 
@@ -132,167 +145,246 @@ Contact Page <br>
 <img src="assets/readme-files/mobile-wireframe-contact.jpg" width="500">
 
 </details>
+<br>
 
-#### Deviations from wireframe
+#### Deviations from wireframe:
 
 In the info page I decided to add a section on the IUCN redlist classifications as I realised while mentioning the classifciation for each turtle that not everyone would be familiar with the classification breakdown.
 
 At the bottom of pages with long blocks of text I decided to include a link at the bottom, just above the footer, which allows the user to easily navigate back to the top of the page.
 
+### Surface
+
+#### Colours
+
+The colours running through the page are designed to reflect a beach theme. The header, footer and fieldset boxes contain images of sand. The body background image is water. The body fonts are blue against a white background to increase contrast but reflect clouds in the sky. There are titles in green to reflect plant life on beaches, and turtles are often depicted in green in icons, emojis etc. so it reflects this too.
+
+#### Fonts
+
+The title font used is 'Orginal Surfer' a cursive font from Google Fonts. It brings an element of fun to the typography.
+
+The body font used is 'Nunito', a sans-serif font which provides contrast and ease of reading for the main text.
+
+#### Imagery
+
+The images used in this website are used to bring an element of fun to the site, and really capture the ebach and coastal theme associated with sea turtles. Background images were used for the events section to make them a bit more appealing. Background images were used for the turtle information sections to show users the turtles being discussed and enhance the written content. The final image of myself with the green sea turtle on the contact page is designed to capture that sense of community and familiarity and make people more comfortable using the contact box.
 
 ## Features
+
+*** 
+
+### Existing Features:
+
+- User story: Users want to be able to easily navigate through the site and between pages.  
+- Associated feature: A nav bar which is located at the top of each page, linking pages together. 
+- Associated feature: A link at the bottom of the page to redirect users back to the top of the page.
+- Associated feature: A navigation bar in the information page which links to each turtle. This is a sticky sidebar in desktop, and a top navigation bar for mobiles. 
+
+- User story: Users want to learn about these animals.
+- Associated feature: A comprehensive information page with information on all 7 types of sea turtle.
+
+- User story: Users want to keep up to date with related information.
+- Associated feature: An events section which displays important upcoming events, from webinars to fundraising days.
+- Associated feature: A newsletter sign up box which sends out information direct to users.
+
+- User story: Users want to be involved with like minded people.
+- Associated feature: Social media links at the bottom of each page to join the community on Facebook, instagram and Twitter.
+
+- User story: Users want to be able to contact the people running the page.
+- Associated feature: A contact form to allow users to contact the site runners
+
+- User story: Users want to know how they can make eco-friendly choices and help save the turtles.
+- Associated feature: A help page, which gives out some easy to make changes to help ocean and turtle conservation. 
+- Associated feature: Direct donation links to organisations working on sea turtle conservation for those in a position to use them.
+
+- User story: The owners want to provide a pleasant experience for users while learning.
+- Associated feature: A fun and eye catching web page design that is easy to follow.
+- Associated feature:  A memorable logo title which is visible on every page and links to the landing page.
+
+- User story: The owners want to provide fun surprises in the page for users.
+- Associated feature: Hidden external links in the footer turtle icons that link to a video on the left site, and a game on the right.
+
+### Future Features:
+
+- A newsletter submission form which actually creates a database instead of redirecting to the CI form dump page.
+- A navigation bar that scrolls with the page without needing to include the header image and logo and wouldn't disrput readability of information.
+- A contact us form which is functional instead of redirecting to the CI form dump page.
+- Creating a game related to turtles for the surprise footer instead of flappy bird.
+- Social media links which redirect to a Turtley Awesome pages instead of home pages.
+- Use Bootstrap to improve responsivity.
 
 ## Technologies and Resources Used
 
+***
+
+### Languages 
+
+[HTML](https://html.com/): HyperText Markup Language. It is the language used as the basis of building websites and provides the main structure and format to the site.
+
+[CSS](https://www.w3.org/Style/CSS/Overview.en.html): Cascasing Style Sheets. It's the language used to make the web elements look better. It adds colour, positioning, fonts etc.
+
+### Programmes and Libraries Used
+
+- Balsamiq - used to build framework.
+- Chrome devtools used for finding quick solutions to design issues and visualising the site on different screen sizes for making media queries.
+- Font awesome was used to source social media icons
+- Git used for version control of my site and pushing code to GitHub
+- GitHub is the cloud storage system for my projects. The location of this sites repository, and place to deploy site.
+- GitPod - the IDE used to write and preview the code for this website.
+- TinyJPG is the site used to compress images used without compromising the quality.
+
+### A note on bootstrap
+
+While I know bootstrap was allowed to be used in this project, as a student on the 5P course Bootstrap isn't introduced until our fourth project. I decided for my first project I would take on the challenge of designing a responsive website without the help of bootstrap, as I feel that it was omitted at this early stage for a reason. I understand that this comes with the risk of a lower grade on this project as my responsivity will be lesser than if I used it, but I really think this has helped me understand the complexities and difficulties of design, positioning and responsiveness. However, I am certainly looking forward to using it in my future projects.
+
+### Resources for code
+
+As a beginner, my project was mostly designed using code provided in the Code institute lessons and example projects.
+I also referenced w3schools, stackoverflow for general hints. CSS tricks and froggy flexbox were great tools for understanding the CSS flexbox.
+
 ## Testing
 
-## Deployment
+***
 
-## Credits
+### Validator Tests
 
+- HTML was validated using .
+- On my first validation test it returned multiple errors. These were all minor, and all were fixed so my code now runs without errors. The eoors were related to an unclosed element, and extra closing anchor tags which had been mistakenly left in.
 
-I chose this project as it is imporant to me personally. Animal conservation is a subject I care deeply about and it's a cause I've always believed in. I've loved turtles since I was a kid and this never went away. In 2016 I went to Cyprus to volunteer with SPOT, a conservation programme for Green Sea Turtles and Loggerheads. I learned a lot during this time, and this site seemed like a good 
-opportunity to share this info with people who might not know anything about turtles. I hope to provide some basic understanding of the severity of humanaty's impact on the planet, and by supplying ample links to more information, get people interested and involved.
-If even one person changes their behaviour I would call this website a success.
+- CSS was validated using .
+This returned no errors on my first validation test.
 
-This site will provide a place for people to come and learn about the types of sea turtles, have a place for turtle/eco-friendly events and share tips for living a more eco-friendly life. 
+- Links were tested with w3c validator. 
 
-## User Stories 
+- Accessibility tested with WAVE
+
+- Performance was tested with lighthouse and webpage test.
+
+### Manual testing
+
+The live link was sent to multiple people for feedback on functionality, ease of navigation and accessibility. 
+
+#### Features on each page:
+
+- Title Logo: Should appear at the top of every page and always link to the home page. Tested and works as expected by every user.
+- Navbar: Each page should link to every other page. It should be clear which page the user is on (background of current page is a different colour). Tested and works as expected.
+- On pages with the back-to-top button it should be clearly visible and redirects to the top of the page. Tested and works as expected.
+- Site should be appealing to users: Feedback from users was very positive, and they liked the beach theme running through every page. I ensured my test group had users with visual impairments (need glasses) and/or colour blindness. No issues were reported with readability.
+- In-text links to external sources of information should be obvious to see, and redirect to a new tab and display appropriate web page information. Testers said the change in font and italicising of text made these links easy to spot, and they open in new page to related web page as expected.
+- Social media links: Icons should be clearly visible in footer and redirect to corresponding social media's home page in a new tab. Tested and works as expected for all but one user.
+- Clickable turtle icons: The turtle icon should redirect to a new tab with a surprise feature on each. Half of the testers found the links, the other half didn't try it. This is the desired reach for this feature. I told the ones who didn't find it so they could test it, and they were pleasantly surprised to learn about it and laughed at their inability to find it. All testers clicked the links and they work as expected. 
+    - Left turtle icon: Video should display on all device sices. Controls should be visible on the video. Video shouldn't autoplay. Tested and works as expected.
+    - Right turtle icon: Game should be visible on all device sizes and be playable. This works as expected. As this is an embedded game, there is no way to control the volume at my current skill level. Users who played the game on headphones reported it was a bit loud. Since there seems to be no way for me to recify this at this stage but I still wanted to include the game, I put in a note on the page of the game that the volume is loud on headphones.
+
+#### Home page features:
+
+- Events section: Text should be easy to read in front of image, and should resize from desktop to mobile. On first test users said the shadowing made the text difficult to read. I changed this for the stroke effect instead and all testers reported no issues with text readability after this. 
+- Newsletter form: Form should submit to CI dump page. Name and e-mail is required to submit. Error message will display for users not entering name and email in correct format. Tested and works as expected.
+
+#### Information page feature: 
+
+- Side navigation bar on desktop should scroll with the text, not block any text, be easy to read and each link should redirect to the correct section on the page. Initially I designed this bar have an almost invisible background with dark blue text, which became opaque when hovered over. However a couple of users mentioned they didn't even notice it until they accidentally hovered over it. I decided to improve UX to make the background opaque all the time and users subsequently reported they could easily see and use it.
+- Navigation bar on mobile should correctly redirect to each turtle section. Tested and works as exptected. Users were asked if they found not having a navigation bar throughout the page hindered the experience of that page, but no users had a problem with this. The navigation of the page is easy to follow and the back to top button at the bottom allows users to easily navigate back to the top. 
+
+#### Help page features: 
+
+- Images should resize depending on size of device used. Tested and works as expected.
+- Links embedded in images should redirect to associated link in new tab. Tested and works as expected.
+
+#### Contact page features: 
+
+- Form submission should redirect to CI form dump page in new tab. Tested and works as expected.
+- Name, e-mail and subject should be required to submit form. Tested and works as expected.
+- Picture and message from author: users responded without prompt that they liked the addition of this section as it added an extra welcoming feel and made it more personal. When then asked if they would be more likely to interact with either the community or the page, all but one user who mentioned this feature said yes. So this feature has met the desired response for users.
+
+#### Bugs
+
+- One user reported that the social media icons were not visible in the footer on the desktop. They were visible for this user on their phone, using normal mobile and desktop display on the chrome app. I have no idea why this occurred or how to fix it, and neither do they despite a background in software development themselves.
+
+## Issues Faced
 
 ***
 
-
-
-## Features
-
-***
-
-### all pages 
-
-- A logo title which is visible on every page and links to the landing page.  
-- A navigation bar at the top of each page that links to every other page.    
-- Social media links at the footer of every page 
-- The turtle icons in the footer are clickable by the user. The left one links to a turtle related video, the other a game.
-
-### home page
-
-- An events section to keep users interacting with the site, each other and the planet 
-- A newsletter section to allow users to sign up and receive tips and event updates direct to their inbox
-
-### info page
-
-- A navigation bar in the information page that links to each turtle's section and a link to return to the top of the page.
-- An information page, with sections for each type of turtle and the iucn redlist
-
-### help page
-
-- A tips section to keep readers up to date with easy lifestyle changes they can make to be more eco-friendly, a section highlighting some eco-friendly products and a donation section with links to some turtle conservation projects
-
-### contact page
-
-- A contact us page, with contact form to allow users of the site to contact the site owners with questions or feedback
-
-## Overview of site 
-
-*** 
-
-Page 1: index.html
-An introduction to the website, Turtley Awesome, which is a site aimed at raising awareness to turtle 
-conservation. It will have a general introduction, a brief overveiw on conservation, an events/webinars 
-section and a form to subscrible to the newsletter at the bottom.
-In the footer, each social media link leads to the related social media home page. The left turtle icon will
-lead to a surprise page with a turtle hatching video. The right side turtle icon will lead to a page with a game
-on it - currently not related to turtle conservation because Flash lost support and that's what a lot of games used.
-So a clone version of Flappy Bird is there instead.
-
-Page 2: info.html
-The second page will contain general sea turtle information and an explanation of the IUCN red list classifications. The main content will be information on the 7 types of sea turtles, accompanied by a picture of each as the background. A sticky side navigation bar will be included as an aside to direct you to each of the turtle types on desktop and tablet. This disappears on the mobile version and a simpler navigation appears at the top instead.
-
-Page 3: help.html
-Information on how individuals can contribute to the protection and conservation of sea turtles and live a more eco-friendly life.
-After this section will be a shop section for eco-friendly items to be advertised.
-There will be a section for donations - icons which link to the websites for direct donations.
-
-Page 4: contact.html
-This page will just have a contact us section. It will require a name and e-mail to be taken. Drop down bar for:
-general enquiry, feedback and technical issues. Placeholder text will be entered into the text box area.
-
-External page 1
-The bottom left turtle will be clickable. It will lead to a page that has a video of baby turtles. 
-Open in new tab - no navigation. 
-
-External page 2
-The bottom right turtle will be clickable and leads to a new page with a game. This would have been a turtle game if flash was still supported.
-
-
-## Technologies used
-
-*** 
-
-- HTML5
-
-- CSS
 
 ## Deployment
 
 ***
 
-- In the github repository "ms1-turtley-awesome" go to the settings tab
-- Scroll down to the GitHub Pages section
-- Click the link to it's separate page
+- Sign into the [github](https://github.com/) website. Go to list of repositories. 
+- In the github repository section find "ms1-turtley-awesome".
+- Go to the settings tab located in the menu running across the top of the repository, denoted by a cog icon.
+- Click 'Pages' in the navbar on the left.
 - Swap source branch from none to master
 - Press the save button
-- Wait a few minutes while your page is being built before following the link which should now say "Your site is published at ... "
+- Wait a few minutes while your page is being built.
+- A highlighted banner should be displayed on the page saying "Your site is published at ... " with a tick icon to the left of it.
+- The site is now live.
 
 The deployed site: https://hartnetl.github.io/ms1-turtley-awesome/
 
-## Credit
+## Credits
 
-*** 
+***
 
-### Information
+### Content
 
-While a lot of the information displayed on the website I have gained over the years throughout university and volunteering in Cyprus, I used the following websites to fill in any gaps and verify things I didn't know. 
+While a lot of the information displayed on the website I have gained over the years throughout university and volunteering in Cyprus, I used the following websites to fill in any gaps and verify things I didn't know.
 
-https://oceana.org/marine-life/sea-turtles-reptiles/       
-
-https://www.iucnredlist.org/search?query=sea%20turtle&searchType=species           
-
-https://www.natgeokids.com/ie/discover/animals/sea-life/green-sea-turtle-facts/          
-
-https://www.barrierreef.org/news/blog/10-fascinating-facts-about-sea-turtles            
-
-https://www.ecowatch.com/9-super-cool-facts-about-sea-turtles-1891175453.html           
-
-https://www.worldwildlife.org/species/  
-
-https://www.fisheries.noaa.gov/species/  
-
-https://oliveridleyproject.org/sea-turtles/sea-turtles-of-the-indian-ocean  
-
-https://www.conserveturtles.org/information-about-sea-turtles-their-habitats-and-threats-to-their-survival/  
-
+- https://www.barrierreef.org/news/blog/10-fascinating-facts-about-sea-turtles
+- https://www.conserveturtles.org/information-about-sea-turtles-their-habitats-and-threats-to-their-survival/  
+- https://www.ecowatch.com/9-super-cool-facts-about-sea-turtles-1891175453.html
+- https://www.fisheries.noaa.gov/species/
+- https://www.iucnredlist.org/search?query=sea%20turtle&searchType=species
+- https://www.natgeokids.com/ie/discover/animals/sea-life/green-sea-turtle-facts/
+- https://www.oceana.org/marine-life/sea-turtles-reptiles/
+- https://www.oliveridleyproject.org/sea-turtles/sea-turtles-of-the-indian-ocean
+- https://www.worldwildlife.org/species/ 
 
 ### Images
 
-### Code for things I didn't know how to do 
+- Header and footer background image: 
 
-- Adding outline/shadow to text URL        
+- Header turtle icons: 
+
+- Footer turtle icons: 
+
+- Social media icons: 
+
+- Event images: 
+    - webinar image
+    - beach clean image 
+    - fundraiser image
+
+- Turtle images:
+    - Green sea turtle
+    - Loggerhead image
+    - Leatherback image
+    - Hawksbill image
+    - Olive ridley image
+    - Kemp's ridley image
+    - Flatback image
+
+- Product images:   
+These images are copies of the ones used directly on the websites. They were downloaded locally instead of linking to the live website in case the images are taken down from the website. I don't want the images on my site to break in this instance.
+Copyright for these images is owned by the respective websites.
+
+- Donation images:  
+All are taken from the websites they lead to, and were downloaded and added locally for the same reason as the product images above.
+Copyright for these images is owned by the respective websites.
+
+### Code for things I didn't know how to do
+
+- Adding shadow to text URL:  
 https://stackoverflow.com/a/4919231  
-text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;  
 
-
-- Side nav bar            
+- Side nav bar:  
 https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp  
 
-
-- How to blur images         
+- How to blur images:  
 https://www.w3schools.com/howto/howto_css_blurred_background.asp  
 
-
-- How to make IUCN redlist bar              
+- How to make IUCN redlist bar:  
 https://jsfiddle.net/Pugazh/uf3fk17g/  
 
-
-- How to make font-size more responsive            
+- How to make font-size more responsive:  
 https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units/
