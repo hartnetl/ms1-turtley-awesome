@@ -1,16 +1,16 @@
 # Turtley Awesome
 
-Live site: [Turtley Awesome](https://hartnetl.github.io/ms1-turtley-awesome/)
+Live site: [Turtley Awesome](https://hartnetl.github.io/ms1-turtley-awesome/){:target="_blank" rel="noopener"}
 
 ## Table of Contents
 
-1. [Introduction](##Introduction)
-2. [UXD User Experience Design](##UXD-User-Experience-Design)
-3. [Features](##Features)
-4. [Technologies Used](##Technologies-and-Resources-Used)
-5. [Issues faced](##Issues-Faced)
-6. [Deployment](##Deployment)
-7. [Credits](##Credits)
+1. [Introduction](##-Introduction)
+2. [UXD User Experience Design](##-UXD-User-Experience-Design)
+3. [Features](##-Features)
+4. [Technologies Used](##-Technologies-and-Resources-Used)
+5. [Issues faced](##-Issues-Faced)
+6. [Deployment](##-Deployment)
+7. [Credits](##-Credits)
 
 ## Introduction
 
@@ -32,8 +32,7 @@ This site is aimed at anyone looking to further their knowledge into sea turtle 
 #### User Goals
 
 Visitors to this site are looking to learn about sea turtle conservation and ways they can help. 
-This site will provide a place for people to come and learn about the types of sea turtles, have a place for turtle/eco-friendly events and share tips for living a more eco-friendly life. 
- 
+This site will provide a place for people to come and learn about the types of sea turtles, have a place for turtle/eco-friendly events and share tips for living a more eco-friendly life.
 
 #### Project goals
 
@@ -55,7 +54,7 @@ If even one person changes their behaviour I would call this website a success.
 
 ### Scope
 
-The aim of this project was to build a static website for visitors to learn about sea turtles. The features used were minimal due to my current level, but used effectively to give an enjoyable expereince. 
+The aim of this project was to build a static website for visitors to learn about sea turtles. The features used were minimal due to my current level, but used effectively to give an enjoyable expereince.
 
 The features to include:
 
@@ -66,15 +65,15 @@ The features to include:
 - An information section which is easy to read, follow and understand to learn about the turtles.
 - Links to more detailed information on some points made, that open in new tabs.
 - A page dedicated to ways to help the sea turtles after learning about them.
-- A contact page, so people can interact with the page itself. To provide feedback, point out errors or out-of-date information or just get in touch with someone with a similar interest. 
+- A contact page, so people can interact with the page itself. To provide feedback, point out errors or out-of-date information or just get in touch with someone with a similar interest.
 - Social media links so people can join a community of people with the same interests and passions.
 - Fun easter egg like surprises - clickable turtle icons in the footer leading to external pages.
 
-### Structure 
+### Structure
 
 This page consists of 4 pages to break down the information provided into easy to digest sections. 
 
-All pages: 
+All pages:
 A distinct header and navigation bar linking all pages together.
 In the footer each social media link leads to the related social media home page. The two turtle icons lead to surprises if the user thinks to click them. The left turtle icon will lead to a turtle hatchling video. The right side turtle icon will lead to a page with an embedded game on it - currently not related to turtle conservation because Flash lost support and that's what a lot of games used.
 So a clone version of Flappy Bird is there instead.
