@@ -4,13 +4,26 @@ Live site: [Turtley Awesome](https://hartnetl.github.io/ms1-turtley-awesome/){:t
 
 ## Table of Contents
 
-1. [Introduction](##-Introduction)
-2. [UXD User Experience Design](##-UXD-User-Experience-Design)
-3. [Features](##-Features)
-4. [Technologies Used](##-Technologies-and-Resources-Used)
-5. [Issues faced](##-Issues-Faced)
-6. [Deployment](##-Deployment)
-7. [Credits](##-Credits)
+1. [Introduction](#introduction)
+2. [UXD User Experience Design](#uxd-user-experience-design)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+    - [Surface](#surface)
+3. [Features](#Features)
+    - [Exisiting](#existing-features)
+    - [Future](#future-features)
+4. [Technologies Used](#technologies-and-resources-used)
+5. [Issues faced](#issues-faced)
+6. [Testing](#testing)
+    - [Validation](#validator-tests)
+    - [Manual](#manual-testing)
+    - [Bugs](#bugs)
+7. [Deployment](#deployment)
+8. [Credits](#credits)
+
+https://github.com/hartnetl/ms1-turtley-awesome#scope
 
 ## Introduction
 
