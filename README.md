@@ -1,12 +1,21 @@
-# Milestone 1: Turtley Awesome 
+# Turtley Awesome 
 
-## Introduction 
+Live site:<a href="https://hartnetl.github.io/ms1-turtley-awesome/" target="_blank">Turtley Awesome</a>
+
+## Introduction
 
 ***
 
-Overview of project. What this project hopes to accomplish, who it's intended to target and how it will be useful to target audience.
+Welcome to Turtley Awesome, a site designed to deliver up to date and comprehensive information on the conservation of sea turtles. It is a place for people to learn about the types of sea turtles, pick up some eco-friendly tips on how they can help with their conservation and join a community of like minded people.
 
-Welcome to Turtley Awesome, a site designed to deliver up to date and comprehensive information on the conservation of sea turtles.
+<img src="assets/readme-files/landing-page.png"> 
+
+
+
+
+
+
+
 I chose this project as it is imporant to me personally. Animal conservation is a subject I care deeply about and it's a cause I've always believed in. I've loved turtles since I was a kid and this never went away. In 2016 I went to Cyprus to volunteer with SPOT, a conservation programme for Green Sea Turtles and Loggerheads. I learned a lot during this time, and this site seemed like a good 
 opportunity to share this info with people who might not know anything about turtles. I hope to provide some basic understanding of the severity of humanaty's impact on the planet, and by supplying ample links to more information, get people interested and involved.
 If even one person changes their behaviour I would call this website a success.
@@ -93,7 +102,7 @@ The bottom right turtle will be clickable and leads to a new page with a game. T
 
 *** 
 
-- HTML
+- HTML5
 
 - CSS
 
