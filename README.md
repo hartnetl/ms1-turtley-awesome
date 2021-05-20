@@ -23,8 +23,6 @@ Live site: [Turtley Awesome](https://hartnetl.github.io/ms1-turtley-awesome/){:t
 7. [Deployment](#deployment)
 8. [Credits](#credits)
 
-https://github.com/hartnetl/ms1-turtley-awesome#scope
-
 ## Introduction
 
 ***
