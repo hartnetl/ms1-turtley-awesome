@@ -277,10 +277,12 @@ The only fault that returned on this test was that facebook.com due to robot exc
 
 ### Accessibility test
 
-- Accessibility of the site was tested with [WAVE(Web Accessibility Evaluation Tool)](https://wave.webaim.org/).
+- Accessibility of the site was tested with [WAVE(Web Accessibility Evaluation Tool)](https://wave.webaim.org/).  
+This test returned no errors or contrast errors, but multiple alerts. These were in relation to a table used for structure, justified text and skipped headers. These have the potential to disturb the accuracy of screen readers but when tested they worked fine.
 
+### Performance test
 
-- Performance was tested with lighthouse and webpage test.
+- Performance was tested with [lighthouse](https://developers.google.com/web/tools/lighthouse/run) ([results](assets/readme-files/performance.png)) and [webpage test](https://www.webpagetest.org/) ([results](assets/readme-files/performance-2.png)).
 
 ### Manual testing
 
