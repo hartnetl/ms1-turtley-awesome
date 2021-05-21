@@ -270,9 +270,15 @@ On my first validation test it returned multiple errors. These were all minor, a
 - CSS was validated using [W3C CSS validator](https://jigsaw.w3.org/css-validator/).  
 This returned no errors on my first validation test.
 
-- Links were tested with [W3C Links validator]()
+### Link validation 
 
-- Accessibility tested with WAVE
+- Links were tested with [W3C Links validator](https://validator.w3.org/checklink).  
+The only fault that returned on this test was that facebook.com due to robot exclusion rules. I tested this link manually instead and it opened in a new tab as expected.
+
+### Accessibility test
+
+- Accessibility of the site was tested with [WAVE(Web Accessibility Evaluation Tool)](https://wave.webaim.org/).
+
 
 - Performance was tested with lighthouse and webpage test.
 

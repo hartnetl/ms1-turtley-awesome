@@ -132,13 +132,13 @@ h1 {
 }
 
 #navbar li a {
-  color: blanchedalmond;
+  color: rgb(248, 241, 230);
   height: 100%;
   line-height: 10%;
 }
 
 #navbar li a:hover {
-  color: rgb(247, 238, 188);
+  color: rgb(248, 241, 230);
   font-weight: 700;
 }
 
