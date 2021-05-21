@@ -2,7 +2,7 @@
 
 Live site: [Turtley Awesome](https://hartnetl.github.io/ms1-turtley-awesome/)
 
-Project Aim: To design a static website using pure HTML and CSS, without the use of bootstrap or other frameworks.
+Project Aim: To design a static website using pure HTML and CSS, without the use of Bootstrap or other frameworks.
 
 1. [Introduction](#introduction)
 2. [UXD User Experience Design](#uxd-user-experience-design)
@@ -28,13 +28,14 @@ Project Aim: To design a static website using pure HTML and CSS, without the use
 ***
 
 Welcome to Turtley Awesome, a site designed to deliver up to date and comprehensive information on the conservation of sea turtles. It is a place for people to learn about the types of sea turtles, pick up some eco-friendly tips on how they can help with their conservation and join a community of like minded people.  
-  
 
-![Am I responsive scrrenshot](assets/readme-files/am-i-responsive.png)
+<p align="center">
+<img src="assets/readme-files/am-i-responsive.png" alt="Am I responsive screenshot" width="800">
+</p>
 
 ## UXD User experience Design
 
-*** 
+***
 
 This site is aimed at anyone looking to further their knowledge into sea turtle conservation. The information provided is comprehensive and void of technical language, and provides a good starting place to learn about these animals. There are in text links to provide further information on some topics. There is the option to sign up to a newsletter to keep up to date with information, tips and events, as well as social media links in the footer to build a sense of community. The aesthetic of the page is fun and casual, with the intention of making people feel welcome and comfortable reaching out to the page and social media channels.
 
@@ -42,13 +43,11 @@ This site is aimed at anyone looking to further their knowledge into sea turtle 
 
 #### User Goals
 
-Visitors to this site are looking to learn about sea turtle conservation and ways they can help. 
-This site will provide a place for people to come and learn about the types of sea turtles, have a place for turtle/eco-friendly events and share tips for living a more eco-friendly life.
+Visitors to this site are looking to learn about sea turtles. They want to feel welcomed and comfortable joining a community of other people with a similar mind set. They want to learn how they can help undo some of the harm we have caused the planet.
 
 #### Project goals
 
-I chose this project as it is imporant to me personally. Animal conservation is a subject I care deeply about and it's a cause I've always believed in. I've loved turtles since I was a kid and this never went away. In 2016 I went to Cyprus to volunteer with SPOT, a conservation programme for Green Sea Turtles and Loggerheads. I learned a lot during this time, and this site seemed like a good 
-opportunity to share this knowledge with people who might not know anything about turtles. I hope to provide some basic understanding of the severity of humanaty's impact on the planet, and by supplying ample links to more information, get people interested and involved.
+I chose this project as it is imporant to me personally. Animal conservation is a subject I care deeply about and it's a cause I've always believed in. I've loved turtles since I was a kid and this never went away. This is what drove me to complete an undergraduate in Zoology and a masters degree in Animal Behaviour and Welfare. In 2016 I went to Cyprus to volunteer with SPOT, a conservation programme for Green Sea Turtles and Loggerheads. I learned a lot during this time, and this site seemed like a good opportunity to share this knowledge with people who might not know anything about turtles. I hope to provide some basic understanding of the severity of humanaty's impact on the planet, and by supplying ample links to more information, get people interested and involved.
 If even one person changes their behaviour I would call this website a success.
 
 #### User Stories
@@ -82,33 +81,12 @@ The features to include:
 
 ### Structure
 
-This page consists of 4 pages to break down the information provided into easy to digest sections. 
+This page consists of 4 pages to break down the information provided into easy to digest sections.
 
-All pages:
-A distinct header and navigation bar linking all pages together.
-In the footer each social media link leads to the related social media home page. The two turtle icons lead to surprises if the user thinks to click them. The left turtle icon will lead to a turtle hatchling video. The right side turtle icon will lead to a page with an embedded game on it - currently not related to turtle conservation because Flash lost support and that's what a lot of games used.
-So a clone version of Flappy Bird is there instead.
-
-Page 1: index.html
-An introduction to the website, Turtley Awesome, which is a site aimed at raising awareness to turtle conservation. It will have a general welcome message, a brief overveiw on conservation, an events section and a form to subscribe to the newsletter at the bottom.
-
-Page 2: info.html
-The second page will contain general sea turtle information and an explanation of the IUCN red list classifications. The main content will be information on the 7 types of sea turtles, accompanied by a picture of each as the background. A sticky side navigation bar will be included as an aside to direct you to each of the turtle types on desktop and tablet. This disappears on the mobile version and a simpler navigation appears at the top instead. In place of the sticky navigation bar on mobile versions, a "back to the top" button will appear beneath the information to easily return to the top of the page.
-
-Page 3: help.html
-Information on how individuals can contribute to the protection and conservation of sea turtles and live a more eco-friendly life.
-After this section will be a shop section for eco-friendly items to be advertised.
-There will be a section for donations - icons which link to the websites for direct donations.
-
-Page 4: contact.html
-This page will just have a contact us section. It will require a name and e-mail to be taken. Drop down bar for:
-general enquiry, feedback and technical issues. Placeholder text will be entered into the text box area.
-
-External page 1
-The bottom left footer turtle will be clickable. It will lead to a page that has a video of baby turtles. It will open in new tab but won't have any navigation.
-
-External page 2
-The bottom right footer turtle will be clickable and leads to a new page with a game. This would have been a turtle game if flash was still supported. Instead Flappy Bird will be used and it can be played on mobile and desktops.
+1. Home page
+2. Sea turtle information page
+3. How you can help page
+4. Contact us page
 
 ### Skeleton
 
@@ -116,54 +94,64 @@ This website was first designed using pen and paper, and then created into compu
 
 The site was designed with what was supposed to be a very simple design so there were few changes between mobile and desktop versions. In reality this wasn't as simple as I had expected without the use of Bootstrap. However feedback from people who tested my site were overall happy with the design and responsiveness on mobile and desktop versions.
 
-1. Home page
-2. Sea turtle information page
-3. How you can help page
-4. Contact us page
+All pages:  
+A distinct header and navigation bar linking all pages together.
+In the footer each social media link leads to the related social media home page. The two turtle icons lead to surprises if the user thinks to click them. The left turtle icon will lead to a turtle hatchling video. The right side turtle icon will lead to a page with an embedded game on it - currently not related to turtle conservation because Flash lost support and that's what a lot of games used.
+So a clone version of Flappy Bird is there instead.
+
+Page 1: index.html
+An introduction to the website, Turtley Awesome, which is a site aimed at raising awareness to turtle conservation. It has a general welcome message, a brief overveiw on conservation, an events section and a form to subscribe to the newsletter at the bottom.
+
+Page 2: info.html
+The second page contains general sea turtle information and an explanation of the IUCN red list classifications. The main content has information on the 7 types of sea turtles, accompanied by a picture of each as the background. A sticky side navigation bar is included to direct users to each of the turtle types on desktop and tablet. This disappears on the mobile version and a simpler navigation appears at the top instead. In place of the sticky navigation bar on mobile versions, a "back to the top" button appears beneath the information to easily return to the top of the page.
+
+Page 3: help.html
+Information on how individuals can contribute to the protection and conservation of sea turtles and live a more eco-friendly life.
+After this is a shop section for eco-friendly items to be advertised.
+There is a section for donations - icons which link to the websites for direct donations.
+
+Page 4: contact.html
+This page has a contact us section. It requires a name and e-mail to be taken. Drop down bar for:
+general enquiry, feedback and technical issues. A picture of me and a welcome message is included.
+
+External page 1
+The bottom left footer turtle is clickable. It leads to a page that has a video of baby turtles. It opens in new tab but doesn't have any navigation.
+
+External page 2
+The bottom right footer turtle will be clickable and leads to a new page with a game. This would have been a turtle game if flash was still supported. Instead Flappy Bird will be used and it can be played on mobile and desktops.
 
 <details>
-<summary>Desktop wireframe pages</summary>
+<summary>Click to reveal wireframe pages</summary>
 
 Home Page <br>
-<img src="assets/readme-files/desktop-wireframe-home.jpg" width="500">
+<img src="assets/readme-files/home.jpg" width="500">
 
 Info Page <br>
-<img src="assets/readme-files/desktop-wireframe-info.jpg" width="500">
+<img src="assets/readme-files/info.jpg" width="500">
 
 Help Page <br>
-<img src="assets/readme-files/desktop-wireframe-help.jpg" width="500">
+<img src="assets/readme-files/help.jpg" width="500">
 
 Contact Page <br>
-<img src="assets/readme-files/desktop-wireframe-contact.jpg" width="500">
-
-</details>
-
-
-<details>
-<summary>Mobile wireframe pages</summary>
-
-Home Page <br>
-<img src="assets/readme-files/mobile-wireframe-home.jpg" width="500">
-
-Info Page <br>
-<img src="assets/readme-files/mobile-wireframe-info.jpg" width="500">
-
-Help Page <br>
-<img src="assets/readme-files/mobile-wireframe-help.jpg" width="500">
-
-Contact Page <br>
-<img src="assets/readme-files/mobile-wireframe-contact.jpg" width="500">
-
+<img src="assets/readme-files/contact.jpg" width="500">
 </details>
 <br>
 
+Notes about the wireframe:  
+The paw icons in the footer represent the turtle icons that will be links to external pages.  
+The nav bar headings change to icons only on mobile devices.
+
 #### Deviations from wireframe:
 
-In the info page I decided to add a section on the IUCN redlist classifications as I realised while mentioning the classifciation for each turtle that not everyone would be familiar with the classification breakdown.
+On the information page I decided to add a section on the IUCN redlist classifications. I realised that not everyone understands the system, which would make mentioning the classification without explaining the system redundant.
 
-At the bottom of pages with long blocks of text I decided to include a link at the bottom, just above the footer, which allows the user to easily navigate back to the top of the page.
+At the bottom of pages with long blocks of text I decided to include a link at the bottom, just above the footer, which allows the user to easily navigate back to the top of the page. I also included this link at the bottom of each turtle information section on mobiles.
 
 ### Surface
+
+#### Aesthetic
+
+I decided to design this page with a sense of juxtaposition. The style of the website is casual, fun and almost child like. Its design reflects the beach which evokes positive emotions from the average person. Corners of boxes have been softened to maintain a soft flow. This soft, almost juvenile design is a contrast against the harsh reality of the content which describes the critical status of sea turtles and the need to make changes to save them.
 
 #### Colours
 
@@ -186,38 +174,51 @@ The images used in this website are used to bring an element of fun to the site,
 ### Existing Features:
 
 - User story: Users want to be able to easily navigate through the site and between pages.  
-    - Associated feature: A nav bar which is located at the top of each page, linking pages together.  
+    - Associated feature: A nav bar which is located at the top of each page, linking pages together.
+
     ![screenshot of navigation bar](assets/readme-files/navbar.png)
-    - Associated feature: On mobile the navbar shrinks so the text isn't visible, just the associated icons.
+
+    - Associated feature: On mobile the navbar shrinks so the text isn't visible, just the associated icons.  
+
     ![screenshot of mobile navigation bar](assets/readme-files/navbar-mobile.png)
+
     - Associated feature: A link at the bottom of the page to redirect users back to the top of the page.  
+
     ![screenshot of back to top button](assets/readme-files/back-to-top.png)
+
     - Associated feature: A navigation bar in the information page which links to each turtle. This is a sticky sidebar in desktop, and a top navigation bar for mobiles.  
-    ![screenshot of desktop navigation - info](assets/readme-files/nav-desktop.png)
-    ![screenshot of mobile navigation - info](assets/readme-files/nav-mobile.png)
+
+    ![screenshot of desktop navigation - info](assets/readme-files/nav-desktop.png)  
+      
+    ![screenshot of mobile navigation - info](assets/readme-files/nav-mobile.png)  
+      
 - User story: Users want to learn about these animals.
-    - Associated feature: A comprehensive information page with information on all 7 types of sea turtle.
-
+    - Associated feature: A comprehensive information page with information on all 7 types of sea turtle.  
+    <img src="assets/readme-files/info-1.png" alt="general information on turtles" width="300">
+    <img src="assets/readme-files/info-2.png" alt="turtle information 1" width="300">
+    <img src="assets/readme-files/info-3.png" alt="turtle information 2" width="300">
 - User story: Users want to keep up to date with related information.
-- Associated feature: An events section which displays important upcoming events, from webinars to fundraising days.
-- Associated feature: A newsletter sign up box which sends out information direct to users.
-
+    - Associated feature: An events section which displays important upcoming events, from webinars to fundraising days.
+    ![screenshot of events section](assets/readme-files/events.png)
+    - Associated feature: A newsletter sign up box which sends out information direct to users.
+    ![screenshot of newsletter](assets/readme-files/newsletter.png)
 - User story: Users want to be involved with like minded people.
-- Associated feature: Social media links at the bottom of each page to join the community on Facebook, instagram and Twitter.
-
+    - Associated feature: Social media links at the bottom of each page to join the community on Facebook, instagram and Twitter.
+    ![Screenshot of social media links](assets/readme-files/social-media.png)
 - User story: Users want to be able to contact the people running the page.
-- Associated feature: A contact form to allow users to contact the site runners
-
+    - Associated feature: A contact form to allow users to contact the site runners
+    ![Screenshot of contact section](assets/readme-files/contact-us.png)
 - User story: Users want to know how they can make eco-friendly choices and help save the turtles.
-- Associated feature: A help page, which gives out some easy to make changes to help ocean and turtle conservation. 
-- Associated feature: Direct donation links to organisations working on sea turtle conservation for those in a position to use them.
-
-- User story: The owners want to provide a pleasant experience for users while learning.
-- Associated feature: A fun and eye catching web page design that is easy to follow.
-- Associated feature:  A memorable logo title which is visible on every page and links to the landing page.
-
+    - Associated feature: A help page, which gives out some easy to make changes to help ocean and turtle conservation.
+    <img src="assets/readme-files/help-1.png" alt="turtle information 1" width="400">
+    <img src="assets/readme-files/help-2.png" alt="turtle information 2" width="400">
+    - Associated feature: Direct donation links to organisations working on sea turtle conservation for those in a position to use them.
+    ![Screenshot of donation section](assets/readme-files/donate.png)
 - User story: The owners want to provide fun surprises in the page for users.
-- Associated feature: Hidden external links in the footer turtle icons that link to a video on the left site, and a game on the right.
+    - Associated feature: Hidden external links in the footer turtle icons that link to a video on the left site, and a game on the right.
+    <img src="assets/readme-files/t-icons.png" alt="turtleicons in footer" height="50"><br>
+    <img src="assets/readme-files/surprise-2.png" alt="external game page" width="400">
+    <img src="assets/readme-files/surprise-1.png" alt="external game page" width="400">
 
 ### Future Features:
 
@@ -240,13 +241,13 @@ The images used in this website are used to bring an element of fun to the site,
 
 ### Programmes and Libraries Used
 
-- Balsamiq - used to build framework.
-- Chrome devtools used for finding quick solutions to design issues and visualising the site on different screen sizes for making media queries.
-- Font awesome was used to source social media icons
-- Git used for version control of my site and pushing code to GitHub
-- GitHub is the cloud storage system for my projects. The location of this sites repository, and place to deploy site.
-- GitPod - the IDE used to write and preview the code for this website.
-- TinyJPG is the site used to compress images used without compromising the quality.
+- [Balsamiq](https://balsamiq.com/tutorials/) - used to build framework.
+- [Chrome devtools](https://developer.chrome.com/docs/devtools/) used for finding quick solutions to design issues and visualising the site on different screen sizes for making media queries.
+- [Font awesome](https://fontawesome.com/) was used to source social media icons
+- [Git](https://git-scm.com/) used for version control of my site and pushing code to GitHub
+- [GitHub](https://github.com/) is the cloud storage system for my projects. The location of this sites repository, and place to deploy site.
+- [GitPod](https://gitpod.io/) - the IDE used to write and preview the code for this website.
+- [TinyJPG](https://tinypng.com/) is the site used to compress images used without compromising the quality.
 
 ### A note on bootstrap
 
@@ -255,7 +256,7 @@ While I know bootstrap was allowed to be used in this project, as a student on t
 ### Resources for code
 
 As a beginner, my project was mostly designed using code provided in the Code institute lessons and example projects.
-I also referenced w3schools, stackoverflow for general hints. CSS tricks and froggy flexbox were great tools for understanding the CSS flexbox.
+I also referenced [w3schools](https://www.w3schools.com/), [stackoverflow](https://stackoverflow.com/) for general hints. [CSS tricks](https://css-tricks.com/) and [flexbox froggy](https://flexboxfroggy.com/) were great tools for understanding the CSS flexbox.
 
 ## Testing
 
