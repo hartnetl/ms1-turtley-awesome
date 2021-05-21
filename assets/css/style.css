@@ -194,6 +194,7 @@ h1 {
   height: 60vh;
   margin: 1vw;
   text-align: center;
+  border-radius: 5px;
 }
 
 #webinar-img {
@@ -203,6 +204,7 @@ h1 {
   filter: blur(1px);
   -webkit-filter: blur(1px);
   height: 100%;
+  border-radius: 5px;
 }
 
 #beach-clean-img {
@@ -211,6 +213,7 @@ h1 {
   filter: blur(1px);
   -webkit-filter: blur(1px);
   height: 100%;
+  border-radius: 5px;
 }
 
 #fundraiser-img {
@@ -219,6 +222,7 @@ h1 {
   filter: blur(1px);
   -webkit-filter: blur(1px);
   height: 100%;
+  border-radius: 5px;
 }
 
 #webinar-text,
@@ -235,6 +239,7 @@ h1 {
   width: 100%;
   height: 100%;
   text-align: center;
+  border-radius: 5px;
 }
 
 #webinar-text>h2,
@@ -267,6 +272,7 @@ fieldset {
   margin: 2vh auto;
   text-align: left;
   padding: 0 1vw;
+  border-radius: 5px;
 }
 
 fieldset>legend {
@@ -276,6 +282,7 @@ fieldset>legend {
 
 fieldset input {
   line-height: 4vh;
+  border-radius: 5px;
 }
 
 .box {
@@ -618,6 +625,7 @@ fieldset input {
 
 .big-box {
   padding: 1% 0 0 2%;
+  border-radius: 5px;
 }
 
 #contact-button {
@@ -627,9 +635,10 @@ fieldset input {
   color: green;
   background-color: aliceblue;
   border-radius: 10px;
-  height: 4vh;
-  padding: 2px;
+  padding: 1%;
 }
+
+
 
 #contact-button:hover {
   background-color: green;
