@@ -264,10 +264,10 @@ I also referenced [w3schools](https://www.w3schools.com/), [stackoverflow](https
 
 ### Validator Tests
 
-- HTML was validated using .
-- On my first validation test it returned multiple errors. These were all minor, and all were fixed so my code now runs without errors. The eoors were related to an unclosed element, and extra closing anchor tags which had been mistakenly left in.
+- HTML was validated using [W3C markup validator](https://validator.w3.org/).  
+On my first validation test it returned multiple errors. These were all minor, and all were fixed so the code now runs without errors or warnings. The errors were related to an unclosed element, and extra closing anchor tags which had been mistakenly left in.
 
-- CSS was validated using .
+- CSS was validated using [W3C CSS validator](https://jigsaw.w3.org/css-validator/).  
 This returned no errors on my first validation test.
 
 - Links were tested with w3c validator. 

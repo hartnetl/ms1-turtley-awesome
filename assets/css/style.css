@@ -75,7 +75,7 @@ a {
   background-color: rgb(7, 119, 31);
 }
 
-#back-to-top-mobile {
+.back-to-top-mobile {
   display: none;
 }
 
@@ -738,13 +738,13 @@ fieldset input {
     height: 42vh;
   }
 
-  #back-to-top-mobile {
+  .back-to-top-mobile {
     display: block;
     text-align: center;
     margin: 3vh 0;
   }
 
-  #back-to-top-mobile a {
+  .back-to-top-mobile a {
     color: rgb(7, 119, 31);
     background-color: seashell;
     margin: 2vh auto;
@@ -833,13 +833,13 @@ fieldset input {
     height: 60vh;
   }
 
-  #back-to-top-mobile {
+  .back-to-top-mobile {
     display: block;
     text-align: center;
     margin: 3vh 0;
   }
 
-  #back-to-top-mobile a {
+  .back-to-top-mobile a {
     color: rgb(7, 119, 31);
     background-color: seashell;
     margin: 2vh auto;
