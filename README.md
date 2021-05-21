@@ -270,7 +270,7 @@ On my first validation test it returned multiple errors. These were all minor, a
 - CSS was validated using [W3C CSS validator](https://jigsaw.w3.org/css-validator/).  
 This returned no errors on my first validation test.
 
-- Links were tested with w3c validator. 
+- Links were tested with [W3C Links validator]()
 
 - Accessibility tested with WAVE
 
