@@ -607,6 +607,10 @@ fieldset input {
   height: 90vh;
 }
 
+#hello img {
+  border-radius: 5px;
+}
+
 #contact {
   margin: 2vh auto;
 }
