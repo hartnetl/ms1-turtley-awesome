@@ -269,6 +269,7 @@ fieldset {
   height: 30%;
   width: 50vw;
   background: url(../images/pexels-aistė-sveikataitė-2886574.jpg) no-repeat;
+  background-size: cover;
   margin: 2vh auto;
   text-align: left;
   padding: 0 1vw;
@@ -619,21 +620,12 @@ fieldset input {
   margin: 2vh auto;
 }
 
-#tablet-contact {
-  display: none;
-}
-
-#mobile-contact {
-  display: none;
-}
-
-#small-mobile-contact {
-  display: none;
-}
-
 .big-box {
   padding: 1% 0 0 2%;
   border-radius: 5px;
+  width: 4vw;
+  height: 4vh;
+  
 }
 
 #contact-button {
@@ -772,18 +764,14 @@ fieldset input {
   }
 
   /* contact.html */
-
-  #contact-us {
-    height: 50vh;
-  }
-
-  #contact-box {
-    display: none;
-  }
-
-  #tablet-contact {
-    display: block;
-  }
+.big-box {
+  padding: 1% 0 0 2%;
+  border-radius: 5px;
+  width: 4vw;
+  height: 4vh;
+  
+}
+ 
 }
 
 /* Media query for tablet - landscape */
@@ -943,13 +931,13 @@ fieldset input {
 
   /* contact.html */
 
-  #tablet-contact {
-    display: none;
-  }
-
-  #mobile-contact {
-    display: block;
-  }
+  .big-box {
+  padding: 1% 0 0 2%;
+  border-radius: 5px;
+  width: 4vw;
+  height: 4vh;
+  
+}
 
   #contact-us {
     height: 60vh;
@@ -1001,13 +989,13 @@ fieldset input {
     height: 105vh;
   }
 
-  #contact-box {
-    display: none;
-  }
-
-  #tablet-contact {
-    display: block;
-  }
+ .big-box {
+  padding: 1% 0 0 2%;
+  border-radius: 5px;
+  width: 4vw;
+  height: 4vh;
+  
+}
 }
 
 /* Media query for smaller phones - portrait */
@@ -1108,12 +1096,11 @@ fieldset input {
 
   /* contact.html */
 
-  #mobile-contact {
-    display: none;
-  }
-
-  #small-mobile-contact{
-    display: block;
+  .big-box {
+    padding: 1% 0 0 2%;
+    border-radius: 5px;
+    width: 4vw;
+    height: 4vh;
   }
 }
 
@@ -1143,13 +1130,12 @@ fieldset input {
 
   /* contact.html */
 
-  #tablet-contact {
-    display: none;
+  .big-box {
+    padding: 1% 0 0 2%;
+    border-radius: 5px;
+    width: 4vw;
+    height: 4vh;
+    
   }
-
-  #small-mobile-contact {
-    display: block;
-  }
-
 
 }
