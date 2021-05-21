@@ -1,8 +1,8 @@
 # Turtley Awesome
 
-Live site: [Turtley Awesome](https://hartnetl.github.io/ms1-turtley-awesome/){:target="_blank" rel="noopener"}
+Live site: [Turtley Awesome](https://hartnetl.github.io/ms1-turtley-awesome/)
 
-## Table of Contents
+Project Aim: To design a static website using pure HTML and CSS, without the use of bootstrap or other frameworks.
 
 1. [Introduction](#introduction)
 2. [UXD User Experience Design](#uxd-user-experience-design)
@@ -30,7 +30,7 @@ Live site: [Turtley Awesome](https://hartnetl.github.io/ms1-turtley-awesome/){:t
 Welcome to Turtley Awesome, a site designed to deliver up to date and comprehensive information on the conservation of sea turtles. It is a place for people to learn about the types of sea turtles, pick up some eco-friendly tips on how they can help with their conservation and join a community of like minded people.  
   
 
-![Am I responsive scrrenshot](assets/readme-files/landing-page.png)
+![Am I responsive scrrenshot](assets/readme-files/am-i-responsive.png)
 
 ## UXD User experience Design
 
@@ -186,12 +186,17 @@ The images used in this website are used to bring an element of fun to the site,
 ### Existing Features:
 
 - User story: Users want to be able to easily navigate through the site and between pages.  
-- Associated feature: A nav bar which is located at the top of each page, linking pages together. 
-- Associated feature: A link at the bottom of the page to redirect users back to the top of the page.
-- Associated feature: A navigation bar in the information page which links to each turtle. This is a sticky sidebar in desktop, and a top navigation bar for mobiles. 
-
+    - Associated feature: A nav bar which is located at the top of each page, linking pages together.  
+    ![screenshot of navigation bar](assets/readme-files/navbar.png)
+    - Associated feature: On mobile the navbar shrinks so the text isn't visible, just the associated icons.
+    ![screenshot of mobile navigation bar](assets/readme-files/navbar-mobile.png)
+    - Associated feature: A link at the bottom of the page to redirect users back to the top of the page.  
+    ![screenshot of back to top button](assets/readme-files/back-to-top.png)
+    - Associated feature: A navigation bar in the information page which links to each turtle. This is a sticky sidebar in desktop, and a top navigation bar for mobiles.  
+    ![screenshot of desktop navigation - info](assets/readme-files/nav-desktop.png)
+    ![screenshot of mobile navigation - info](assets/readme-files/nav-mobile.png)
 - User story: Users want to learn about these animals.
-- Associated feature: A comprehensive information page with information on all 7 types of sea turtle.
+    - Associated feature: A comprehensive information page with information on all 7 types of sea turtle.
 
 - User story: Users want to keep up to date with related information.
 - Associated feature: An events section which displays important upcoming events, from webinars to fundraising days.
@@ -314,6 +319,13 @@ The live link was sent to multiple people for feedback on functionality, ease of
 ## Issues Faced
 
 ***
+
+- Responsiveness
+    - The laptop I am using to complete this project on is quite small (screen width 10 inches) which has made designing the site for larger screens more difficult.
+    - Without the use of Bootstrap I found my media queries quite difficult to make the website respond correctly on different devices. I used Chrome DevTools to set my break points for different devices, using the iPad Pro, iPad, Galaxy S5 and iPhone 5 settings to set my media queries. When I tested these on devtools they looked great across the devices, when I tested them on an actual phone, tablet etc. they didn't always respond they way I had anticipated. This just meant making minor adjustments in either my CSS code, or adjusting the media query breakpoints. Between myself and my testers the website looked great across nearly all devices, but I'm sure there are some devices that don't respond properly.
+    - The textarea element used in the contact us section caused me a bit of trouble, as I wasn't sure how to make it responsive and the web pages and forums I checked couldn't give me usable solutions. In the end I made different contact boxes within the HTML and used CSS to change which of these were displayed at different times.
+- Positioning  
+I really struggled with positioning at the start of this project. The Love Running example seemed so simple, yet I couldn't position even basic elements the way I wanted on my own project. I went over the lessons and example projects again and again but still struggled to get my layout to work. I could get it looking good using fixed/relative positioning and px units, but obviously that leads to struggles later on when I needed to make this responsive to other screen sizes (like the love running example I did this project desktop-down instead of mobile up). I vented my frustration with responsive positioning on Slack and immediatley got responses about using flex instead, something I thought required JS. I used the froggy game on https://www.flexboxfroggy.com/ as suggested and it made such a difference!
 
 
 ## Deployment
