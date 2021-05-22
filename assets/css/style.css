@@ -623,9 +623,8 @@ fieldset input {
 .big-box {
   padding: 1% 0 0 2%;
   border-radius: 5px;
-  width: 4vw;
-  height: 4vh;
-  
+  width: 45vw;
+  height: 20vh;  
 }
 
 #contact-button {
@@ -762,16 +761,6 @@ fieldset input {
   #donations img {
     height: 7vh;
   }
-
-  /* contact.html */
-.big-box {
-  padding: 1% 0 0 2%;
-  border-radius: 5px;
-  width: 4vw;
-  height: 4vh;
-  
-}
- 
 }
 
 /* Media query for tablet - landscape */
@@ -931,16 +920,8 @@ fieldset input {
 
   /* contact.html */
 
-  .big-box {
-  padding: 1% 0 0 2%;
-  border-radius: 5px;
-  width: 4vw;
-  height: 4vh;
-  
-}
-
-  #contact-us {
-    height: 60vh;
+   #contact-us {
+    height: 95vh;
   }
 
 }
@@ -988,14 +969,6 @@ fieldset input {
   #contact-us {
     height: 105vh;
   }
-
- .big-box {
-  padding: 1% 0 0 2%;
-  border-radius: 5px;
-  width: 4vw;
-  height: 4vh;
-  
-}
 }
 
 /* Media query for smaller phones - portrait */
@@ -1039,7 +1012,7 @@ fieldset input {
   /* contact.html */
 
   #contact-us {
-    height: 70vh;
+    height: 80vh;
   }
 
 }
@@ -1093,15 +1066,6 @@ fieldset input {
   .turtle-container {
     height: 70vh;
   }
-
-  /* contact.html */
-
-  .big-box {
-    padding: 1% 0 0 2%;
-    border-radius: 5px;
-    width: 4vw;
-    height: 4vh;
-  }
 }
 
 /* media query for small phones - landscape */ 
@@ -1127,15 +1091,4 @@ fieldset input {
   .card {
     width: 40%;
   }
-
-  /* contact.html */
-
-  .big-box {
-    padding: 1% 0 0 2%;
-    border-radius: 5px;
-    width: 4vw;
-    height: 4vh;
-    
-  }
-
 }
