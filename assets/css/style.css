@@ -3,12 +3,15 @@
 /* Across pages */
 
 * {
+  /* Removes default for these settings */
   margin: 0;
   padding: 0;
   border: none;
   outline: none;
 }
 
+/* Make text more responsive. 
+  https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units  */
 html {
   font-size: calc(.5em + 1vw)
 }
@@ -56,26 +59,27 @@ a {
   text-decoration: none;
 }
 
-/* This is the link at the end of a page to return to top if present. */
 #back-to-top {
+  /* This is the link at the end of a page to return to top if present. */
   text-align: center;
   margin: 5vh 0;
 }
 
 #back-to-top a {
   color: rgb(7, 119, 31);
-  background-color: seashell;
+  background-color: rgb(255, 245, 238);
   margin: 0 auto;
   border-radius: 8px;
   padding: .5%;
 }
 
 #back-to-top>a:hover {
-  color: seashell;
+  color: rgb(255, 245, 238);
   background-color: rgb(7, 119, 31);
 }
 
 .back-to-top-mobile {
+  /* Hides the icon-only version of the navbar */
   display: none;
 }
 
@@ -173,7 +177,7 @@ h1 {
 
 .foot i {
   font-size: 4vh;
-  color: blanchedalmond;
+  color: rgb(255, 235, 205);
   -webkit-text-stroke: 1px black;
   padding: 25% 0;
 }
@@ -182,7 +186,11 @@ h1 {
   transform: rotate(280deg);
 }
 
-/* index.html */
+/* ###########
+   index.html 
+   ############ */
+
+/* events section */
 
 #event {
   height: 75vh;
@@ -225,7 +233,7 @@ h1 {
   border-radius: 5px;
 }
 
-#webinar-text,
+#webinar-text,        /* Place text over blurred image */
 #beach-clean-text,
 #fundraiser-text {
   background-color: rgba(0, 0, 0, .6);
@@ -262,7 +270,7 @@ h1 {
   padding: 5%;
 }
 
-/* Newsletter sign up - index.html */
+/* Newsletter sign up */
 
 fieldset {
   border: groove 1px;
@@ -274,11 +282,6 @@ fieldset {
   text-align: left;
   padding: 0 1vw;
   border-radius: 5px;
-}
-
-fieldset>legend {
-  text-align: center;
-  font-weight: 600;
 }
 
 fieldset input {
@@ -536,7 +539,7 @@ fieldset input {
 #g-turtle-text>h2,
 #logger-text>h2 {
   padding-top: 3%;
-   /* Text-shadow learned from https://stackoverflow.com/a/4919231  */
+  /* Text-shadow learned from https://stackoverflow.com/a/4919231  */
   text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
 }
 
@@ -624,7 +627,7 @@ fieldset input {
   padding: 1% 0 0 2%;
   border-radius: 5px;
   width: 45vw;
-  height: 20vh;  
+  height: 20vh;
 }
 
 #contact-button {
@@ -845,7 +848,7 @@ fieldset input {
 
 @media screen and (max-width: 820px) and (orientation: portrait) {
 
-   #header-container {
+  #header-container {
     height: 8vh;
     padding-bottom: 2vh;
   }
@@ -859,7 +862,7 @@ fieldset input {
   #rturtle {
     height: 40%;
     padding-top: 5vh;
-  } 
+  }
 
   #span-home,
   #span-info,
@@ -920,7 +923,7 @@ fieldset input {
 
   /* contact.html */
 
-   #contact-us {
+  #contact-us {
     height: 95vh;
   }
 
@@ -987,7 +990,7 @@ fieldset input {
   #rturtle {
     height: 60%;
   }
-  
+
   /* info.html */
 
   #mobile-nav,
@@ -1024,7 +1027,7 @@ fieldset input {
   h1 {
     font-size: 250%;
   }
-  
+
   /* info.html */
 
   #redlist {
@@ -1068,7 +1071,7 @@ fieldset input {
   }
 }
 
-/* media query for small phones - landscape */ 
+/* media query for small phones - landscape */
 
 @media screen and (max-width: 570px) and (orientation: landscape) {
 
