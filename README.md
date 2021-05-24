@@ -222,8 +222,8 @@ The images used in this website are used to bring an element of fun to the site,
 
 - User story: Users want to know how they can make eco-friendly choices and help save the turtles.
   - Associated feature: A help page, which gives out some easy to make changes to help ocean and turtle conservation.  
-    <img src="assets/readme-files/help-1.png" alt="turtle information 1" width="400" height="200">
-    <img src="assets/readme-files/help-2.png" alt="turtle information 2" width="400" height="200">
+    <img src="assets/readme-files/help-1.png" alt="turtle information 1" width="350" height="200">
+    <img src="assets/readme-files/help-2.png" alt="turtle information 2" width="350" height="200">
 
   - Associated feature: Direct donation links to organisations working on sea turtle conservation for those in a position to use them.
     ![Screenshot of donation section](assets/readme-files/donate.png)
