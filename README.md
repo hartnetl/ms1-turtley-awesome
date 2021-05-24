@@ -73,20 +73,26 @@ The features to include:
 - A fun and attractive page which captures the user's attention.
 - Separate pages for different sections of information to improve flow of the website.
 - An information section which is easy to read and understand to learn about the turtles.
-- Links to more detailed information that open in new tabs.
+- In-text links to more detailed information that open in new tabs.
 - A page dedicated to ways to help the sea turtles after learning about them.
 - A contact page, so people can interact with the site runners.
 - Social media links so people can join a community of people with the same interests and passions.
 - Fun easter egg like surprises - clickable turtle icons in the footer leading to external pages.
+
+In this project the use of Bootstrap would have made my website a bit smoother, and a bit more responsive. However I wanted to take on the challenge that was initially set which was to create a website using pure html and css. So this will not be included to build any features on this page.
 
 ### Structure
 
 This page consists of 4 pages to break down the information provided into easy to digest sections.
 
 1. Home page
+    - Introduction, events section, newsletter sign up
 2. Sea turtle information page
+    - Introduction to sea turtles and a paragraph about each type of sea turtle
 3. How you can help page
+    - A tips section for ways to help. A shop section to highlight some cool eco-friendly products. A donations section with links that lead directly to conservation websites.
 4. Contact us page
+    - An introduction to me and hello to my audience. A contact box.
 
 ### Skeleton
 
@@ -96,8 +102,7 @@ The site was designed with what was supposed to be a very simple design so there
 
 All pages:  
 A distinct header and navigation bar linking all pages together.
-In the footer each social media link leads to the related social media home page. The two turtle icons lead to surprises if the user thinks to click them. The left turtle icon will lead to a turtle hatchling video. The right side turtle icon will lead to a page with an embedded game on it - currently not related to turtle conservation because Flash lost support and that's what a lot of games used.
-So a clone version of Flappy Bird is there instead.
+In the footer each social media link leads to the related social media home page. The two turtle icons lead to surprises if the user tries to click them. The left turtle icon will lead to a turtle hatchling video. The right side turtle icon will lead to a page with an embedded game on it - currently not related to turtle conservation because Flash lost support and that's what a lot of games used. So a clone version of Flappy Bird is there instead.
 
 Page 1: index.html
 An introduction to the website, Turtley Awesome, which is a site aimed at raising awareness of turtle conservation. It has a general welcome message, a brief overview on conservation, an events section and a form to subscribe to the newsletter at the bottom.
@@ -118,7 +123,7 @@ External page 1
 The bottom left footer turtle is clickable. It leads to a page that has a video of baby turtles. It opens in a new tab but doesn't have any navigation.
 
 External page 2
-The bottom right footer turtle will be clickable and leads to a new page with a game. This would have been a turtle game if flash was still supported. Instead Flappy Bird will be used and it can be played on mobile and desktops.
+The bottom right footer turtle will be clickable and leads to a new page with a game. This would have been a turtle game if flash was still supported. Instead Flappy Bird will be used and it can be played on mobile and desktops. It doesn't have any navigation.
 
 <details>
 <summary>Click to reveal wireframe pages</summary>
@@ -252,10 +257,10 @@ The images used in this website are used to bring an element of fun to the site,
 
 - [Balsamiq](https://balsamiq.com/tutorials/) - used to build framework.
 - [Chrome devtools](https://developer.chrome.com/docs/devtools/) used for finding quick solutions to design issues and visualising the site on different screen sizes for making media queries.
-- [Font Awesome](https://fontawesome.com/) was used to source social media icons
+- [Font Awesome](https://fontawesome.com/) used to source social media icons
 - [Git](https://git-scm.com/) used for version control of my site and pushing code to GitHub
 - [GitHub](https://github.com/) is the cloud storage system for my projects. The location of this site's repository, and place to deploy site.
-- [GitPod](https://gitpod.io/) - the IDE used to write and preview the code for this website.
+- [GitPod](https://gitpod.io/) is the IDE used to write and preview the code for this website.
 - [TinyJPG](https://tinypng.com/) is the site used to compress images used without compromising the quality.
 
 ### A note on bootstrap
@@ -265,7 +270,7 @@ While I know bootstrap was allowed to be used in this project, as a student on t
 ### Resources for code
 
 As a beginner, my project was mostly designed using code provided in the Code Institute lessons and example projects.
-I also referenced [w3schools](https://www.w3schools.com/), [stackoverflow](https://stackoverflow.com/) and [CSS tricks](https://css-tricks.com/) for general hints.[flexbox froggy](https://flexboxfroggy.com/) was a great tool for understanding the CSS flexbox.
+I also referenced [w3schools](https://www.w3schools.com/), [stackoverflow](https://stackoverflow.com/) and [CSS tricks](https://css-tricks.com/) for general hints. [Flexbox Froggy](https://flexboxfroggy.com/) was a great tool for understanding the CSS flexbox.
 
 ## Testing
 
@@ -279,7 +284,7 @@ On my first validation test it returned multiple errors. These were all minor, a
 - CSS was validated using [W3C CSS validator](https://jigsaw.w3.org/css-validator/).  
 This returned no errors on my first validation test.
 
-### Link validation 
+### Link validation
 
 - Links were tested with [W3C Links validator](https://validator.w3.org/checklink).  
 The only fault that returned on this test was that facebook.com due to robot exclusion rules. I tested this link manually instead and it opened in a new tab as expected.
@@ -287,7 +292,7 @@ The only fault that returned on this test was that facebook.com due to robot exc
 ### Accessibility test
 
 - Accessibility of the site was tested with [WAVE(Web Accessibility Evaluation Tool)](https://wave.webaim.org/).  
-This test returned no errors or contrast errors, but multiple alerts. These were in relation to a table used for structure, justified text and skipped headers. These have the potential to disturb the accuracy of screen readers but when tested they worked fine.
+This test returned no errors or contrast errors, but multiple alerts. These were in relation to a table used for structure, justified text and skipped headers. These have the potential to disturb the accuracy of screen readers but when tested they worked fine. The justified text could leave large, unsightly gaps in the wording but when asked no users reported this occurred so I decided to keep this alignment.
 
 ### Performance test
 
@@ -295,7 +300,7 @@ This test returned no errors or contrast errors, but multiple alerts. These were
 
 ### Manual testing
 
-The live link was sent to multiple people for feedback on functionality, ease of navigation and accessibility. 
+The live link was sent to multiple people for feedback on functionality, ease of navigation and accessibility.
 
 #### Features on each page:
 
@@ -340,7 +345,7 @@ The live link was sent to multiple people for feedback on functionality, ease of
 
 - Responsiveness
     - The laptop I am using to complete this project is quite small (screen diameter 10 inches) which has made designing the site for larger screens more difficult.
-    - Without the use of Bootstrap I found my media queries quite difficult to make the website respond correctly on different devices. I used Chrome DevTools to set my breakpoints for different devices, using the iPad Pro, iPad, Galaxy S5 and iPhone 5 settings to set my media queries. When I tested these on devtools they looked great across the devices, but when I tested them on an actual phone, tablet etc. they didn't always respond the way I expected. This meant making minor adjustments in either my CSS code, or adjusting the media query breakpoints. Between myself and my testers the website looked great across all devices, but I'm sure there are some devices that don't respond properly.
+    - Without the use of Bootstrap I found my media queries quite difficult to make the website respond correctly on different devices. I used Chrome DevTools to set my breakpoints for different devices, using the device options to set and view my media queries. When I tested these on devtools they looked great across the devices, but when I tested them on an actual phone, tablet etc. they didn't always respond the way I expected. This meant making minor adjustments in either my CSS code, or adjusting the media query breakpoints. Between myself and my testers the website looked great across all devices, but I'm sure there are some devices that don't respond properly.
     - The textarea element used in the contact us section caused me a bit of trouble, as I wasn't sure how to make it responsive. For some reason I couldn't get it to respond by setting the height and width of the box and I ended up making 4 contact boxes in the html code, and choosing which to display using css. This introduced the issue of the contact form not submitting information entered into the textarea box on any device that wasn't a desktop. I revisited using just one box and getting it to respond with height and width and got it to work.
 - Positioning  
 I really struggled with positioning at the start of this project. The Love Running example seemed so simple, yet I couldn't position even basic elements the way I wanted on my own project. I went over the lessons and example projects again and again but still struggled to get my layout to work. I could get it looking good using fixed/relative positioning and px units, but obviously that leads to struggles later on when I needed to make this responsive to other screen sizes (like the love running example I did this project desktop-down instead of mobile up). I vented my frustration with responsive positioning on Slack and immediately got responses about using flex instead, something I thought required JS. I used the froggy game on https://www.flexboxfroggy.com/ as suggested and that made things much easier to position.
@@ -435,7 +440,7 @@ www.fontawesome.com
     - flatback.jpg  
     https://otlibrary.com/wp-content/gallery/flatback-sea-turtle/  
 
-- Product images:   
+- Product images:  
 These images are copies of the ones used directly on the websites. They were downloaded locally instead of linking to the live website in case the images are taken down from the website. I don't want the images on my site to break in this instance.
 Copyright for these images is owned by the respective websites.
 
