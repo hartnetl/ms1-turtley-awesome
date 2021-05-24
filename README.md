@@ -148,7 +148,7 @@ Notes about the wireframe:
 The paw icons in the footer represent the turtle icons that link to external pages.  
 The nav bar headings change to icons on mobile devices.
 
-#### Deviations from wireframe:
+#### Deviations from wireframe
 
 On the information page I decided to add a section on the IUCN redlist classifications. I realised that not everyone understands the system, which would make mentioning the classification without explaining the system redundant.
 
@@ -178,65 +178,65 @@ The images used in this website are used to bring an element of fun to the site,
 
 ***
 
-### 3.1 Existing Features:
+### 3.1 Existing Features
 
 - User story: Users want to be able to easily navigate through the site and between pages.  
-    - Associated feature: A nav bar which is located at the top of each page, linking pages together.
+  - Associated feature: A nav bar which is located at the top of each page, linking pages together.
 
     ![screenshot of navigation bar](assets/readme-files/navbar.png)
 
-    - Associated feature: On mobile the navbar shrinks so the text isn't visible, just the associated icons.  
+  - Associated feature: On mobile the navbar shrinks so the text isn't visible, just the associated icons.  
     <br>
     <p align="center">
     <img src="assets/readme-files/navbar-mobile.png" alt="screenshot of mobile navigation bar">
     </p>
 
-    - Associated feature: A link at the bottom of the page to redirect users back to the top of the page.  
+  - Associated feature: A link at the bottom of the page to redirect users back to the top of the page.  
 
     ![screenshot of back to top button](assets/readme-files/back-to-top.png)
 
-    - Associated feature: A navigation bar in the information page which links to each turtle. This is a sticky sidebar in desktop, and a top navigation bar for mobiles.  
+  - Associated feature: A navigation bar in the information page which links to each turtle. This is a sticky sidebar in desktop, and a top navigation bar for mobiles.  
     <br>
     <img src="assets/readme-files/nav-desktop.png" alt="screenshot of desktop navigation - info" width="400" height="250">
     <img src="assets/readme-files/nav-mobile.png" alt="screenshot of mobile navigation - info" width="300" height="250">
-      
+
 - User story: Users want to learn about these animals.
-    - Associated feature: A comprehensive information page with information on all 7 types of sea turtle.  
+  - Associated feature: A comprehensive information page with information on all 7 types of sea turtle.  
     <img src="assets/readme-files/info-2.png" alt="turtle information 1" width="300" height="150">
     <img src="assets/readme-files/info-3.png" alt="turtle information 2" width="300" height="150">
 
 - User story: Users want to keep up to date with related information.
-    - Associated feature: An events section which displays important upcoming events, from webinars to fundraising days.
+  - Associated feature: An events section which displays important upcoming events, from webinars to fundraising days.
     ![screenshot of events section](assets/readme-files/events.png)
 
-    - Associated feature: A newsletter sign-up box which sends out information directly to users.
+  - Associated feature: A newsletter sign-up box which sends out information directly to users.
     ![screenshot of newsletter](assets/readme-files/newsletter.png)
 
 - User story: Users want to be involved with like-minded people.
-    - Associated feature: Social media links at the bottom of each page to join the community on Facebook, Instagram and Twitter.
+  - Associated feature: Social media links at the bottom of each page to join the community on Facebook, Instagram and Twitter.
     ![Screenshot of social media links](assets/readme-files/social-media.png)
 
 - User story: Users want to be able to contact the people running the page.
-    - Associated feature: A contact form to allow users to contact the site runners
+  - Associated feature: A contact form to allow users to contact the site runners
     ![Screenshot of contact section](assets/readme-files/contact-us.png)
 
 - User story: Users want to know how they can make eco-friendly choices and help save the turtles.
-    - Associated feature: A help page, which gives out some easy to make changes to help ocean and turtle conservation.
+  - Associated feature: A help page, which gives out some easy to make changes to help ocean and turtle conservation.
     <img src="assets/readme-files/help-1.png" alt="turtle information 1" width="400" height="200">
     <img src="assets/readme-files/help-2.png" alt="turtle information 2" width="400" height="200">
-    
-    - Associated feature: Direct donation links to organisations working on sea turtle conservation for those in a position to use them.
+
+  - Associated feature: Direct donation links to organisations working on sea turtle conservation for those in a position to use them.
     ![Screenshot of donation section](assets/readme-files/donate.png)
 
 - User story: The owners want to provide fun surprises in the page for users.
-    - Associated feature: Hidden external links in the footer turtle icons that link to a video on the left site, and a game on the right.
+  - Associated feature: Hidden external links in the footer turtle icons that link to a video on the left site, and a game on the right.
     <p align="center">
     <img src="assets/readme-files/t-icons.png" alt="turtleicons in footer" height="50">
     </p>
     <img src="assets/readme-files/surprise-2.png" alt="external game page" width="400" height="200">
     <img src="assets/readme-files/surprise-1.png" alt="external game page" width="400" height="200">
 
-### 3.2 Future Features:
+### 3.2 Future Features
 
 - A newsletter submission form which is functional and creates a database instead of redirecting to the CI form dump page.
 - A navigation bar that scrolls with the page without needing to include the header image and logo and wouldn't disrupt the readability of information.
@@ -249,7 +249,7 @@ The images used in this website are used to bring an element of fun to the site,
 
 ***
 
-### Languages 
+### Languages
 
 [HTML](https://html.com/): HyperText Markup Language. It is the language used as the basis of building websites and provides the main structure and format to the site.
 
@@ -304,7 +304,7 @@ This test returned no errors or contrast errors, but multiple alerts. These were
 
 The live link was sent to multiple people for feedback on functionality, ease of navigation and accessibility.
 
-#### Features on each page:
+#### Features on each page
 
 - Title Logo: Should appear at the top of every page and always link to the home page. Tested and works as expected by every user.
 - Navbar: Each page should link to every other page. It should be clear which page the user is on (the background of current page is a different colour). Tested and works as expected.
@@ -313,25 +313,25 @@ The live link was sent to multiple people for feedback on functionality, ease of
 - In-text links to external sources of information should be obvious to see, and redirect to a new tab and display appropriate web page information. Testers said the change in font and italicising of text made these links easy to spot, and they open in a new page to related web page as expected.
 - Social media links: Icons should be clearly visible in the footer and redirect to corresponding social media's home page in a new tab. Tested and works as expected for all but one user (more info on that below).
 - Clickable turtle icons: The turtle icon should redirect to a new tab with a surprise feature on each. Half of the testers found the links, the other half didn't. This is the desired reach for this feature. I told the ones who didn't find it so they could test it, and they were pleasantly surprised to learn about it and laughed at their inability to find it. All testers clicked the links and they work as expected.
-    - Left turtle icon: Video should display on all device sizes. Controls should be visible on the video. Video shouldn't autoplay. Tested and works as expected.
-    - Right turtle icon: Game should be visible on all device sizes and be playable. This works as expected. As this is an embedded game, there is no way to control the volume at my current skill level. Users who played the game on headphones reported it was a bit loud. Since there seems to be no way for me to rectify this at this stage but I still wanted to include the game, I put in a note on the page of the game that the volume is loud on headphones.
+  - Left turtle icon: Video should display on all device sizes. Controls should be visible on the video. Video shouldn't autoplay. Tested and works as expected.
+  - Right turtle icon: Game should be visible on all device sizes and be playable. This works as expected. As this is an embedded game, there is no way to control the volume at my current skill level. Users who played the game on headphones reported it was a bit loud. Since there seems to be no way for me to rectify this at this stage but I still wanted to include the game, I put in a note on the page of the game that the volume is loud on headphones.
 
-#### Home page features:
+#### Home page features
 
 - Events section: Text should be easy to read in front of image, and should resize from desktop to mobile. On the first test, users said the shadowing made the text difficult to read. I changed this for the stroke effect instead and all testers reported no issues with text readability after this.
 - Newsletter form: Form should submit to CI dump page. Name and e-mail is required to submit. Error message will display for users not entering name and email in correct format. Tested and works as expected.
 
-#### Information page feature:
+#### Information page feature
 
 - Side navigation bar on desktop should scroll with the text, not block any text, be easy to read and each link should redirect to the correct section on the page. Initially I designed this bar to have an almost invisible background with dark blue text, which became opaque when hovered over. However a couple of users mentioned they didn't even notice it until they accidentally hovered over it. I decided to improve UX to make the background opaque all the time and users subsequently reported they could easily see and use it.
 - Navigation bar on mobile should correctly redirect to each turtle section. Tested and works as expected. Users were asked if they found not having a navigation bar throughout the page hindered the experience of that page, but no users had a problem with this. The navigation of the page is easy to follow and the back-to-top button at the bottom allows users to easily navigate back to the top.
 
-#### Help page features:
+#### Help page features
 
 - Images should resize depending on size of device used. Tested and works as expected.
 - Links embedded in images should redirect to associated link in a new tab. Tested and works as expected.
 
-#### Contact page features:
+#### Contact page features
 
 - Form submission should redirect to CI form dump page in a new tab. Tested and works as expected.
 - Name, e-mail and subject should be required to submit form. Tested and works as expected.
@@ -346,12 +346,11 @@ The live link was sent to multiple people for feedback on functionality, ease of
 ***
 
 - Responsiveness
-    - The laptop I am using to complete this project is quite small (screen diameter 10 inches) which has made designing the site for larger screens more difficult.
-    - Without the use of Bootstrap I found my media queries quite difficult to make the website respond correctly on different devices. I used Chrome DevTools to set my breakpoints for different devices, using the device options to set and view my media queries. When I tested these on devtools they looked great across the devices, but when I tested them on an actual phone, tablet etc. they didn't always respond the way I expected. This meant making minor adjustments in either my CSS code, or adjusting the media query breakpoints. Between myself and my testers the website looked great across all devices, but I'm sure there are some devices that don't respond properly.
-    - The textarea element used in the contact us section caused me a bit of trouble, as I wasn't sure how to make it responsive. For some reason I couldn't get it to respond by setting the height and width of the box and I ended up making 4 contact boxes in the html code, and choosing which to display using css. This introduced the issue of the contact form not submitting information entered into the textarea box on any device that wasn't a desktop. I revisited using just one box and getting it to respond with height and width and got it to work.
+  - The laptop I am using to complete this project is quite small (screen diameter 10 inches) which has made designing the site for larger screens more difficult.
+  - Without the use of Bootstrap I found my media queries quite difficult to make the website respond correctly on different devices. I used Chrome DevTools to set my breakpoints for different devices, using the device options to set and view my media queries. When I tested these on devtools they looked great across the devices, but when I tested them on an actual phone, tablet etc. they didn't always respond the way I expected. This meant making minor adjustments in either my CSS code, or adjusting the media query breakpoints. Between myself and my testers the website looked great across all devices, but I'm sure there are some devices that don't respond properly.
+  - The textarea element used in the contact us section caused me a bit of trouble, as I wasn't sure how to make it responsive. For some reason I couldn't get it to respond by setting the height and width of the box and I ended up making 4 contact boxes in the html code, and choosing which to display using css. This introduced the issue of the contact form not submitting information entered into the textarea box on any device that wasn't a desktop. I revisited using just one box and getting it to respond with height and width and got it to work.
 - Positioning  
-I really struggled with positioning at the start of this project. The Love Running example seemed so simple, yet I couldn't position even basic elements the way I wanted on my own project. I went over the lessons and example projects again and again but still struggled to get my layout to work. I could get it looking good using fixed/relative positioning and px units, but obviously that leads to struggles later on when I needed to make this responsive to other screen sizes (like the love running example I did this project desktop-down instead of mobile up). I vented my frustration with responsive positioning on Slack and immediately got responses about using flex instead, something I thought required JS. I used the froggy game on https://www.flexboxfroggy.com/ as suggested and that made things much easier to position.
-
+I really struggled with positioning at the start of this project. The Love Running example seemed so simple, yet I couldn't position even basic elements the way I wanted on my own project. I went over the lessons and example projects again and again but still struggled to get my layout to work. I could get it looking good using fixed/relative positioning and px units, but obviously that leads to struggles later on when I needed to make this responsive to other screen sizes (like the love running example I did this project desktop-down instead of mobile up). I vented my frustration with responsive positioning on Slack and immediately got responses about using flex instead, something I thought required JS. I used the froggy game on <https://www.flexboxfroggy.com/> as suggested and that made things much easier to position.
 
 ## 7 Deployment
 
@@ -367,7 +366,7 @@ I really struggled with positioning at the start of this project. The Love Runni
 - A highlighted banner should be displayed on the page saying "Your site is published at ... " with a tick icon to the left of it.
 - The site is now live.
 
-The deployed site: https://hartnetl.github.io/ms1-turtley-awesome/
+The deployed site: <https://hartnetl.github.io/ms1-turtley-awesome/>
 
 ## 8 Credits
 
@@ -377,26 +376,26 @@ The deployed site: https://hartnetl.github.io/ms1-turtley-awesome/
 
 While a lot of the information displayed on the website I have gained over the years throughout university and volunteering in Cyprus, I used the following websites to fill in any gaps and verify things I didn't know.
 
-- https://www.barrierreef.org/news/blog/10-fascinating-facts-about-sea-turtles
-- https://www.conserveturtles.org/information-about-sea-turtles-their-habitats-and-threats-to-their-survival/  
-- https://www.ecowatch.com/9-super-cool-facts-about-sea-turtles-1891175453.html
-- https://www.fisheries.noaa.gov/species/
-- https://www.iucnredlist.org/search?query=sea%20turtle&searchType=species
-- https://www.natgeokids.com/ie/discover/animals/sea-life/green-sea-turtle-facts/
-- https://www.oceana.org/marine-life/sea-turtles-reptiles/
-- https://www.oliveridleyproject.org/sea-turtles/sea-turtles-of-the-indian-ocean
-- https://www.worldwildlife.org/species/ 
+- <https://www.barrierreef.org/news/blog/10-fascinating-facts-about-sea-turtles>
+- <https://www.conserveturtles.org/information-about-sea-turtles-their-habitats-and-threats-to-their-survival/>  
+- <https://www.ecowatch.com/9-super-cool-facts-about-sea-turtles-1891175453.html>
+- <https://www.fisheries.noaa.gov/species/>
+- <https://www.iucnredlist.org/search?query=sea%20turtle&searchType=species>
+- <https://www.natgeokids.com/ie/discover/animals/sea-life/green-sea-turtle-facts/>
+- <https://www.oceana.org/marine-life/sea-turtles-reptiles/>
+- <https://www.oliveridleyproject.org/sea-turtles/sea-turtles-of-the-indian-ocean>
+- <https://www.worldwildlife.org/species/>
 
 ### Images
 
 - Header and footer background image: pexels-aistė-sveikataitė-2886574.jpg  
-https://www.pexels.com/photo/sand-formation-in-the-desert-2886574/
+<https://www.pexels.com/photo/sand-formation-in-the-desert-2886574/>
 
 - Header turtle icons: hturtle.png  
 vectorstock.com ; Image ID 20175065 ; Artist - Aliaksei
 
 - Body background image: pexels-julie-aagaard-1426718.jpg  
-https://www.pexels.com/photo/blue-water-wallpaper-1426718/
+<https://www.pexels.com/photo/blue-water-wallpaper-1426718/>
 
 - Footer turtle icons: turtle.png  
 www.flaticon.com/authors/smashicons ; Icon pack: diving
@@ -404,43 +403,43 @@ www.flaticon.com/authors/smashicons ; Icon pack: diving
 - Social media icons:  
 www.fontawesome.com
 
-- Event images: 
-    - webinar image: plastic.jpg  
+- Event images:
+  - webinar image: plastic.jpg  
     sea_turtle_and_plastic_bag___Richard_Carey_2048x2048  
-    - beach clean image: beach-clean.jpg  
-    https://www.istockphoto.com/photo/volunteers-cleaning-the-beach-gm1149083609-310543018
-    - fundraiser image: turtle-cake.png  
-    https://www.dreamstime.com/royalty-free-stock-photo-turtle-cake-shaped-white-background-image30454335
+  - beach clean image: beach-clean.jpg  
+    <https://www.istockphoto.com/photo/volunteers-cleaning-the-beach-gm1149083609-310543018>
+  - fundraiser image: turtle-cake.png  
+    <https://www.dreamstime.com/royalty-free-stock-photo-turtle-cake-shaped-white-background-image30454335>
 
 - Turtle images:  
-   - green-swim.jpg  
-    https://www.shutterstock.com/image-photo/green-sea-turtle-swimming-above-coral-763135951  
+  - green-swim.jpg  
+    <https://www.shutterstock.com/image-photo/green-sea-turtle-swimming-above-coral-763135951>  
 
-   - loggerhead.jpg  
+  - loggerhead.jpg  
     Vladimir Wrangel  
-    https://www.shutterstock.com/image-photo/loggerhead-sea-turtle-caretta-known-wild-416950789e  
+    <https://www.shutterstock.com/image-photo/loggerhead-sea-turtle-caretta-known-wild-416950789e>  
 
-   - leatherback.jpg  
-    http://www.freestockphotos.biz/stockphoto/17422  
+  - leatherback.jpg  
+    <http://www.freestockphotos.biz/stockphoto/17422>  
 
-   - hawksbill.jpg  
+  - hawksbill.jpg  
     Ed Jenkins  
-    https://www.shutterstock.com/image-photo/young-hawksbill-turtle-swimming-along-nassau-1257608299?id=1257608299&irclickid=2DK3ErWKfxyLTuNwUx0Mo3ENUkB219TdXxVqx80&irgwc=1&utm_medium=Affiliate&utm_campaign=Curly%20Eskimo&utm_source=13749&utm_term=photo-search-top&c3ch=Affiliate&c3nid=IR-13749  
+    <https://www.shutterstock.com/image-photo/young-hawksbill-turtle-swimming-along-nassau-1257608299?id=1257608299&irclickid=2DK3ErWKfxyLTuNwUx0Mo3ENUkB219TdXxVqx80&irgwc=1&utm_medium=Affiliate&utm_campaign=Curly%20Eskimo&utm_source=13749&utm_term=photo-search-top&c3ch=Affiliate&c3nid=IR-13749>  
 
-   - olive-ridley-turtle.jpg  
+  - olive-ridley-turtle.jpg  
     M Watson  
-    https://fineartamerica.com/featured/olive-ridley-turtle-m-watson.html  
+    <https://fineartamerica.com/featured/olive-ridley-turtle-m-watson.html>  
 
-    - olive-ridley.jpg  
+  - olive-ridley.jpg  
     Pratap Padhi  
-    https://www.shutterstock.com/image-photo/turtle-490108852  
+    <https://www.shutterstock.com/image-photo/turtle-490108852>  
 
-   - kemps-ridley.jpg  
+  - kemps-ridley.jpg  
     Iriana Munoz  
-    https://www.shutterstock.com/image-photo/kemps-ridley-sea-turtle-papagayo-1728605845  
+    <https://www.shutterstock.com/image-photo/kemps-ridley-sea-turtle-papagayo-1728605845>  
 
-    - flatback.jpg  
-    https://otlibrary.com/wp-content/gallery/flatback-sea-turtle/  
+  - flatback.jpg  
+    <https://otlibrary.com/wp-content/gallery/flatback-sea-turtle/>  
 
 - Product images:  
 These images are copies of the ones used directly on the websites. They were downloaded locally instead of linking to the live website in case the images are taken down from the website. I don't want the images on my site to break in this instance.
@@ -453,16 +452,16 @@ Copyright for these images is owned by the respective websites.
 ### Code for things I didn't know how to do
 
 - Adding shadow to text URL:  
-https://stackoverflow.com/a/4919231  
+<https://stackoverflow.com/a/4919231>  
 
 - Side nav bar:  
-https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp  
+<https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp>  
 
 - How to blur images:  
-https://www.w3schools.com/howto/howto_css_blurred_background.asp  
+<https://www.w3schools.com/howto/howto_css_blurred_background.asp>  
 
 - How to make IUCN redlist bar:  
-https://jsfiddle.net/Pugazh/uf3fk17g/  
+<https://jsfiddle.net/Pugazh/uf3fk17g/>  
 
 - How to make font size more responsive:  
-https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units/
+<https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units/>
