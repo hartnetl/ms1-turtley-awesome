@@ -4,26 +4,28 @@ Live site: [Turtley Awesome](https://hartnetl.github.io/ms1-turtley-awesome/)
 
 Project Aim: To design a static website using pure HTML and CSS, without the use of Bootstrap or other frameworks.
 
-1. [Introduction](#introduction)
-2. [UXD User Experience Design](#uxd-user-experience-design)
-    - [Strategy](#strategy)
-    - [Scope](#scope)
-    - [Structure](#structure)
-    - [Skeleton](#skeleton)
-    - [Surface](#surface)
-3. [Features](#Features)
-    - [Exisiting](#existing-features)
-    - [Future](#future-features)
-4. [Technologies Used](#technologies-and-resources-used)
-5. [Issues faced](#issues-faced)
-6. [Testing](#testing)
-    - [Validation](#validator-tests)
-    - [Manual](#manual-testing)
-    - [Bugs](#bugs)
-7. [Deployment](#deployment)
-8. [Credits](#credits)
+1. [Introduction](#1-introduction)
+2. [UXD User Experience Design](#2-uxd-user-experience-design)
+    - [2.1 Strategy](#2.1-strategy)
+    - [2.2 Scope](#2.2-scope)
+    - [2.3 Structure](#2.3-structure)
+    - [2.4 Skeleton](#2.4-skeleton)
+    - [2.5 Surface](#2.5-surface)
+3. [Features](#3-Features)
+    - [3.1 Exisiting](#3.1-existing-features)
+    - [3.2 Future](#3.2-future-features)
+4. [Technologies Used](#4-technologies-and-resources-used)
+5. [Testing](#5-testing)
+    - [5.1 Validation](#5.1-validator-tests)
+    - [5.2 Accessibility](#5.2-accessibility-test)
+    - [5.3 Performance](#5.3-performance-test)
+    - [5.4 Manual](#5.4-manual-testing)
+    - [5.5 Bugs](#5.5-bugs)
+6. [Issues faced](#6-issues-faced)
+7. [Deployment](#7-deployment)
+8. [Credits](#8-credits)
 
-## Introduction
+## 1 Introduction
 
 ***
 
@@ -33,13 +35,13 @@ Welcome to Turtley Awesome, a site designed to deliver up-to-date and comprehens
 <img src="assets/readme-files/am-i-responsive.png" alt="Am I responsive screenshot" width="800">
 </p>
 
-## UXD User experience Design
+## 2 UXD User experience Design
 
 ***
 
 This site is aimed at anyone looking to further their knowledge of sea turtle conservation. The information provided is comprehensive and void of technical language and provides a good starting place to learn about these animals. There are in-text links to provide further information on some topics. There is the option to sign-up to a newsletter to keep up to date with information, tips, and events, as well as social media links in the footer to build a sense of community. The aesthetic of the page is fun and casual, with the intention of making people feel welcome and comfortable reaching out to the page and social media channels.
 
-### Strategy
+### 2.1 Strategy
 
 #### User Goals
 
@@ -62,7 +64,7 @@ If even one person changes their behaviour I would call this website a success.
 - The owners want to provide a pleasant experience for users while learning.
 - The owners want to provide fun surprises in the page for users.
 
-### Scope
+### 2.2 Scope
 
 The aim of this project was to build a static website for visitors to learn about sea turtles. The features used were minimal due to my current level, but used effectively to give an enjoyable experience.
 
@@ -81,7 +83,7 @@ The features to include:
 
 In this project the use of Bootstrap would have made my website a bit smoother, and a bit more responsive. However I wanted to take on the challenge that was initially set which was to create a website using pure html and css. So this will not be included to build any features on this page.
 
-### Structure
+### 2.3 Structure
 
 This page consists of 4 pages to break down the information provided into easy to digest sections.
 
@@ -94,7 +96,7 @@ This page consists of 4 pages to break down the information provided into easy t
 4. Contact us page
     - An introduction to me and hello to my audience. A contact box.
 
-### Skeleton
+### 2.4 Skeleton
 
 This website was first designed using pen and paper and then created into computer wireframes using Balsamiq.
 
@@ -152,7 +154,7 @@ On the information page I decided to add a section on the IUCN redlist classific
 
 At the bottom of pages with long blocks of text I decided to include a link at the bottom, just above the footer, which allows the user to easily navigate back to the top of the page. I also included this link at the bottom of each turtle information section on mobiles.
 
-### Surface
+### 2.5 Surface
 
 #### Aesthetic
 
@@ -172,11 +174,11 @@ The body font used is 'Nunito', a sans-serif font which provides contrast and ea
 
 The images used in this website are used to bring an element of fun to the site, and really capture the beach and coastal theme associated with sea turtles. Background images were used for the events section to make them a bit more appealing. Background images were used for the turtle information sections to show users the turtles being discussed and enhance the written content. The final image of myself with the green sea turtle on the contact page is designed to capture that sense of community and familiarity and make people more comfortable using the contact box.
 
-## Features
+## 3 Features
 
 ***
 
-### Existing Features:
+### 3.1 Existing Features:
 
 - User story: Users want to be able to easily navigate through the site and between pages.  
     - Associated feature: A nav bar which is located at the top of each page, linking pages together.
@@ -234,7 +236,7 @@ The images used in this website are used to bring an element of fun to the site,
     <img src="assets/readme-files/surprise-2.png" alt="external game page" width="400" height="200">
     <img src="assets/readme-files/surprise-1.png" alt="external game page" width="400" height="200">
 
-### Future Features:
+### 3.2 Future Features:
 
 - A newsletter submission form which is functional and creates a database instead of redirecting to the CI form dump page.
 - A navigation bar that scrolls with the page without needing to include the header image and logo and wouldn't disrupt the readability of information.
@@ -243,7 +245,7 @@ The images used in this website are used to bring an element of fun to the site,
 - Social media links which redirect to Turtley Awesome pages instead of home pages.
 - Use Bootstrap to improve responsivity.
 
-## Technologies and Resources Used
+## 4 Technologies and Resources Used
 
 ***
 
@@ -272,11 +274,11 @@ While I know bootstrap was allowed to be used in this project, as a student on t
 As a beginner, my project was mostly designed using code provided in the Code Institute lessons and example projects.
 I also referenced [w3schools](https://www.w3schools.com/), [stackoverflow](https://stackoverflow.com/) and [CSS tricks](https://css-tricks.com/) for general hints. [Flexbox Froggy](https://flexboxfroggy.com/) was a great tool for understanding the CSS flexbox.
 
-## Testing
+## 5 Testing
 
 ***
 
-### Validator Tests
+### 5.1 Validator Tests
 
 - HTML was validated using [W3C markup validator](https://validator.w3.org/).  
 On my first validation test it returned multiple errors. These were all minor, and all were fixed so the code now runs without errors or warnings. The errors were related to an unclosed element and extra closing anchor tags which had been mistakenly left in.
@@ -289,16 +291,16 @@ This returned no errors on my first validation test.
 - Links were tested with [W3C Links validator](https://validator.w3.org/checklink).  
 The only fault that returned on this test was that facebook.com due to robot exclusion rules. I tested this link manually instead and it opened in a new tab as expected.
 
-### Accessibility test
+### 5.2 Accessibility test
 
 - Accessibility of the site was tested with [WAVE(Web Accessibility Evaluation Tool)](https://wave.webaim.org/).  
 This test returned no errors or contrast errors, but multiple alerts. These were in relation to a table used for structure, justified text and skipped headers. These have the potential to disturb the accuracy of screen readers but when tested they worked fine. The justified text could leave large, unsightly gaps in the wording but when asked no users reported this occurred so I decided to keep this alignment.
 
-### Performance test
+### 5.3 Performance test
 
 - Performance was tested with [lighthouse](https://developers.google.com/web/tools/lighthouse/run) ([results](assets/readme-files/performance.png)) and [webpage test](https://www.webpagetest.org/) ([results](assets/readme-files/performance-2.png)).
 
-### Manual testing
+### 5.4 Manual testing
 
 The live link was sent to multiple people for feedback on functionality, ease of navigation and accessibility.
 
@@ -335,11 +337,11 @@ The live link was sent to multiple people for feedback on functionality, ease of
 - Name, e-mail and subject should be required to submit form. Tested and works as expected.
 - Picture and message from author: users responded without prompt that they liked the addition of this section as it added an extra welcoming feel and made it more personal. When then asked if they would be more likely to interact with either the community or the page, all but one user who mentioned this feature said yes. So this feature has met the desired response for users.
 
-#### Bugs
+#### 5.5 Bugs
 
 - One user reported that the social media icons were not visible in the footer on the desktop. They were visible for this user on their phone, using normal mobile and desktop display on the chrome app. I have no idea why this occurred or how to fix it, and neither do they despite a background in software development themselves.
 
-## Issues Faced
+## 6 Issues Faced
 
 ***
 
@@ -351,7 +353,7 @@ The live link was sent to multiple people for feedback on functionality, ease of
 I really struggled with positioning at the start of this project. The Love Running example seemed so simple, yet I couldn't position even basic elements the way I wanted on my own project. I went over the lessons and example projects again and again but still struggled to get my layout to work. I could get it looking good using fixed/relative positioning and px units, but obviously that leads to struggles later on when I needed to make this responsive to other screen sizes (like the love running example I did this project desktop-down instead of mobile up). I vented my frustration with responsive positioning on Slack and immediately got responses about using flex instead, something I thought required JS. I used the froggy game on https://www.flexboxfroggy.com/ as suggested and that made things much easier to position.
 
 
-## Deployment
+## 7 Deployment
 
 ***
 
@@ -367,7 +369,7 @@ I really struggled with positioning at the start of this project. The Love Runni
 
 The deployed site: https://hartnetl.github.io/ms1-turtley-awesome/
 
-## Credits
+## 8 Credits
 
 ***
 
