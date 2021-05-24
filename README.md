@@ -24,7 +24,7 @@ Project Aim: To design a static website using pure HTML and CSS, without the use
 6. [Issues faced](#6-issues-faced)
 7. [Deployment](#7-deployment)
 8. [Credits](#8-credits)
-9. [acknowledgements](#9-acknowledgements)
+9. [Acknowledgements](#9-acknowledgements)
 
 ## 1 Introduction
 
