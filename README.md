@@ -24,6 +24,7 @@ Project Aim: To design a static website using pure HTML and CSS, without the use
 6. [Issues faced](#6-issues-faced)
 7. [Deployment](#7-deployment)
 8. [Credits](#8-credits)
+9. [acknowledgements](#9-acknowledgements)
 
 ## 1 Introduction
 
@@ -465,3 +466,7 @@ Copyright for these images is owned by the respective websites.
 
 - How to make font size more responsive:  
 <https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units/>
+
+## 9 Acknowledgements
+
+I would like to say a massive thank you to my class mentor Kasia for providing an ongoing source of help and guidance throughout this course. To my personal mentor Maria for being unbelievably supportive and encouraging during this project. A huge thank you too all my family and friends who were continually sent this project to test for me, with a special shout out to Stephen, who was my harshest but fairest critic. Thank you all so much.
