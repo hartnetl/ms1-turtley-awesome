@@ -233,9 +233,10 @@ h1 {
   border-radius: 5px;
 }
 
-#webinar-text,        /* Place text over blurred image */
+#webinar-text,
 #beach-clean-text,
 #fundraiser-text {
+  /* Place text over blurred image */
   background-color: rgba(0, 0, 0, .6);
   color: rgb(122, 246, 255);
   font-weight: bold;
@@ -309,15 +310,20 @@ fieldset input {
   color: rgb(240, 248, 255);
 }
 
-/* info.html */
+/* #############
+   info.html
+   ############# */
 
 #mobile-nav {
+  /* Hides mobile version of navigation bar for info page */
   display: none;
 }
 
 /* Side navigation bar */
 
 #sidenav {
+  /* https://www.w3schools.com/howto/howto_css_fixed_sidebar.asp
+  link used for help with creating this feature */
   width: 5vw;
   position: fixed;
   z-index: 1;
@@ -346,7 +352,7 @@ fieldset input {
   font-weight: 600;
 }
 
-/* IUCN Red list - info.html */
+/* IUCN Red list */
 
 
 #redlist {
@@ -443,7 +449,7 @@ fieldset input {
   color: rgb(167, 7, 7);
 }
 
-/* turtle info sections - info.html */
+/* turtle info sections */
 
 .turtle-container {
   height: 90vh;
@@ -498,6 +504,7 @@ fieldset input {
 }
 
 #flat,
+/* blur the background images */
 #kemp,
 #olive,
 #leatherback,
@@ -518,6 +525,7 @@ fieldset input {
 #hawk-text,
 #g-turtle-text,
 #logger-text {
+  /* Place text over blurred images */
   background-color: rgba(0, 0, 0, 0.5);
   color: rgb(161, 255, 255);
   position: relative;
@@ -553,7 +561,11 @@ fieldset input {
   padding: 0 2.5% 0 2.5%;
 }
 
-/* help.html */
+/* ##########
+   help.html 
+   ########## */
+
+/* tips section */
 
 #tips ol {
   margin: 0 3vw;
@@ -565,7 +577,7 @@ fieldset input {
   font-style: italic;
 }
 
-/* Products section - help.html */
+/* Products section */
 
 #products {
   height: 110vh;
@@ -591,7 +603,7 @@ fieldset input {
   margin: 2vh 30%;
 }
 
-/* donate section - help.html */
+/* donate section */
 
 #donate {
   height: 30vh;
@@ -609,7 +621,9 @@ fieldset input {
   height: 12vh;
 }
 
-/* Contact.html */
+/* ############
+   Contact.html 
+   ############ */
 
 #contact-us {
   height: 90vh;
@@ -640,8 +654,6 @@ fieldset input {
   padding: 1%;
 }
 
-
-
 #contact-button:hover {
   background-color: green;
   color: aliceblue;
@@ -654,12 +666,15 @@ fieldset input {
   margin: 1vh auto;
 }
 
-/* MEDIA QUERIES */
+/* ###############
+   MEDIA QUERIES 
+   ############### */
 
 /* Media queries for tablet - portrait */
 
 @media screen and (max-width: 1024px) and (orientation: portrait) {
 
+  /* header */
   h1 {
     font-size: 250%;
     padding: 0;
@@ -698,10 +713,12 @@ fieldset input {
   /* info.html */
 
   #sidenav {
+    /* Hide desktop navigation bar */
     display: none;
   }
 
   #mobile-nav {
+    /* displays mobile navigation bar */
     display: block;
     background-color: rgba(255, 255, 255, 0.815);
     border-radius: 15px;
@@ -770,6 +787,7 @@ fieldset input {
 
 @media screen and (max-width: 1024px) and (orientation: landscape) {
 
+  /* index.html */
   #event {
     height: 60vh;
   }
@@ -777,6 +795,8 @@ fieldset input {
   .event-card {
     height: 50vh;
   }
+
+  /* info.html */
 
   #sidenav {
     display: none;
@@ -847,6 +867,7 @@ fieldset input {
 /* Media query for large phones - portrait */
 
 @media screen and (max-width: 820px) and (orientation: portrait) {
+  /* header */
 
   #header-container {
     height: 8vh;
@@ -882,6 +903,8 @@ fieldset input {
   .m-active {
     padding: 0 4vw;
   }
+
+  /* all pages */
 
   .container {
     margin: 5vh auto;
@@ -926,7 +949,6 @@ fieldset input {
   #contact-us {
     height: 95vh;
   }
-
 }
 
 /* Media query for large phones - landscape */
@@ -1017,7 +1039,6 @@ fieldset input {
   #contact-us {
     height: 80vh;
   }
-
 }
 
 /* Media query for smaller phones - landscape */
@@ -1044,7 +1065,6 @@ fieldset input {
   #donate {
     height: 35vh;
   }
-
 }
 
 /* media query for small phone - portrait */
@@ -1053,7 +1073,6 @@ fieldset input {
 
   h1 {
     font-size: 120%;
-
   }
 
   /* info.html */
