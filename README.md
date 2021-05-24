@@ -106,25 +106,25 @@ All pages:
 A distinct header and navigation bar linking all pages together.
 In the footer each social media link leads to the related social media home page. The two turtle icons lead to surprises if the user tries to click them. The left turtle icon will lead to a turtle hatchling video. The right side turtle icon will lead to a page with an embedded game on it - currently not related to turtle conservation because Flash lost support and that's what a lot of games used. So a clone version of Flappy Bird is there instead.
 
-Page 1: index.html
+Page 1: index.html  
 An introduction to the website, Turtley Awesome, which is a site aimed at raising awareness of turtle conservation. It has a general welcome message, a brief overview on conservation, an events section and a form to subscribe to the newsletter at the bottom.
 
-Page 2: info.html
+Page 2: info.html  
 The second page contains general sea turtle information and an explanation of the IUCN red list classifications. The main content has information on the 7 types of sea turtles, accompanied by a picture of each as the background. A sticky side navigation bar is included to direct users to each of the turtle types on desktop and tablet. This disappears on the mobile version and a simpler navigation appears at the top instead. In place of the sticky navigation bar on mobile versions, a "back to the top" button appears beneath the information to easily return to the top of the page.
 
-Page 3: help.html
+Page 3: help.html  
 Information on how individuals can contribute to the protection and conservation of sea turtles and live a more eco-friendly life.
 After this is a shop section for eco-friendly items to be advertised.
 There is a section for donations - icons which link to the websites for direct donations.
 
-Page 4: contact.html
+Page 4: contact.html  
 This page has a contact us section. It requires a name and e-mail to be taken. Dropdown bar for:
 general enquiry, feedback, and technical issues. A picture of me and a welcome message is included.
 
-External page 1
+External page 1  
 The bottom left footer turtle is clickable. It leads to a page that has a video of baby turtles. It opens in a new tab but doesn't have any navigation.
 
-External page 2
+External page 2  
 The bottom right footer turtle will be clickable and leads to a new page with a game. This would have been a turtle game if flash was still supported. Instead Flappy Bird will be used and it can be played on mobile and desktops. It doesn't have any navigation.
 
 <details>
@@ -221,7 +221,7 @@ The images used in this website are used to bring an element of fun to the site,
     ![Screenshot of contact section](assets/readme-files/contact-us.png)
 
 - User story: Users want to know how they can make eco-friendly choices and help save the turtles.
-  - Associated feature: A help page, which gives out some easy to make changes to help ocean and turtle conservation.
+  - Associated feature: A help page, which gives out some easy to make changes to help ocean and turtle conservation.  
     <img src="assets/readme-files/help-1.png" alt="turtle information 1" width="400" height="200">
     <img src="assets/readme-files/help-2.png" alt="turtle information 2" width="400" height="200">
 
@@ -233,8 +233,8 @@ The images used in this website are used to bring an element of fun to the site,
     <p align="center">
     <img src="assets/readme-files/t-icons.png" alt="turtleicons in footer" height="50">
     </p>
-    <img src="assets/readme-files/surprise-2.png" alt="external game page" width="400" height="200">
-    <img src="assets/readme-files/surprise-1.png" alt="external game page" width="400" height="200">
+    <img src="assets/readme-files/surprise-2.png" alt="external game page" width="350" height="200">
+    <img src="assets/readme-files/surprise-1.png" alt="external game page" width="350" height="200">
 
 ### 3.2 Future Features
 
